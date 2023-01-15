@@ -1,11 +1,13 @@
-import './App.css';
-import HomePage from './components/HomePage';
-// import Navbar from './components/Navbar';
+import "./App.css";
+// import Login from "./components/Login";
+// import Signup from "./components/Signup";
 
 function App() {
   return (
     <div className="App">
-      <HomePage />
+      {/* Storygiri */}
+      {/* <Login />
+      <Signup /> */}
     </div>
   );
 }

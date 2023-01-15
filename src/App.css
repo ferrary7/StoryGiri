@@ -1,5 +1,52 @@
-/* .nav-container{
-  display: flex;
-  background-color: red;
-  justify-items: center;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Yeseva+One&display=swap");
+
+body {
+  color: #324055;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+
+  color: #324055;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button,
+input {
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.primary-btn {
+  /* padding: 20px; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+
+  text-align: center;
+  background: #324055;
+  color: #f9f7f2;
+  border-radius: 10px;
+}
+
+.secondary-btn {
+  padding: 15px;
+  text-align: center;
+  background: #324055;
+  color: #f9f7f2;
+  border-radius: 10px;
+}
