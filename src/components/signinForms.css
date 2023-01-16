@@ -1,11 +1,15 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center;   [Aditya] Removed this line because I am using 'container' don't want content to be centered. */
   flex-direction: column;
   height: 100vh;
   width: 100vw;
   background: #f0e9dd;
+}
+
+.signup-container {
+  justify-content: center;
 }
 
 form {

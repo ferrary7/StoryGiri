@@ -1,0 +1,34 @@
+.navbar {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    background-color: #f0e9dd;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar > div {
+    display: flex;
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.navlink {
+    margin: 0 45px 0 0;
+}
+
+.navlink:hover {
+    cursor: pointer;
+}

@@ -49,4 +49,11 @@ button {
   background: #324055;
   color: #f9f7f2;
   border-radius: 10px;
+
+  width: 140px;
+  font-weight: 600;
+}
+
+.primary-btn:hover ,.secondary-btn:hover {
+  cursor: pointer;
 }
