@@ -1,0 +1,20 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+import "./EmailInput.css"
+
+function EmailInput(props) {
+  return (
+    <div className='email-input'>
+        <div>
+            <input type='email' placeholder={props.placeholder} />
+            <div className='btn secondary-btn'>{props.btn}</div>
+        </div>
+
+        <p className='note'>
+            By clicking Sign Up you're confirming that you agree with our <Link>Terms and Conditions</Link>.
+        </p>
+    </div>
+  )
+}
+
+export default EmailInput

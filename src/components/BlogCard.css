@@ -1,0 +1,28 @@
+.blog-card {
+    padding: 20px;
+    margin: 20px 20px 50px;
+}
+
+.blog-card .blog-image {
+    height: 300px;
+    width: 400px;
+    background-color: grey;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.blog-card h4, .blog-card p {
+    width: 400px;
+    text-align: left;
+}
+
+.blog-card h4 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.blog-card p {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
