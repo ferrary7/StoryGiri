@@ -3,39 +3,116 @@
     width: 400px;
 }
 
-.blog-container p {
+.blog-container p, .cta-section p {
     font-weight: 700;
     margin-top: 20px;
 }
 
-.email-div {
-    /* display: flex;
-    flex-direction: column; */
+
+
+
+/* Second Section */
+
+.blogpage h2 {
+    font-family: "Yeseva One";
+    margin-bottom: 60px;
 }
 
-.email-div > div {
+.blogpage .category-container, .recent-articles-section {
+    text-align: center;
+    padding: 100px 80px;
+}
+
+.blogpage .carousel-container {
     display: flex;
-    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.email-div input {
-    width: 400px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    background-color: transparent;
-    font-size: 16px;
-    padding: 0 20px;
+.blogpage .carousel {
+    display: flex;
 }
 
-.email-div .btn {
-    font-size: 14px;
-    padding: 15px 0;
-    width: 120px;
-    margin-left: 5px;
+.blogpage .arrow {
+    height: 30px;
+    opacity: 0.3;
 }
 
-.email-div .note {
-    font-size: 12px;
-    font-weight: 500;
+.blogpage .arrow:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+
+
+/* Featured Section */
+
+.feature-section {
+    background-color: #DEE7E7;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+.feature-container {
+    display: flex;
+}
+
+.feature-image {
+    height: 350px;
+    width: 50vw;
+    border-radius: 15px;
+    background-size: cover;
+}
+
+.feature-content {
+    width: 50vw;
+    margin-left: 50px;
     text-align: left;
+}
+
+.feature-content h4 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.feature-content p {
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.category-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 40px;
+    background-color: #F0C4C4;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+
+
+/* Recent Articles Section */
+
+.recent-articles-section .articles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+/* CTA Section */
+
+.cta-section {
+    padding: 200px 80px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

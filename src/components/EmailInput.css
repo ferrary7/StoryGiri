@@ -1,0 +1,31 @@
+.email-input {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.email-input > div {
+    display: flex;
+    margin-top: 40px;
+}
+
+.email-input input {
+    width: 400px;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 0 20px;
+}
+
+.email-input .btn {
+    font-size: 14px;
+    padding: 15px 0;
+    width: 120px;
+    margin-left: 5px;
+}
+
+.email-input .note {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+}

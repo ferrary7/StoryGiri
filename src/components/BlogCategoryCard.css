@@ -1,0 +1,25 @@
+.blog-category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.blog-category-card .category-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.blog-category-card h4 {
+    font-family: "Yeseva One";
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.blog-category-card p {
+    font-weight: 500;
+    font-size: 13px;
+    margin-top: 5px;
+}
