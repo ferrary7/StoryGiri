@@ -51,7 +51,7 @@ export default function Login() {
   }, [formErrors, isSubmit, formValues]);
 
   return (
-    <div className="container">
+    <div className="container signup-container">
       <h1 className="heading">Log in</h1>
       <form action="/" className="login-form" onSubmit={handleSubmit}>
         {Object.keys(formErrors).length === 0 && isSubmit ? (
