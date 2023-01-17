@@ -1,34 +1,91 @@
-.navbar {
-    height: 100px;
-    width: 100vw;
-    display: flex;
-    position: fixed;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 80px;
-    background-color: #f0e9dd;
+/* Aditya's Navbar */
+/* .navbar {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px;
+  background-color: #f0e9dd;
 }
 
 .navbar .logo {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .navbar > div {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .navlinks {
-    display: flex;
-    font-size: 15px;
-    font-weight: 600;
+  display: flex;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .navlink {
-    margin: 0 45px 0 0;
+  margin: 0 45px 0 0;
 }
 
 .navlink:hover {
-    cursor: pointer;
+  cursor: pointer;
+} */
+
+
+/* Aryan's Navbar */
+nav {
+    /* background-color: #333; */
+    padding: 10px 0;
+}
+  
+.navContainer {
+    margin: 0 auto;
+    display: flex;
+    background-color: #F0E9DD;
+}
+
+.logo {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.menu a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 26px;
+    color: #324055;
+    text-decoration: none;
+    text-align: center;
+}
+
+button{
+    background-color: #324055;
+    border: 0;
+}
+
+.menu > button {
+    border-radius: 0.2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu > button> a{
+    color: white;
 }
