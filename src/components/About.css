@@ -1,0 +1,110 @@
+.about-hero-container {
+  height: 87vh;
+  width: 100vw;
+  padding: 50px 280px 200px 280px;
+
+  background-color: #f0e9dd;
+}
+
+.about-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+
+.about-hero .title {
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 74px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.content .heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+}
+
+.content .description {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.our-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 130px;
+}
+
+.our-team .heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+
+  text-align: center;
+
+  color: #324055;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  gap: 50px;
+}
+
+.team-card {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 40px 50px;
+}
+
+.team-card img {
+  width: 17.36vw;
+  height: 30.3vh;
+}
+
+.team-card .card-body {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.card-body .card-heading {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+
+  text-align: center;
+
+  color: #324055;
+}
+
+.card-body .card-description {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  text-align: center;
+
+  color: #324055;
+}
+
+.our-mission {
+  padding: 200px 280px;
+  background: #f0e9dd;
+}
