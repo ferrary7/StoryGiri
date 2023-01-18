@@ -3,7 +3,8 @@
   height: 100px;
   width: 100vw;
   display: flex;
-  position: fixed;
+  position: sticky;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   padding: 0 80px;
@@ -34,11 +35,10 @@
   cursor: pointer;
 }
 
-
 /* Aryan's Navbar */
 /* nav { */
-    /* background-color: #333; */
-    /* padding: 10px 0;
+/* background-color: #333; */
+/* padding: 10px 0;
 }
   
 .navContainer {
