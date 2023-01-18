@@ -1,11 +1,12 @@
 import React from "react";
 import "./Pages.css";
 
-export default function TandC() {
+export default function PrivacyPolicy() {
   return (
     <div className="pages">
       <div className="pages-heading">
-        <h1 className="title">TERMS OF USAGE/ SERVICE</h1>
+        <h1 className="title">Privacy Policy</h1>
+        <h3 className="subtitle">We respect your privacy</h3>
       </div>
 
       <div className="content">

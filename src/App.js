@@ -6,6 +6,7 @@ import HomePage from "./components/HomePage";
 import Blogs from "./components/Blogs";
 import About from "./components/About";
 import TandC from "./components/TandC";
+import PrivacyPolicy from "./components/PirvacyPolicy";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/blogs" element={<Blogs />} />
       <Route path="/about" element={<About />} />
       <Route path="/t&c" element={<TandC />} />
+      <Route path="/policy" element={<PrivacyPolicy />} />
     </Routes>
   );
 }
