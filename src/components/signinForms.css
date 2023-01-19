@@ -126,3 +126,31 @@ form p {
 
   color: #324055;
 }
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 32px;
+  }
+
+  form {
+    width: auto;
+  }
+
+  .form-item label {
+    font-size: 14px;
+  }
+
+  .form-item,
+  .form-item input,
+  .form-btn,
+  .form-divider,
+  .dontHaveAccount {
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .dividing-line {
+    width: 50px;
+  }
+}

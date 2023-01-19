@@ -5,7 +5,7 @@ import "./EmailInput.css";
 function EmailInput(props) {
   return (
     <div className="email-input">
-      <div>
+      <div className="email-container">
         <input type="email" placeholder={props.placeholder} />
         <div className="btn secondary-btn">{props.btn}</div>
       </div>

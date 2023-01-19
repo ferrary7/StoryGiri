@@ -7,7 +7,7 @@ import "./About.css";
 export default function About() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="hero-sec">
         <div className="hero-container">
           <div className="hero">

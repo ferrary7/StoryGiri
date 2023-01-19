@@ -1,21 +1,21 @@
 .info-container {
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 7rem;
 
-  padding-bottom: 100px;
+  padding-bottom: 10rem;
 }
 
 .profile-info {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 7rem;
 }
 
 .profile-img {
-  width: 200px;
-  height: 200px;
+  width: 20rem;
+  height: 20rem;
 }
 
 .profile-info:nth-child(even) .profile-img {
@@ -26,19 +26,19 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
-  line-height: 45px;
+  font-size: 3rem;
+  line-height: 4.5rem;
 
   color: #324055;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .profile-description {
   font-family: "Poppins";
   font-style: normal;
   text-align: justify;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1.6rem;
+  line-height: 3rem;
 
   color: #324055;
 }
@@ -49,23 +49,23 @@
   align-items: center;
   justify-content: center;
 
-  gap: 50px;
+  gap: 5rem;
 
-  padding: 200px 280px;
+  padding: 20rem 28rem;
   background: #f0e9dd;
 }
 
 .book-call .content {
   text-align: center;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 .book-call .heading {
   font-family: "Yeseva One";
   font-style: normal;
   font-weight: 400;
-  font-size: 42px;
-  line-height: 40px;
+  font-size: 4.2rem;
+  line-height: 4rem;
 
   color: #324055;
 }
@@ -74,8 +74,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 2.4rem;
+  line-height: 3rem;
 
   color: #324055;
 }
@@ -84,14 +84,40 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 17px;
-  line-height: 26px;
-  padding: 20px 50px;
+  font-size: 1.7rem;
+  line-height: 2.6rem;
+  padding: 2rem 5rem;
   text-align: center;
 
   color: #f9f7f2;
 
   background: #324055;
 
-  border-radius: 10px;
+  border-radius: 1rem;
+}
+
+@media (max-width: 640px) {
+  .one-on-one .hero-container {
+    padding: 5rem 5rem 20rem 5rem;
+  }
+
+  .team {
+    padding: 5rem 7rem 20rem 7rem;
+  }
+
+  .profile-description {
+    text-align: left;
+  }
+
+  .profile-info {
+    flex-direction: column;
+  }
+
+  .profile-info:nth-child(even) .profile-img {
+    order: 0;
+  }
+
+  .book-call {
+    padding: 20rem 5rem;
+  }
 }
