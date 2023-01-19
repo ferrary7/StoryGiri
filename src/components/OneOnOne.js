@@ -1,14 +1,13 @@
 import React from "react";
 import Navbar from "./Navbar";
-import Subscribe from "./Subscribe";
 import "./OneOnOne.css";
 import ooo_profiles from "../data/ooo_profiles.js";
 
 export default function OneOnOne() {
   return (
     <>
-      <Navbar />
-      <div className="hero-sec">
+      {/* <Navbar /> */}
+      <div className="hero-sec one-on-one">
         <div className="hero-container">
           <div className="hero">
             <h1 className="title">One on One</h1>

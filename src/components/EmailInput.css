@@ -1,31 +1,50 @@
 .email-input {
-    /* display: flex;
+  /* display: flex;
     flex-direction: column; */
 }
 
 .email-input > div {
-    display: flex;
-    margin-top: 40px;
+  display: flex;
+  margin-top: 4rem;
 }
 
 .email-input input {
-    width: 400px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    background-color: transparent;
-    font-size: 16px;
-    padding: 0 20px;
+  height: 7rem;
+}
+
+.email-container .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6rem;
+}
+
+.email-input input {
+  width: 40rem;
+  border: 0.2rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+  background-color: transparent;
+  font-size: 1.6rem;
+  padding: 0 2rem;
 }
 
 .email-input .btn {
-    font-size: 14px;
-    padding: 15px 0;
-    width: 120px;
-    margin-left: 5px;
+  font-size: 1.4rem;
+  padding: 1.5rem 0;
+  width: 12rem;
+  margin-left: 0.5rem;
 }
 
 .email-input .note {
-    font-size: 12px;
-    font-weight: 500;
-    text-align: left;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+}
+
+@media (max-width: 484px) {
+  .email-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
 }
