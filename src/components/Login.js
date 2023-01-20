@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./signinForms.css";
 import google from "../assets/google.svg";
-import { Link } from "react-router-dom";
 
 export default function Login() {
   const initialValues = {
@@ -96,7 +95,7 @@ export default function Login() {
         </button>
       </form>
       <div className="dontHaveAccount">
-        Don't have an account? <Link to='/signup'>Sign up</Link>
+        Don't have an account? <strong>Sign up</strong>
       </div>
     </div>
   );
