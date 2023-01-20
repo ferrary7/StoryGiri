@@ -1,89 +1,92 @@
 .event-container {
-    height: 87vh;
-    width: 100vw;
-    padding: 50px 280px 200px 280px;
-  
-    background-color: #f0e9dd;
+  height: 87vh;
+  width: 100vw;
+  padding: 5rem 28rem 20rem 28rem;
+
+  background-color: #f0e9dd;
 }
 
 .event-container p {
-    margin-top: 80px;
-    text-align: center;
+  margin-top: 8rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: center;
 }
-
-
 
 /* Event Cards Section */
 
 .event-cards {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.upcoming-container, .previous-container {
-    padding: 100px 80px;
-    text-align: center;
+.upcoming-container,
+.previous-container {
+  padding: 10rem 8rem;
+  text-align: center;
 }
 
-.upcoming-container h2, .previous-container h2 {
-    text-align: center;
-    margin-bottom: 100px;
+.upcoming-container h2,
+.previous-container h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 6rem;
+  text-align: center;
+  margin-bottom: 10rem;
 }
-
-
 
 /* CTA Section */
 
 .eventspage .cta-section {
-    background-color: #f0e9dd;
+  background-color: #f0e9dd;
 }
-
-
 
 /* Events Card */
 
 .eventcard {
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    padding: 20px;
-    width: 550px;
-    min-height: 300px;
-    border-radius: 15px;
-    text-align: left;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 2rem;
+  width: 55rem;
+  min-height: 30rem;
+  border-radius: 1.5rem;
+  text-align: left;
+  margin-bottom: 4rem;
 }
 
 .event-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30rem;
 }
 
 .event-details h3 {
-    font-size: 20px;
-    margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .event-details p {
-    font-weight: 500;
-    font-size: 13px;
-    margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
 }
 
 .event-details .info {
-    font-weight: 600;
-    font-size: 13px;
+  font-weight: 600;
+  font-size: 1.3rem;
 }
 
 .event-image {
-    width: 150px;
-    background-color: grey;
-    border-radius: 10px 10px 10px 150px;
+  width: 15rem;
+  background-color: grey;
+  border-radius: 1rem 1rem 1rem 15rem;
 }
 
 .event-btn {
-    margin-top: 50px;
+  margin-top: 5rem;
 }
