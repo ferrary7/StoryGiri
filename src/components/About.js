@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Subscribe from "./Subscribe";
-import team_members from "./team-members";
+import team_members from "../data/team-members";
 import "./About.css";
 
 export default function About() {
   return (
     <>
-      <Navbar />
-      <div className="about-sec">
-        <div className="about-hero-container">
-          <div className="about-hero">
+      {/* <Navbar /> */}
+      <div className="hero-sec">
+        <div className="hero-container">
+          <div className="hero">
             <h1 className="title">About Us</h1>
             <div className="content">
               <h2 className="heading">Our Story</h2>
@@ -29,7 +29,7 @@ export default function About() {
             </div>
           </div>
         </div>
-        <div className="our-team">
+        <div className="team">
           <h2 className="heading">Our Team</h2>
           <div className="cards-container">
             {team_members.map((e) => {

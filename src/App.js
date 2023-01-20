@@ -8,6 +8,7 @@ import About from "./components/About";
 import TandC from "./components/TandC";
 import PrivacyPolicy from "./components/PirvacyPolicy";
 import Events from "./components/EventsPage/Events";
+import OneOnOne from "./components/OneOnOne";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/t&c" element={<TandC />} />
       <Route path="/policy" element={<PrivacyPolicy />} />
       <Route path="/events" element={<Events />} />
+      <Route path="/ooo" element={<OneOnOne />} />
     </Routes>
   );
 }
