@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team-member-image {
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+  }
+  
+.about-us-card{
+    background-color: #EEE6D8;
+    padding-top: 5rem;
+}
+
+.team-members{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-member>h3, .team-member>p{
+    text-align: center;
+}
+
+.team-members>button{
+    color: #D8D2C7;
+    background-color: #EEE6D8;
+}
+
+.arrow{
+    height: 2.5rem;
+}
+
+
+/* button>.view-more-button{
+   display: flex;
+   align-items: center; 
+   text-align: center;
+} */
+
+/* .left-arrow{
+    display: flex;
+    align-items: center;
+} */
