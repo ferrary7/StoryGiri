@@ -1,0 +1,39 @@
+.box {
+    width: 100%;
+    padding: 15rem;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    text-align: center;
+  }
+ .box> h2{
+    text-align: center;
+    padding-bottom: 20px
+  }
+  
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+.bookNow {
+    width: 40%;
+    background-color: #324055;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .box {
+        padding: 1rem;
+      width: 100%;
+    }
+  }
+  

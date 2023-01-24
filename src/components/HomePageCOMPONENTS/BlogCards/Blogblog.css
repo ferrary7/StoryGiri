@@ -1,0 +1,47 @@
+.blogs{
+    background-color: #DEE7E7;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+}
+.blogContainer{
+    padding: 2px;
+}
+
+h1{
+    padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60rem;
+    gap: 3rem;
+}
+
+.browse{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button{
+    background-color: #324055;
+}
+
+.blogCard{
+    background-color: #324055;
+    color: white;
+}
+
+.arrow-icon {
+    color: #fff;
+    font-size: 1.5em;
+    margin-left: 11rem;
+}
+
+.image{
+    margin: 10px;
+    border-radius: 2px;
+    width: 200px;
+    height: 200px;
+}

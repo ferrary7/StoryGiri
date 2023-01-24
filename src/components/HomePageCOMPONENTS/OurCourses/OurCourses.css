@@ -1,0 +1,113 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+  
+.card-container__heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.card-container__paragraph {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.course-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    width: 80%;
+    margin-top: 20px;
+    padding: 3rem;
+}
+  
+.course-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);    
+}
+
+.course-card__image {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.course-card__content {
+    padding: 10px;
+    text-align: center;
+}
+
+.course-card__name {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.course-card__description {
+    text-align: left;
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+b{
+    font-family: poppins;
+}
+
+.course-card__price {
+    text-align: left;
+    font-size: 14px;
+    color: #324055;
+}
+
+.card-container__button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container__button>button{
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.course-card__button {
+    background-color: #324055;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: poppins;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .course-cards {
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+  }
+  
+
+  
+  
