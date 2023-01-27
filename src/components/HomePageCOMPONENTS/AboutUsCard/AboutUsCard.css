@@ -1,15 +1,17 @@
-.content{
+.aboutContent{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
 }
 
 .team-member-image {
     border-radius: 50%;
-    height: 125px;
-    width: 125px;
-  }
+    height: 200px;
+    width: 200px;
+}
   
 .about-us-card{
     background-color: #EEE6D8;
@@ -19,10 +21,17 @@
 .team-members{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 65px;
 }
 
-.team-member>h3, .team-member>p{
+.team-member>h3{
     text-align: center;
+    font-size: 2rem;
+}
+
+.team-member>p{
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 .team-members>button{
@@ -31,9 +40,18 @@
 }
 
 .arrow{
-    height: 2.5rem;
+    height: 4.5rem;
 }
 
+.aboutContent>button{
+    background-color: #324055;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 30px;
+}
 
 /* button>.view-more-button{
    display: flex;

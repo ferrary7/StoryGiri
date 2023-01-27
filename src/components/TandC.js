@@ -12,7 +12,7 @@ export default function TandC() {
         <section>
           <p>
             Storygiri owns following website:{" "}
-            <a href="https://storygiri.com/" target="_blank">
+            <a href="https://storygiri.com/" target="_blank" rel="noreferrer">
               <u>https://storygiri.com/</u>
             </a>
             This Privacy Policy applies to the service provided via the

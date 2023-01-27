@@ -12,29 +12,38 @@
     flex-direction: column;
 }
 
-.location-container>button{
-    width: 9rem;
+.bmButton{
+    width: 12rem;
+    padding: 8px;
     color: white;
-    height: 3rem;
+    background-color: #324055;
     border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
 }
 
 h5{
     text-align: center;
     font-family: poppins;
     font-size: medium;
-    padding-bottom: 1.5rem;
+    padding-top: 40px;
+    padding-bottom: 4.5rem;
 }
 
 h4{
     color: #929AAB;
+    padding-bottom: 10px;
     font-size: 18px;
 }
 
-h2, h4, p{
+.location-container>h2, h4, .location-container>p{
     text-align: left;
     font-family: poppins;
     font-weight: 700;
+}
+
+.location-container>p{
+    font-size: 20px;
 }
 
 .map-container{
@@ -43,7 +52,7 @@ h2, h4, p{
 
 .eventsContainer{
     padding: 4rem;
-    /* padding-bottom: 4rem; */
+    height: 60rem;
     background-color: #DEE7E7;
 }
 

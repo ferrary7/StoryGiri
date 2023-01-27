@@ -9,6 +9,7 @@ function BlogCard(props) {
         <h4>{props.title}</h4>
         <p>{props.desc}</p>
         <div className='secondary-btn readmore-btn'>Read More</div>
+
     </div>
   )
 }

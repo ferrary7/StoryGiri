@@ -9,7 +9,9 @@ import TandC from "./components/TandC";
 import PrivacyPolicy from "./components/PirvacyPolicy";
 import Events from "./components/EventsPage/Events";
 import OneOnOne from "./components/OneOnOne";
+import Videos from "./components/Videos";
 import CreateBlog from "./components/Admin/CreateBlog";
+
 
 function App() {
   return (
@@ -23,10 +25,22 @@ function App() {
       <Route path="/policy" element={<PrivacyPolicy />} />
       <Route path="/events" element={<Events />} />
       <Route path="/ooo" element={<OneOnOne />} />
-
+      <Route path="/videos" element={<Videos />} />
       <Route path="/admin-blog" element={<CreateBlog />}></Route>
     </Routes>
   );
 }
 
 export default App;
+
+// import React from "react";
+// import './App.css';
+// import Videos from './components/Videos'
+
+// function App(){
+//   return(
+//     <Videos />
+//   )
+// }
+
+// export default App;

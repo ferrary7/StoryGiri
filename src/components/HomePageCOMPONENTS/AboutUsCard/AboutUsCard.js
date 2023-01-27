@@ -73,12 +73,10 @@ class AboutUsCard extends React.Component {
     const { teamMembers, currentIndex } = this.state;
     return (
       <div className="about-us-card">
-        <h2 className='content'>About Us</h2>
-        <p className='content'>
+        <h1>About Us</h1>
+        <p className='aboutContent'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
         </p>
         <div className="team-members">
             <button onClick={this.handlePreviousClick}>
@@ -96,7 +94,7 @@ class AboutUsCard extends React.Component {
             </button>
         </div>
 
-        <div className='content'>
+        <div className='aboutContent'>
          <button>View More</button>
         </div>
       </div>
