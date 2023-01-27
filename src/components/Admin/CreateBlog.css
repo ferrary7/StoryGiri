@@ -1,0 +1,21 @@
+.create-blog {
+    margin: 50px 100px;
+}
+
+.blog-content {
+    height: 150px;
+}
+
+.create-blog form {
+    width: 100%;
+    text-align: left;
+}
+
+.create-blog p {
+    text-align: left;
+    margin: 0;
+}
+
+.create-blog input {
+    margin-bottom: 20px;
+}
