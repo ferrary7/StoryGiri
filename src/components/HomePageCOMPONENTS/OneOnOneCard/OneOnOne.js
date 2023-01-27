@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './OneOnOne.css'
 
 const OneOnOne = () => {
@@ -16,17 +17,18 @@ const OneOnOne = () => {
 
   return (
     <div className="box">
-      <h2>Want to talk about your story 1-1?</h2>
-      <h3>Book 1-1 Meeting With Us</h3>
-      <form onSubmit={handleSubmit}>
-        <input
-        className='topic'
-          placeholder="Your topic"
-          value={topic}
-          onChange={handleChange}
-        />
-        <button className='bookNow' type="submit">Book Now</button>
-      </form>
+      <div className='illustrationBox'>
+        <h2>Want to talk about your story 1-1?</h2>
+        <h3>Book 1-1 Meeting With Us</h3>
+        <div className="email-input">
+          <div className="emailContainer" onSubmit={handleSubmit}>
+          <input type="email" placeholder='Your Topic' onChange={handleChange} />
+          <Link to='/ooo'>
+            <div className="btn secondary-btn">Book 1-1</div>
+          </Link>
+        </div>
+      </div>
+      </div>
     </div>
   );
 };

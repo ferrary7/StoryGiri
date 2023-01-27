@@ -32,7 +32,7 @@ const OurCourses = () => {
         <CourseCard
           image="https://via.placeholder.com/150"
           name="Course 2"
-          description="Dive into the world of course 2"
+          description="Dive into world of course 2"
           price="₹99.00/month"
         />
         <CourseCard

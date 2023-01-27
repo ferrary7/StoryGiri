@@ -1,0 +1,77 @@
+.videoMain{
+    padding: 15rem;
+    background-color: #F0E9DD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.videoMain>p {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 0 12rem 8rem 12rem;
+    font-size: 15px;
+}
+
+  
+  /* Featured Section */
+  
+  .feature-section {
+    background-color: #dee7e7;
+    padding: 100px 80px;
+    text-align: center;
+  }
+  .feature-section>h2, .recent-articles-section>p{
+    padding-bottom: 20px;
+    font-size: 25px;
+  }
+  
+  .feature-container {
+    display: flex;
+  }
+  
+  .feature-image {
+    height: 350px;
+    width: 50vw;
+    border-radius: 15px;
+    background-size: cover;
+  }
+  
+  .feature-content {
+    width: 50vw;
+    margin-left: 50px;
+    text-align: left;
+  }
+  
+  .feature-content h4 {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .feature-content p {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  
+  .category-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 40px;
+    background-color: #f0c4c4;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  /* Recent Articles Section */
+  
+  .recent-articles-section .articles-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  

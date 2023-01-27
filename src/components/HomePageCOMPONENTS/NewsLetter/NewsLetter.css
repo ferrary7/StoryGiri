@@ -1,7 +1,7 @@
 .subscribe-card {
   display: flex;
   align-items: center;
-  height: 30rem;
+  height: 60rem;
   background-color: #F0E9DD;
 }
 
@@ -28,16 +28,16 @@ h3{
 }
 
 .subscribe-card-form {
-  margin-top: 20px;
+  height: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  /* align-items: center;
+  gap: 1rem; */
 }
 
 .subscribe-card-form>form>input {
-  padding: 10px;
-  width: 15.5rem;
+  padding: 15px;
+  width: 17rem;
   border-radius: 5px;
   border: none;
   margin-bottom: 10px;
@@ -46,15 +46,22 @@ h3{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  gap: 1rem;
+  /* justify-content: space-evenly; */
+  align-items: center;
 }
 
 .subscribe-card-form>form>button {
   background-color: #324055;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.subscribe-card-form>p{
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 .warning {
@@ -68,6 +75,8 @@ h3{
   .subscribe-card{
     padding-top: 5rem;
     flex-direction: column;
+    gap: 40px;
+    height: 100vh;
   }
   h1{
     font-size: 30px;
