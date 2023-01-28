@@ -81,6 +81,11 @@ h3{
   h1{
     font-size: 30px;
     width: 100%;
+    padding-bottom: 10px;
+  }
+  h3{
+    width: 100%;
+    padding-bottom: 20px;
   }
   .subscribe-card-right>img{
     height: 200px;

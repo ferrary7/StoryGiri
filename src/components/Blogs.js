@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Blogs.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import leftarrow from "../assets/leftarrow.svg";
 import rightarrow from "../assets/rightarrow.svg";
 import featureimage from "../assets/featuredarticle-image.png";
 import articleimage from "../assets/article-image.png";
 import BlogCategoryCard from "./BlogCategoryCard";
-import EmailInput from "./EmailInput";
 import Subscribe from "./Subscribe";
 import BlogCard from "./BlogCard";
+import Footer from "./Footer";
 
 function Blogs() {
   return (
@@ -102,8 +102,8 @@ function Blogs() {
           description="consectetur adipiscing elit"
         />
 
-        {/* <Footer /> */}
       </div>
+        <Footer />
     </div>
   );
 }
