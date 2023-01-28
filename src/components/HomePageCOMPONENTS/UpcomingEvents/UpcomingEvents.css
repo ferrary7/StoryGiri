@@ -17,7 +17,7 @@
     padding: 8px;
     color: white;
     background-color: #324055;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     font-size: 12px;
 }
@@ -73,6 +73,9 @@ h4{
     .location-container{
         display: flex;
         align-items: center;
+    }
+    .bmButton{
+        width: 14rem;
     }
   }
   

@@ -93,8 +93,8 @@ function Navigation() {
             </div>
           )}
           <div className='hamburger-icon' onClick={() => setShowNav(!showNav)}>
-        <FontAwesomeIcon icon="fa-solid fa-bars" />
-        </div>
+           <FontAwesomeIcon icon="fa-solid fa-bars" />
+          </div>
       </div>
     </div>
   )

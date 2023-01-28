@@ -8,7 +8,7 @@ function BlogCard(props) {
         <div className='category-mark'>{props.category}</div>
         <h4>{props.title}</h4>
         <p>{props.desc}</p>
-        <div className='secondary-btn readmore-btn'>Read More</div>
+        <div className='secondary-btn readmore-btn'>Browse Content</div>
 
     </div>
   )
