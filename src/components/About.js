@@ -3,11 +3,12 @@ import Navbar from "./Navbar";
 import Subscribe from "./Subscribe";
 import team_members from "../data/team-members";
 import "./About.css";
+import Footer from "./Footer";
 
 export default function About() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="hero-sec">
         <div className="hero-container">
           <div className="hero">
@@ -67,6 +68,7 @@ export default function About() {
           description="consectetur adipiscing elit"
         />
       </div>
+      <Footer />
     </>
   );
 }

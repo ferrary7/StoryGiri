@@ -2,11 +2,12 @@ import React from "react";
 import Navbar from "./Navbar";
 import "./OneOnOne.css";
 import ooo_profiles from "../data/ooo_profiles.js";
+import Footer from "./Footer";
 
 export default function OneOnOne() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="hero-sec one-on-one">
         <div className="hero-container">
           <div className="hero">
@@ -36,7 +37,7 @@ export default function OneOnOne() {
                 <div key={e.id} className="profile-info">
                   <img
                     src={e.img}
-                    alt="Profile Photo"
+                    alt="Profile Pic"
                     className="profile-img"
                   />
                   <div className="profile-body">
@@ -55,6 +56,7 @@ export default function OneOnOne() {
           </div>
           <button className="book-call-btn">Book a Call Now!</button>
         </div>
+        <Footer />
       </div>
     </>
   );

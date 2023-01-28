@@ -85,28 +85,12 @@
 // export default SubscribeCard;
 
 
-import React, { useState } from 'react';
+import React from 'react';
 import './NewsLetter.css'
 import Subscribe from '../../Subscribe'
 import heroImage from '../../../assets/Hero Image.svg'
 
 function SubscribeCard() {
-  const [email, setEmail] = useState('');
-  const [subscribed, setSubscribed] = useState(false);
-  const [showWarning, setShowWarning] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (email === '') {
-      setShowWarning(true);
-    } else if (email.includes('@')) {
-      console.log(`Email: ${email}`);
-      //backend 
-      setSubscribed(true);
-    } else {
-      console.log('Invalid email');
-    }
-  }
 
   return (
     <div className="subscribe-card">
@@ -114,21 +98,9 @@ function SubscribeCard() {
         <h1>Subscribe to our newsletter</h1>
         <h3>Get the latest updates and exclusive offers</h3>
         <div className="subscribe-card-form">
-          {subscribed ? (
-            <p>Thanks for subscribing!</p>
-          ) : (
-            <form onSubmit={handleSubmit}>
-              <Subscribe onChange={e => setEmail(e.target.value)} />
-              {/* <input
-                type="email"
-                placeholder="Enter your email"
-                value={email}
-                onChange={e => setEmail(e.target.value)}
-              /> */}
-              {/* <button type="submit">Subscribe</button> */}
-              {showWarning && <p className="warning">Please enter your email</p>}
+            <form>
+              <Subscribe />
             </form>
-          )}
         </div>
       </div>
       <div className="subscribe-card-right">
