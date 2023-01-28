@@ -87,6 +87,8 @@
 
 import React, { useState } from 'react';
 import './NewsLetter.css'
+import Subscribe from '../../Subscribe'
+import heroImage from '../../../assets/Hero Image.svg'
 
 function SubscribeCard() {
   const [email, setEmail] = useState('');
@@ -116,20 +118,21 @@ function SubscribeCard() {
             <p>Thanks for subscribing!</p>
           ) : (
             <form onSubmit={handleSubmit}>
-              <input
+              <Subscribe onChange={e => setEmail(e.target.value)} />
+              {/* <input
                 type="email"
                 placeholder="Enter your email"
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-              />
-              <button type="submit">Subscribe</button>
+              /> */}
+              {/* <button type="submit">Subscribe</button> */}
               {showWarning && <p className="warning">Please enter your email</p>}
             </form>
           )}
         </div>
       </div>
       <div className="subscribe-card-right">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrCk3LkZoPX9BjiA3wcmZTGTaEOFysvd-hZnTXaAqW&s" alt="newsletter" />
+        <img src={heroImage} alt="newsletter" />
       </div>
     </div>
   );

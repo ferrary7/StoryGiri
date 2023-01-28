@@ -20,7 +20,7 @@ const UpcomingEvents = () => {
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
             <p><FontAwesomeIcon icon={faLocationDot} />  The Rudraksh Resort, Rishikesh</p>
             <Link to='./ooo' className='bmButton'>
-            Browse More
+            Sign up for event
             </Link>
           </div>
           <iframe

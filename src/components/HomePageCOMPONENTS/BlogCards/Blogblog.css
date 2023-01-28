@@ -131,7 +131,7 @@ b{
 }
 
 .blogContainer__button>button{
-    border-radius: 5px;
+    border-radius: 10px;
     color: white;
     background-color: #324055;
     text-align: center;
@@ -143,7 +143,7 @@ b{
     border: none;
     color: white;
     padding: 5px 15px;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
     display: flex;
@@ -158,6 +158,9 @@ b{
     .blogCards {
       grid-template-columns: 1fr;
       width: 100%;
+    }
+    .blogContainer{
+        padding-top: 80rem;
     }
   }
   
