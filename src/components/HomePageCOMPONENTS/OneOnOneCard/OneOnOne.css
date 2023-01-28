@@ -35,6 +35,18 @@
     height: 16rem;
     gap: 1rem;
   }
+  .ooob{
+    width: 100%;
+    background-color: #324055;
+    color: white;
+    font-weight: 700;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
 
 
   @media only screen and (max-width: 600px) {
