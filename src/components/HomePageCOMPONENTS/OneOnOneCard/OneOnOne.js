@@ -24,7 +24,7 @@ const OneOnOne = () => {
           <div className="emailContainer" onSubmit={handleSubmit}>
           <input type="email" placeholder='Your Topic' onChange={handleChange} />
           <Link to='/ooo'>
-            <div className="btn secondary-btn">Book 1-1</div>
+            <div className="ooob">Book 1-1</div>
           </Link>
         </div>
       </div>

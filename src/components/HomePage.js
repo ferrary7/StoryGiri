@@ -8,6 +8,7 @@ import Blog from './HomePageCOMPONENTS/BlogCards/Blog'
 import UpcomingEvents from './HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents'
 import OneOnOne from './HomePageCOMPONENTS/OneOnOneCard/OneOnOne'
 import Features from './HomePageCOMPONENTS/Features/Features'
+import Message from './HomePageCOMPONENTS/Message/Message'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         {/* <OurCourses /> */}
         <UpcomingEvents />
         <Blog />
+        <Message />
         {/* <AboutUsCard /> */}
         <Footer />
     </div>
