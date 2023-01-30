@@ -9,6 +9,7 @@ import UpcomingEvents from './HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents'
 import OneOnOne from './HomePageCOMPONENTS/OneOnOneCard/OneOnOne'
 import Features from './HomePageCOMPONENTS/Features/Features'
 import Message from './HomePageCOMPONENTS/Message/Message'
+import Table from './HomePageCOMPONENTS/Table/Table'
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         <OneOnOne />
         {/* <OurCourses /> */}
         <UpcomingEvents />
+        <Table />
         <Blog />
         <Message />
         {/* <AboutUsCard /> */}
