@@ -11,13 +11,11 @@ import Events from "./components/EventsPage/Events";
 import OneOnOne from "./components/OneOnOne";
 import Videos from "./components/Videos";
 import CreateBlog from "./components/Admin/CreateBlog";
-import { CustomForm } from "./components/CustomForm";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/mc-form" element={<CustomForm />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
       <Route path="/blogs" element={<Blogs />} />
