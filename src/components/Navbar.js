@@ -28,6 +28,7 @@
 
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
+import logo from "../assets/logo_v2.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -57,9 +58,11 @@ function Navigation() {
 
   return (
     <div className="navbar">
-      <p className="logo">
-        <Link to="/">Storygiri</Link>
-      </p>
+      <div className="logo">
+        <Link to="/">
+          <img src={logo} alt="" />
+        </Link>
+      </div>
       <div>
         {isMobile ? (
           <div>

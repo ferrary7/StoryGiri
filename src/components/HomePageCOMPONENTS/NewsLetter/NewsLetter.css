@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   height: 60rem;
-  background-color: #F0E9DD;
+  background-color: #f0e9dd;
 }
 
-h3{
+h3 {
   font-family: poppins;
   font-size: 18px;
 }
@@ -22,7 +22,7 @@ h3{
   width: 50%;
 }
 
-.subscribe-card-right>img{
+.subscribe-card-right > img {
   height: 500px;
   border-radius: 0.5rem;
 }
@@ -31,27 +31,25 @@ h3{
   height: 50px;
   display: flex;
   justify-content: center;
-  /* align-items: center;
-  gap: 1rem; */
 }
 
-.subscribe-card-form>form>input {
+.subscribe-card-form > form > input {
   padding: 15px;
   width: 17rem;
   border-radius: 5px;
   border: none;
   margin-bottom: 10px;
 }
-.subscribe-card-form>form{
+.subscribe-card-form > form {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 1rem;
-  /* justify-content: space-evenly; */
+
   align-items: center;
 }
 
-.subscribe-card-form>form>button {
+.subscribe-card-form > form > button {
   background-color: #324055;
   color: white;
   padding: 10px;
@@ -59,7 +57,7 @@ h3{
   border-radius: 10px;
   cursor: pointer;
 }
-.subscribe-card-form>p{
+.subscribe-card-form > p {
   padding-top: 20px;
   font-size: 20px;
 }
@@ -70,25 +68,156 @@ h3{
   margin-top: 5px;
 }
 
-
 @media only screen and (max-width: 600px) {
-  .subscribe-card{
+  .subscribe-card {
     padding-top: 5rem;
     flex-direction: column;
     gap: 130px;
     height: 100vh;
   }
-  h1{
+  h1 {
     font-size: 30px;
     width: 100%;
     padding-bottom: 10px;
   }
-  h3{
+  h3 {
     width: 100%;
     padding-bottom: 20px;
   }
-  .subscribe-card-right>img{
+  .subscribe-card-right > img {
     height: 200px;
     border-radius: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .subscribe-card {
+    height: 50rem;
+    flex-direction: column;
+    gap: 100px;
+  }
+  h1 {
+    font-size: 2.4rem;
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  h3 {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .subscribe-card-right > img {
+    height: 30rem;
+    border-radius: 0.5rem;
+  }
+  .subscribe-card-form > form > input {
+    width: 14rem;
+  }
+}
+
+/* .subscribe-card {
+  display: flex;
+  align-items: center;
+  height: 60rem;
+  background-color: #f0e9dd;
+}
+
+h3 {
+  font-family: poppins;
+  font-size: 18px;
+}
+
+.subscribe-card-left {
+  width: 50%;
+  text-align: center;
+}
+
+.subscribe-card-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.subscribe-card-right > img {
+  height: 500px;
+  border-radius: 0.5rem;
+}
+
+.subscribe-card-form {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center;
+  gap: 1rem; 
+}*/
+
+.subscribe-card-form > form > input {
+  padding: 15px;
+  width: 17rem;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+.subscribe-card-form > form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+
+.subscribe-card-form > form > button {
+  background-color: #324055;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.subscribe-card-form > p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.warning {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+@media only screen and (max-width: 600px) {
+  .subscribe-card {
+    padding-top: 5rem;
+    flex-direction: column;
+    gap: 130px;
+    height: 100vh;
+  }
+  h1 {
+    font-size: 30px;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  h3 {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .subscribe-card-right > img {
+    height: 200px;
+    border-radius: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 601px) {
+  .subscribe-card {
+    height: 60vh;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .subscribe-card-right > img {
+    height: 300px;
   }
 }
