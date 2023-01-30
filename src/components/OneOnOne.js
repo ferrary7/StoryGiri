@@ -26,6 +26,7 @@ export default function OneOnOne() {
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum.
               </p>
+              <button className="book-call-btn">Book a Call Now!</button>
             </div>
           </div>
         </div>
@@ -35,11 +36,7 @@ export default function OneOnOne() {
             {ooo_profiles.map((e) => {
               return (
                 <div key={e.id} className="profile-info">
-                  <img
-                    src={e.img}
-                    alt="Profile Pic"
-                    className="profile-img"
-                  />
+                  <img src={e.img} alt="Profile Pic" className="profile-img" />
                   <div className="profile-body">
                     <h4 className="profile-heading">{e.name}</h4>
                     <p className="profile-description">{e.description}</p>

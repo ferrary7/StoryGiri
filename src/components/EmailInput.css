@@ -3,6 +3,7 @@
     flex-direction: column; */
 }
 
+.email-input > form,
 .email-input > div {
   display: flex;
   margin-top: 4rem;
