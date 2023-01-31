@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {  Link, useNavigate } from 'react-router-dom';
 // import Card from "react-bootstrap/Card";
 // import Button from "react-bootstrap/Button";
 import './Blogblog.css'
@@ -105,6 +105,7 @@ const BlogCard = ({ image, blogName, description, logo }) => {
 };
 
 const Blog = () => {
+  const navigater = useNavigate();
   return (
     <div className="blogContainer">
       <h1 className="blogContainer__heading">Blogs</h1>
@@ -128,11 +129,9 @@ const Blog = () => {
           description="Master the art of course 3"
         />
       </div>
-      <Link to='blogs'>
-        <div className="blogContainer__button">
-          <button>Browse More</button>
+        <div className="blogContainer__button" >
+          <button onClick={()=> {window.scrollTo(0, 0); navigater("/blogs")}}>Browse More</button>
         </div>
-      </Link>
       <h3 style={{paddingTop: '10rem', textAlign: 'center'}}>Subscribe for latest blog updates.</h3>
       <div className="subscribe-card-form">
             <form>

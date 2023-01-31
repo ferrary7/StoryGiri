@@ -30,13 +30,14 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../assets/logo_v2.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons";
 
 library.add(fas);
 
 function Navigation() {
+  const navigate = useNavigate();
   const [isMobile, setIsMobile] = useState(false);
   const [showNav, setShowNav] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
@@ -59,9 +60,7 @@ function Navigation() {
   return (
     <div className="navbar">
       <div className="logo">
-        <Link to="/">
-          <img src={logo} alt="" />
-        </Link>
+          <img src={logo} alt="" onClick={()=> {window.scrollTo(0, 0); navigate("/")}}/>
       </div>
       <div>
         {isMobile ? (
@@ -84,24 +83,24 @@ function Navigation() {
         ) : (
           <div className="navlinks">
             <p className="navlink">
-              <Link to="/about" style={{ color: "#324055" }}>
+              <div onClick={()=> {window.scrollTo(0, 0); navigate("/about")}} style={{ color: "#324055" }}>
                 About Us
-              </Link>
+              </div>
             </p>
             <p className={`navlink highlight`}>
-              <Link to="/ooo" style={{ color: "#324055" }}>
+              <div onClick={()=> {window.scrollTo(0, 0); navigate("/ooo")}} style={{ color: "#324055" }}>
                 Book a 1-1 Call
-              </Link>
+              </div>
             </p>
             <p className="navlink">
-              <Link to="/blogs" style={{ color: "#324055" }}>
+              <div onClick={()=> {window.scrollTo(0, 0); navigate("/blogs")}} style={{ color: "#324055" }}>
                 Blogs
-              </Link>
+              </div>
             </p>
             <p className="navlink">
-              <Link to="/videos" style={{ color: "#324055" }}>
+              <div onClick={()=> {window.scrollTo(0, 0); navigate("/videos")}} style={{ color: "#324055" }}>
                 Videos
-              </Link>
+              </div>
             </p>
             <p className="navlink">
               <span
@@ -113,7 +112,7 @@ function Navigation() {
               </span>
               {showDropdown && (
                 <div className="dropdown-content">
-                  <Link to="/courses">Our Courses</Link>
+                  <Link to="/courses" >Our Courses</Link>
                   <Link to="/events">Events</Link>
                 </div>
               )}

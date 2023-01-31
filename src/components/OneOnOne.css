@@ -80,19 +80,21 @@
   color: #324055;
 }
 
+.handleButton{
+  display: flex;
+  justify-content: center;
+}
+
 .book-call-btn {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 1.7rem;
   line-height: 2.6rem;
-  padding: 2rem 5rem;
+  padding: 1.5rem 2rem;
   text-align: center;
-
   color: #f9f7f2;
-
   background: #324055;
-
   border-radius: 1rem;
 }
 

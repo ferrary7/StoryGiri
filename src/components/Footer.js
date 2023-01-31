@@ -1,8 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import './Footer.css'
 
 const Footer = () => {
+
+  const goTo = useNavigate(); 
   return (
     <footer>
         <div className='footerSrction logo'>
@@ -11,34 +13,34 @@ const Footer = () => {
       <div className="footerSection about">
         <h4>About</h4>
         <ul>
-          <li>
-            <Link to="/about-storygiri">About Storygiri</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/about")}}>
+            {/* <Link to="/about-storygiri">About Storygiri</Link> */}About Storygiri
           </li>
-          <li>
-            <Link to="/privacy-policy">Privacy Policy</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/policy")}}>
+            {/* <Link to="/privacy-policy">Privacy Policy</Link> */}Privacy Policy
           </li>
-          <li>
-            <Link to="/terms-and-conditions">Terms and Conditions</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/t&c")}}>
+            {/* <Link to="/terms-and-conditions">Terms and Conditions</Link> */}Terms and Conditions
           </li>
-          <li>
-            <Link to="/contact-us">Contact Us</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/contact")}}>
+            {/* <Link to="/contact-us">Contact Us</Link> */}Contact Us
           </li>
         </ul>
       </div>
       <div className="footerSection links">
         <h4>Links</h4>
         <ul>
-          <li>
-            <Link to="/blogs">Blogs</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/blogs")}}>
+            {/* <Link to="/blogs">Blogs</Link> */}Blogs
           </li>
-          <li>
-            <Link to="/courses">Courses</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/courses")}}>
+            {/* <Link to="/courses">Courses</Link> */}Courses
           </li>
-          <li>
-            <Link to="/videos">Videos</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/videos")}}>  
+            {/* <Link to="/videos">Videos</Link> */}Videos
           </li>
-          <li>
-            <Link to="/events">Events</Link>
+          <li onClick={()=> {window.scrollTo(0, 0); goTo("/events")}}>
+            {/* <Link to="/events">Events</Link> */}Events
           </li>
         </ul>
       </div>
