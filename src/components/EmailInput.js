@@ -24,11 +24,13 @@
 // export default EmailInput;
 
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import "./EmailInput.css";
 import { useState } from "react";
 
 function EmailInput({ status, message, onSubmitted, placeholder, btn }) {
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
   // const [isValid, setIsValid] = useState(false);
   // const [subscribed, setSubscribed] = useState(false);
@@ -96,9 +98,7 @@ function EmailInput({ status, message, onSubmitted, placeholder, btn }) {
 
       <p className="note">
         By clicking Sign Up you're confirming that you agree with our{" "}
-        <Link to="/t&c">
-          <u>Terms and Conditions</u>
-        </Link>
+          <u onClick={()=> {window.scrollTo(0, 0); navigate("/t&c")}}>Terms and Conditions</u>
         .
       </p>
     </div>
