@@ -7,21 +7,23 @@ import Blog from "./HomePageCOMPONENTS/BlogCards/Blog";
 // import OurCourses from './HomePageCOMPONENTS/OurCourses/OurCourses'
 import UpcomingEvents from './HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents'
 import OneOnOne from './HomePageCOMPONENTS/OneOnOneCard/OneOnOne'
-import Features from './HomePageCOMPONENTS/Features/Features'
+// import Features from './HomePageCOMPONENTS/Features/Features'
 import Message from './HomePageCOMPONENTS/Message/Message'
 import Table from './HomePageCOMPONENTS/Table/Table'
+import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
 
 const HomePage = () => {
   return (
     <div>
         <Navigation />
         <NewsLetter />
-        <Features />
+        <StoryGist />
+        <Blog />
+        {/* <Features /> */}
         <OneOnOne />
         {/* <OurCourses /> */}
         <UpcomingEvents />
         <Table />
-        <Blog />
         <Message />
         {/* <AboutUsCard /> */}
         <Footer />
