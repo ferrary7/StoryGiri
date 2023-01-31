@@ -12,7 +12,6 @@ import OneOnOne from "./components/OneOnOne";
 import Videos from "./components/Videos";
 import CreateBlog from "./components/Admin/CreateBlog";
 
-
 function App() {
   return (
     <Routes>

@@ -1,8 +1,8 @@
-import React from 'react'
-import Navigation from './Navbar'
-import Footer from './Footer'
-import NewsLetter from './HomePageCOMPONENTS/NewsLetter/NewsLetter'
-import Blog from './HomePageCOMPONENTS/BlogCards/Blog'
+import React from "react";
+import Navigation from "./Navbar";
+import Footer from "./Footer";
+import NewsLetter from "./HomePageCOMPONENTS/NewsLetter/NewsLetter";
+import Blog from "./HomePageCOMPONENTS/BlogCards/Blog";
 // import AboutUsCard from './HomePageCOMPONENTS/AboutUsCard/AboutUsCard'
 // import OurCourses from './HomePageCOMPONENTS/OurCourses/OurCourses'
 import UpcomingEvents from './HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents'
@@ -26,7 +26,7 @@ const HomePage = () => {
         {/* <AboutUsCard /> */}
         <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

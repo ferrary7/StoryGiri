@@ -1,7 +1,6 @@
 /* Aditya's Navbar */
 .navbar {
   height: 100px;
-  width: 100vw;
   display: flex;
   position: sticky;
   top: 0;
@@ -91,12 +90,11 @@ button{
     color: white;
 } */
 
-
 .dropdown-content {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 100px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   right: 20px;
   font-size: 15px;
@@ -113,7 +111,7 @@ button{
   background-color: #f1f1f1;
 }
 
-.hamburger-icon{
+.hamburger-icon {
   display: none;
 }
 
@@ -121,11 +119,11 @@ button{
   .navlinks {
     display: none;
   }
-  
+
   .hamburger-icon {
     display: block;
   }
-  
+
   .mobile-nav-active {
     display: flex;
     flex-direction: column;
@@ -138,5 +136,3 @@ button{
     z-index: 1;
   }
 }
-
-

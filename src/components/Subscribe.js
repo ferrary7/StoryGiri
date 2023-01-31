@@ -15,31 +15,14 @@
 //   );
 // }
 
-
-
-import React, { useState } from "react";
+import React from "react";
 import "./Subscribe.css";
 import EmailInput from "./EmailInput";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 export default function Subscribe(props) {
-  const [email, setEmail] = useState("");
-  const [validEmail, setValidEmail] = useState(false);
-  const [subscribed, setSubscribed] = useState(false);
-  const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
-
-  const handleEmailChange = (e) => {
-    setEmail(e.target.value);
-    setValidEmail(emailRegex.test(e.target.value));
-  };
-
-  const handleSubscribe = () => {
-    if (validEmail) {
-      console.log(`Email: ${email}`);
-      setSubscribed(true);
-    } else {
-      console.log("Invalid email");
-    }
-  };
+  const url =
+    "https://gmail.us21.list-manage.com/subscribe/post?u=70e9d1f3c005ec80e670d1031&amp;id=94a9096abf&amp;f_id=00b5e4e1f0";
 
   return (
     <div className="subscribe-container">
@@ -47,17 +30,31 @@ export default function Subscribe(props) {
         <h1>{props.heading}</h1>
         <p>{props.description}</p>
 
-        <EmailInput
-          placeholder="Your Email"
-          btn="Sign Up"
-          email={email}
-          validEmail={validEmail}
-          handleEmailChange={handleEmailChange}
-          handleSubscribe={handleSubscribe}
+        <MailchimpSubscribe
+          url={url}
+          render={({ subscribe, status, message }) => (
+            <div>
+              <EmailInput
+                placeholder="Your Email"
+                btn="Sign Up"
+                onSubmitted={(formData) => subscribe(formData)}
+              />
+              {status === "sending" && (
+                <div style={{ color: "blue" }}>sending...</div>
+              )}
+              {status === "error" && (
+                <div
+                  style={{ color: "red" }}
+                  dangerouslySetInnerHTML={{ __html: message }}
+                />
+              )}
+              {status === "success" && (
+                <div style={{ color: "green" }}>Subscribed !</div>
+              )}
+            </div>
+          )}
         />
-        {subscribed && <p>Thanks for checking in!</p>}
       </div>
     </div>
   );
 }
-
