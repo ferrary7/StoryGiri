@@ -5,7 +5,7 @@ function CreateBlog() {
   return (
     <div className='create-blog'>
       <h2>Create Blog</h2>
-      <form>
+      <form onSubmit={(e) => e.preventDefault()}>
         <p>Blog Title</p>
         <input type="text" placeholder='Blog'></input>
 
