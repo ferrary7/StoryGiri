@@ -12,6 +12,7 @@ import Message from './HomePageCOMPONENTS/Message/Message'
 import Table from './HomePageCOMPONENTS/Table/Table'
 import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
 
+
 const HomePage = () => {
   return (
     <div>

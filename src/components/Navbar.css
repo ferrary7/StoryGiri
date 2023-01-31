@@ -138,13 +138,13 @@ button{
 }
 
 .highlight {
-  animation: blink 1s ease-in-out infinite, grow 1s ease-in-out infinite;
+  animation: blink 2s ease-in-out infinite, grow 2s ease-in-out infinite;
   transform-origin: center;
 }
 
 @keyframes blink {
   50% {
-    opacity: 0.8;
+    opacity: 0.5;
   }
 }
 
