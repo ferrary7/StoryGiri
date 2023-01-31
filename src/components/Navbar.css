@@ -1,7 +1,6 @@
 /* Aditya's Navbar */
 .navbar {
   height: 100px;
-  width: 100vw;
   display: flex;
   position: sticky;
   top: 0;
@@ -137,3 +136,21 @@ button{
     z-index: 1;
   }
 }
+
+.highlight {
+  animation: blink 1s ease-in-out infinite, grow 1s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes grow {
+  50% {
+    transform: scale(1.09);
+  }
+}
+

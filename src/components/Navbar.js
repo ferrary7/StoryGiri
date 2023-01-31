@@ -73,8 +73,8 @@ function Navigation() {
             {showDropdown && (
               <div className="dropdown-content">
                 <Link to="/about">About Us</Link>
-                <Link to="/blogs">Blogs</Link>
                 <Link to="/ooo">Book a 1-1 Call</Link>
+                <Link to="/blogs">Blogs</Link>
                 <Link to="/videos">Videos</Link>
                 <Link to="/courses">Our Courses</Link>
                 <Link to="/events">Events</Link>
@@ -88,14 +88,14 @@ function Navigation() {
                 About Us
               </Link>
             </p>
-            <p className="navlink">
-              <Link to="/blogs" style={{ color: "#324055" }}>
-                Blogs
+            <p className={`navlink highlight`}>
+              <Link to="/ooo" style={{ color: "#324055" }}>
+                Book a 1-1 Call
               </Link>
             </p>
             <p className="navlink">
-              <Link to="/ooo" style={{ color: "#324055" }}>
-                Book a 1-1 Call
+              <Link to="/blogs" style={{ color: "#324055" }}>
+                Blogs
               </Link>
             </p>
             <p className="navlink">

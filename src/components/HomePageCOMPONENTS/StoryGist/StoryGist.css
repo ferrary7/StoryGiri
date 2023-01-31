@@ -1,0 +1,83 @@
+.gistContainer{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 20rem;
+    gap: 8rem;
+    font-size: 2rem;
+}
+
+.gistContainer>p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: poppins;
+    font-weight: 700;
+}
+
+.gradient-text {
+    font-size: 60px;
+  color: transparent;
+  background: conic-gradient(
+    #ff690c 12%, 
+    #F56EB3 12%, #F56EB3 33%, 
+    #CB1C8D 33%, #CB1C8D 55%, 
+    #7F167F 55%, #7F167F 70%, 
+    #460C68 70%, #460C68 87%, 
+    #ff690c 87%
+  );
+  line-height: 90px;
+  background-size: 100%;
+  background-clip: text;  
+  -webkit-background-clip: text;
+  animation: expand-rev 0.5s ease forwards;
+  cursor: pointer;
+}
+
+.gradient-text:hover {
+  animation: expand 0.5s ease forwards;
+}
+
+@keyframes expand {
+  0% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+}
+
+@keyframes expand-rev {
+  0% {
+    background-size: 325%;
+    background-position: -10em -4em;
+  }
+  20% {
+    background-size: 55%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 50%;
+    background-position: 0 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    .gistContainer{
+        height: 70vh;
+        padding: 4rem;
+        font-size: 20px;
+    }
+    .gradient-text{
+        font-size: 40px;
+        line-height: 30px;
+    }
+  }
+

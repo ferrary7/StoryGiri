@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import './Blogblog.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import Subscribe from "../../Subscribe";
 
 // class Blog extends Component {
 //   render() {
@@ -132,6 +133,12 @@ const Blog = () => {
           <button>Browse More</button>
         </div>
       </Link>
+      <h3 style={{paddingTop: '10rem', textAlign: 'center'}}>Subscribe for latest blog updates.</h3>
+      <div className="subscribe-card-form">
+            <form>
+              <Subscribe />
+            </form>
+        </div>
     </div>
   );
 };

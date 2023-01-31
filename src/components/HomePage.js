@@ -5,24 +5,28 @@ import NewsLetter from "./HomePageCOMPONENTS/NewsLetter/NewsLetter";
 import Blog from "./HomePageCOMPONENTS/BlogCards/Blog";
 // import AboutUsCard from './HomePageCOMPONENTS/AboutUsCard/AboutUsCard'
 // import OurCourses from './HomePageCOMPONENTS/OurCourses/OurCourses'
-import UpcomingEvents from "./HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents";
-import OneOnOne from "./HomePageCOMPONENTS/OneOnOneCard/OneOnOne";
-import Features from "./HomePageCOMPONENTS/Features/Features";
-import Message from "./HomePageCOMPONENTS/Message/Message";
+import UpcomingEvents from './HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents'
+import OneOnOne from './HomePageCOMPONENTS/OneOnOneCard/OneOnOne'
+// import Features from './HomePageCOMPONENTS/Features/Features'
+import Message from './HomePageCOMPONENTS/Message/Message'
+import Table from './HomePageCOMPONENTS/Table/Table'
+import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
 
 const HomePage = () => {
   return (
     <div>
-      <Navigation />
-      <NewsLetter />
-      <Features />
-      <OneOnOne />
-      {/* <OurCourses /> */}
-      <UpcomingEvents />
-      <Blog />
-      <Message />
-      {/* <AboutUsCard /> */}
-      <Footer />
+        <Navigation />
+        <NewsLetter />
+        <StoryGist />
+        <Blog />
+        {/* <Features /> */}
+        <OneOnOne />
+        {/* <OurCourses /> */}
+        <UpcomingEvents />
+        <Table />
+        <Message />
+        {/* <AboutUsCard /> */}
+        <Footer />
     </div>
   );
 };
