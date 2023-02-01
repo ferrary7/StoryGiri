@@ -84,19 +84,19 @@ export default function Login() {
           />
         </div>
         <p>{formErrors.password}</p>
-        <button className="primary-btn full form-btn">Sign Up</button>
+        <button className="primary-btn full form-btn">Log In</button>
         <div className="form-divider">
           <div className="dividing-line"></div>
-          <div className="divider-txt">or Sign up with Google</div>
+          <div className="divider-txt">or Log in with Google</div>
           <div className="dividing-line"></div>
         </div>
         <button className="primary-btn full form-btn google-btn">
           <img src={google} alt="Google Logo" className="google-logo" />
-          Sign up with Google
+          Log in with Google
         </button>
       </form>
       <div className="dontHaveAccount">
-        Don't have an account? <Link to='/signup'>Sign up</Link>
+        Don't have an account? <Link to="/signup">Sign up</Link>
       </div>
     </div>
   );
