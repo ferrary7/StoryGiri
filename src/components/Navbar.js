@@ -59,8 +59,16 @@ function Navigation() {
 
   return (
     <div className="navbar">
+      {console.log(localStorage.getItem("isLoggedIn"))}
       <div className="logo">
-          <img src={logo} alt="" onClick={()=> {window.scrollTo(0, 0); navigate("/")}}/>
+        <img
+          src={logo}
+          alt=""
+          onClick={() => {
+            window.scrollTo(0, 0);
+            navigate("/");
+          }}
+        />
       </div>
       <div>
         {isMobile ? (
@@ -77,28 +85,60 @@ function Navigation() {
                 <Link to="/videos">Videos</Link>
                 <Link to="/courses">Our Courses</Link>
                 <Link to="/events">Events</Link>
+                {localStorage.getItem("isLoggedIn") ? (
+                  <>
+                    <Link to="/admin-login">Log Out</Link>
+                    <Link to="/admin-blog">Create Blog</Link>
+                  </>
+                ) : (
+                  <></>
+                )}
               </div>
             )}
           </div>
         ) : (
           <div className="navlinks">
             <p className="navlink">
-              <div onClick={()=> {window.scrollTo(0, 0); navigate("/about")}} style={{ color: "#324055" }}>
+              <div
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                  navigate("/about");
+                }}
+                style={{ color: "#324055" }}
+              >
                 About Us
               </div>
             </p>
             <p className={`navlink highlight`}>
-              <div onClick={()=> {window.scrollTo(0, 0); navigate("/ooo")}} style={{ color: "#324055" }}>
+              <div
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                  navigate("/ooo");
+                }}
+                style={{ color: "#324055" }}
+              >
                 Book a 1-1 Call
               </div>
             </p>
             <p className="navlink">
-              <div onClick={()=> {window.scrollTo(0, 0); navigate("/blogs")}} style={{ color: "#324055" }}>
+              <div
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                  navigate("/blogs");
+                }}
+                style={{ color: "#324055" }}
+              >
                 Blogs
               </div>
             </p>
             <p className="navlink">
-              <div onClick={()=> {window.scrollTo(0, 0); navigate("/videos")}} style={{ color: "#324055" }}>
+              <div
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                  navigate("/videos");
+                }}
+                style={{ color: "#324055" }}
+              >
                 Videos
               </div>
             </p>
@@ -112,11 +152,39 @@ function Navigation() {
               </span>
               {showDropdown && (
                 <div className="dropdown-content">
-                  <Link to="/courses" >Our Courses</Link>
+                  <Link to="/courses">Our Courses</Link>
                   <Link to="/events">Events</Link>
                 </div>
               )}
             </p>
+            {localStorage.getItem("isLoggedIn") ? (
+              <>
+                <p className="navlink">
+                  <div
+                    onClick={() => {
+                      window.scrollTo(0, 0);
+                      navigate("/admin-login");
+                    }}
+                    style={{ color: "#324055" }}
+                  >
+                    Log Out
+                  </div>
+                </p>
+                <p className="navlink">
+                  <div
+                    onClick={() => {
+                      window.scrollTo(0, 0);
+                      navigate("/admin-blog");
+                    }}
+                    style={{ color: "#324055" }}
+                  >
+                    Create Blog
+                  </div>
+                </p>
+              </>
+            ) : (
+              <></>
+            )}
           </div>
         )}
 
