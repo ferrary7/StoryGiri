@@ -96,7 +96,7 @@ function SubscribeCard() {
     <div className="subscribe-card">
       <div className="subscribe-card-left">
         <h1>Join our Storygiri community</h1>
-        <h3>Get the latest updates and exclusive offers</h3>
+        <h3>Get the latest updates and exclusive offers</h3>  
         <div className="subscribe-card-form">
             <form>
               <Subscribe />

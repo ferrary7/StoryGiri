@@ -11,6 +11,8 @@ import OneOnOne from './HomePageCOMPONENTS/OneOnOneCard/OneOnOne'
 import Message from './HomePageCOMPONENTS/Message/Message'
 import Table from './HomePageCOMPONENTS/Table/Table'
 import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
+import Testimonials from "./HomePageCOMPONENTS/Testimonials/Testimonials";
+
 
 const HomePage = () => {
   return (
@@ -25,6 +27,7 @@ const HomePage = () => {
         <UpcomingEvents />
         <Table />
         <Message />
+        <Testimonials />
         {/* <AboutUsCard /> */}
         <Footer />
     </div>

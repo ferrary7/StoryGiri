@@ -34,12 +34,14 @@
   padding: 1.5rem 0;
   width: 12rem;
   margin-left: 0.5rem;
+  font-family: poppins;
 }
 
 .email-input .note {
   font-size: 1.2rem;
   font-weight: 500;
   text-align: left;
+  padding-top: 1.5rem;
 }
 
 @media (max-width: 484px) {

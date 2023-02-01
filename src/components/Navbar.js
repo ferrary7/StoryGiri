@@ -75,6 +75,7 @@ function Navigation() {
           <div>
             <FontAwesomeIcon
               icon="fa-solid fa-bars"
+              style={{height: '20px'}}
               onClick={() => setShowDropdown(!showDropdown)}
             />
             {showDropdown && (
