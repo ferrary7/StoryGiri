@@ -59,7 +59,6 @@ function Navigation() {
 
   return (
     <div className="navbar">
-      {console.log(localStorage.getItem("isLoggedIn"))}
       <div className="logo">
         <img
           src={logo}
@@ -75,7 +74,7 @@ function Navigation() {
           <div>
             <FontAwesomeIcon
               icon="fa-solid fa-bars"
-              style={{height: '20px'}}
+              style={{ height: "20px" }}
               onClick={() => setShowDropdown(!showDropdown)}
             />
             {showDropdown && (

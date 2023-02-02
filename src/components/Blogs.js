@@ -10,10 +10,13 @@ import BlogCategoryCard from "./BlogCategoryCard";
 import Subscribe from "./Subscribe";
 import BlogCard from "./BlogCard";
 import Footer from "./Footer";
+import getPosts from "../data/blog_data_collector";
 
 function Blogs() {
+  console.log(getPosts());
   return (
     <div className="blogpage">
+      {/* <BlogDataCollector /> */}
       <Navbar />
       <div className="container blog-container intro-container">
         <Subscribe
@@ -101,9 +104,8 @@ function Blogs() {
           heading="Lorem ipsum dolor sit amet"
           description="consectetur adipiscing elit"
         />
-
       </div>
-        <Footer />
+      <Footer />
     </div>
   );
 }
