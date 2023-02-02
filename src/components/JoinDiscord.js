@@ -24,13 +24,10 @@
 // export default EmailInput;
 
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import "./EmailInput.css";
 import { useState } from "react";
 
 function JoinDiscord({ onSubmitted, placeholder, btn, message }) {
-  const navigate = useNavigate();
-
   const [email, setEmail] = useState("");
 
   const handleEmailChange = (e) => {
@@ -62,6 +59,7 @@ function JoinDiscord({ onSubmitted, placeholder, btn, message }) {
           type="submit"
           className="btn secondary-btn"
           onClick={handleFormSubmit}
+          rel="noreferrer noopener"
           style={{ width: "25rem", margin: "2.5rem 0 0 0" }}
         >
           {/* {btn} */}
