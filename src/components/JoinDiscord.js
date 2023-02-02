@@ -52,7 +52,7 @@ function JoinDiscord({ onSubmitted, placeholder, btn, message }) {
 
   return (
     <div className="email-input">
-      <div className="email-container">
+      <div className="email-container" style={{ display: "block" }}>
         <input
           type="email"
           placeholder={placeholder}
@@ -62,7 +62,7 @@ function JoinDiscord({ onSubmitted, placeholder, btn, message }) {
           type="submit"
           className="btn secondary-btn"
           onClick={handleFormSubmit}
-          style={{ width: "fit-content" }}
+          style={{ width: "25rem", margin: "2.5rem 0 0 0" }}
         >
           {/* {btn} */}
           Join Our Community
