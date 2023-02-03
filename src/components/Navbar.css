@@ -16,6 +16,10 @@
   font-weight: 700;
 }
 
+.navbar .logo img {
+  height: 50px;
+}
+
 .navbar > div {
   display: flex;
   align-items: center;
