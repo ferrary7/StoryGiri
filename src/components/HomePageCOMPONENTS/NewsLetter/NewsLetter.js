@@ -86,7 +86,7 @@
 import React from "react";
 import "./NewsLetter.css";
 import Subscribe from "../../Subscribe";
-import heroImage from "../../../assets/Hero Image.svg";
+import heroImage from "../../../assets/featuredarticle-image.png";
 
 function SubscribeCard() {
   return (
