@@ -1,5 +1,5 @@
   .event-container {
-    height: 87vh;
+    height: 50vh;
     width: 100vw;
     padding: 5rem 28rem 20rem 28rem;
     background-color: #f0e9dd;
@@ -39,8 +39,12 @@
 
 /* CTA Section */
 
-.eventspage .cta-section {
+.eventspage {
   background-color: #f0e9dd;
+
+    height: 60vh; 
+    padding-top: 10rem;
+
 }
 
 /* Events Card */
@@ -89,7 +93,6 @@
 .event-btn {
   margin-top: 5rem;
 }
-
 
 
 
