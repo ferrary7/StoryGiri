@@ -33,7 +33,7 @@
               className="feature-image"
               style={{ backgroundImage: "url(" + featureimage + ")" }}
             ></div>
-            <div className="feature-content">
+            <div className="featureContent">
               <div className="category-mark">Category 1</div>
               <h4>Ajeeb hai ye Zindigi - Shubham Bhatt | Hindi Kahaani</h4>
               <p>

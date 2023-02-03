@@ -50,11 +50,17 @@ button {
   background: #324055;
   color: #f9f7f2;
   border-radius: 10px;
-
-  width: 140px;
+  font-size: 14px;
+  width: 22rem;
   font-weight: 600;
 }
 
 .primary-btn:hover ,.secondary-btn:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .secondary-btn{
+    width: 24rem;
+  }
 }
