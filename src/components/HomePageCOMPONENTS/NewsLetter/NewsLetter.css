@@ -1,14 +1,14 @@
 .subscribe-card {
   display: flex;
   align-items: center;
-  height: 60rem;
+  height: 70rem;
   background-color: #f0e9dd;
-  padding: 10rem;
+  padding: 2rem 10rem 10rem 10rem;
 }
 
 .subscribe-card-left>p {
   font-family: poppins;
-  font-size: 16px;
+  font-size: 1.6rem;
   text-align: left;
   padding-top: 2rem;
   font-weight: 600;
@@ -80,7 +80,7 @@
     padding-top: 5rem;
     flex-direction: column;
     gap: 130px;
-    height: 100vh;
+    height: 120vh;
   }
   h1 {
     font-size: 30px;
@@ -198,7 +198,7 @@ h3 {
     padding-top: 5rem;
     flex-direction: column;
     gap: 130px;
-    height: 110vh;
+    height: 120vh;
     padding: 2rem;
   }
   h1 {
@@ -231,6 +231,10 @@ h3 {
   }
   h3 {
     font-size: 16px;
+  }
+  .subscribe-card-left{
+    width: 100%;
+    padding: 2rem 10rem 2rem 10rem;
   }
   .subscribe-card-right > img {
     height: 300px;

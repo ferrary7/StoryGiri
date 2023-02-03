@@ -5,6 +5,10 @@
 
   background-color: #f0e9dd;
 }
+.errorFix{
+  height: 60vh; 
+  padding-top: 10rem;
+}
 
 .hero {
   display: flex;
@@ -126,6 +130,10 @@
 
   .cards-container {
     grid-template-columns: 1fr;
+  }
+  .errorFix{
+    height: 60vh; 
+    padding-top: 0rem;
   }
 }
 

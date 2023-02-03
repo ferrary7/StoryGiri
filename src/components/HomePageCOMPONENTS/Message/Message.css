@@ -83,4 +83,19 @@
         width: 100%;
       }
   }
+
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .responsive-container{
+      height: 50vh;
+    }
+    .left-column{
+      padding: 3rem;
+      width: 100%;
+    }
+    .right-column {
+      padding: 3rem;
+      width: 100%;
+  }
+  }
+  
   
