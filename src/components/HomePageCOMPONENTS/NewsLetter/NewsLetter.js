@@ -5,14 +5,14 @@
 //     const [email, setEmail] = useState('');
 //     const [subscribed, setSubscribed] = useState(false);
 //     const [showWarning, setShowWarning] = useState(false);
-  
+
 //     const handleSubmit = (event) => {
 //       event.preventDefault();
 //       if (!email) {
 //         setShowWarning(true);
 //         return;
 //       }
-//       Backend ig 
+//       Backend ig
 //       console.log("Email: ", email);
 //       setSubscribed(true);
 //     }
@@ -28,7 +28,7 @@
 //             <div className='input'>
 //                 <label>
 //                     <input type="email"
-//                         value={email} 
+//                         value={email}
 //                         onChange={e => setEmail(e.target.value)}
 //                         placeholder="Your Email..."
 //                         className="subscribe-input"
@@ -44,7 +44,6 @@
 // }
 
 // export default NewsLetter;
-
 
 // import React, { useState } from 'react';
 
@@ -84,23 +83,21 @@
 
 // export default SubscribeCard;
 
-
-import React from 'react';
-import './NewsLetter.css'
-import Subscribe from '../../Subscribe'
-import heroImage from '../../../assets/Hero Image.svg'
+import React from "react";
+import "./NewsLetter.css";
+import Subscribe from "../../Subscribe";
+import heroImage from "../../../assets/Hero Image.svg";
 
 function SubscribeCard() {
-
   return (
     <div className="subscribe-card">
       <div className="subscribe-card-left">
         <h1>Join our Storygiri community</h1>
-        <h3>Get the latest updates and exclusive offers</h3>  
+        <h3>Get the latest updates and exclusive offers</h3>
         <div className="subscribe-card-form">
-            <form>
-              <Subscribe />
-            </form>
+          <form>
+            <Subscribe discord="true" />
+          </form>
         </div>
       </div>
       <div className="subscribe-card-right">
