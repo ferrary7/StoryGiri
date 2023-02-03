@@ -1,5 +1,6 @@
 import React from "react";
 import "./BlogCard.css";
+import parse from 'html-react-parser';
 
 function BlogCard(props) {
   return (
@@ -10,7 +11,8 @@ function BlogCard(props) {
       ></div>
       <div className="category-mark">{props.category}</div>
       <h4>{props.title}</h4>
-      <p>{props.desc}</p>
+      {/* {console.log(typeof props.desc)} */}
+      <p dangerouslySetInnerHTML={{__html: props.desc}}></p>
       <div className="secondary-btn readmore-btn">Browse Content</div>
     </div>
   );
