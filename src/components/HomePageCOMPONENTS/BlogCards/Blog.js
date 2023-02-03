@@ -1,11 +1,12 @@
-import React from "react";
-import {  Link, useNavigate } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 // import Card from "react-bootstrap/Card";
 // import Button from "react-bootstrap/Button";
-import './Blogblog.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import "./Blogblog.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Subscribe from "../../Subscribe";
+import GetBlogs from "../../../data/GetBlogs";
 
 // class Blog extends Component {
 //   render() {
@@ -42,7 +43,6 @@ import Subscribe from "../../Subscribe";
 // }
 
 // export default Blog;
-
 
 // const BlogCard = ({ image, title, description, link }) => {
 //   return (
@@ -88,23 +88,26 @@ import Subscribe from "../../Subscribe";
 //   }
 // }
 
-
 const BlogCard = ({ image, blogName, description, logo }) => {
   return (
     <div className="blogCard">
       <img className="blogCard__image" src={image} alt={blogName} />
       <div className="blogCard__content">
-        <h3 className="blogCard__blogName"><b>{blogName}</b></h3>
-        <p className="blogCard__description">{description}</p>  
+        <h3 className="blogCard__blogName">
+          <b>{blogName}</b>
+        </h3>
+        <p className="blogCard__description">{description}</p>
         <Link to={logo}>
           <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} />
-        </Link>  
+        </Link>
       </div>
     </div>
   );
 };
 
 const Blog = () => {
+  let blogList = GetBlogs();
+  console.log(blogList);
   const navigater = useNavigate();
   return (
     <div className="blogContainer">
@@ -113,7 +116,16 @@ const Blog = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
       </p>
       <div className="blogCards">
-        <BlogCard
+        {blogList.map((e) => {
+          return (
+            <BlogCard
+              image="https://via.placeholder.com/150"
+              blogName={e.title}
+              description="Master the art of course 1"
+            />
+          );
+        })}
+        {/* <BlogCard
           image="https://via.placeholder.com/150"
           blogName="LOREM 1"
           description="Master the art of course 1"
@@ -127,20 +139,28 @@ const Blog = () => {
           image="https://via.placeholder.com/150"
           blogName="LOREM 3"
           description="Master the art of course 3"
-        />
+        /> */}
       </div>
-        <div className="blogContainer__button" >
-          <button onClick={()=> {window.scrollTo(0, 0); navigater("/blogs")}}>Browse More</button>
-        </div>
-      <h3 style={{paddingTop: '10rem', textAlign: 'center'}}>Subscribe for latest blog updates.</h3>
+      <div className="blogContainer__button">
+        <button
+          onClick={() => {
+            window.scrollTo(0, 0);
+            navigater("/blogs");
+          }}
+        >
+          Browse More
+        </button>
+      </div>
+      <h3 style={{ paddingTop: "10rem", textAlign: "center" }}>
+        Subscribe for latest blog updates.
+      </h3>
       <div className="subscribe-card-form">
-            <form>
-              <Subscribe />
-            </form>
-        </div>
+        <form>
+          <Subscribe />
+        </form>
+      </div>
     </div>
   );
 };
-
 
 export default Blog;

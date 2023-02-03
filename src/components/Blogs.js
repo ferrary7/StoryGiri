@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./Navbar";
 import "./Blogs.css";
 // import { Link } from "react-router-dom";
@@ -10,15 +10,18 @@ import BlogCategoryCard from "./BlogCategoryCard";
 import Subscribe from "./Subscribe";
 import BlogCard from "./BlogCard";
 import Footer from "./Footer";
-import getPosts from "../data/blog_data_collector";
+import GetBlogs from "../data/GetBlogs";
 
 function Blogs() {
-  console.log(getPosts());
+  // setBlogList();
+  let blogList = GetBlogs();
+  console.log(blogList);
+  // console.log(blogList);
   return (
     <div className="blogpage">
-      {/* <BlogDataCollector /> */}
       <Navbar />
       <div className="container blog-container intro-container">
+        {/* <BlogDataCollector /> */}
         <Subscribe
           heading="Welcome to Storygiri's Blog"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -74,7 +77,17 @@ function Blogs() {
       <div className="recent-articles-section">
         <h2>Recent Articles</h2>
         <div className="articles-container">
-          <BlogCard
+          {blogList.map((e) => {
+            return (
+              <BlogCard
+                image={articleimage}
+                category={e.category}
+                title={e.title}
+                desc={e.content}
+              />
+            );
+          })}
+          {/* <BlogCard
             image={articleimage}
             category="Category 1"
             title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
@@ -97,7 +110,7 @@ function Blogs() {
             category="Category 1"
             title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
             desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-          />
+          /> */}
         </div>
 
         <Subscribe
