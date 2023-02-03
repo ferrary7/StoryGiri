@@ -37,18 +37,18 @@
     background-size: cover;
   }
   
-  .feature-content {
+  .featureContent {
     width: 50vw;
     margin-left: 50px;
     text-align: left;
   }
   
-  .feature-content h4 {
+  .featureContent h4 {
     font-size: 20px;
     margin: 20px 0;
   }
   
-  .feature-content p {
+  .featureContent p {
     font-size: 15px;
     text-align: left;
     font-weight: 500;
@@ -73,5 +73,37 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+  }
+  
+
+
+
+  @media screen and (max-width: 600px) {
+    .videoMain{
+      padding: 15rem 2rem 15rem 2rem;
+    }
+    .videoMain>p{
+      padding: 1rem;
+    }
+    .feature-section{
+      padding: 10rem 0 10rem 0;
+    }
+    .feature-container{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    .featureContent{
+     width: 100%;
+     margin-left: 0;
+     padding: 4rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .feature-image{
+      width: 250px;
+      height: 250px;
+    }
   }
   
