@@ -27,11 +27,11 @@ function Message() {
         </h2>
         <div className="social-links">
           <a
-            href="https://www.facebook.com/Storygiri/"
+            href="https://www.instagram.com/storygiri/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={fb} alt="" />
+            <img src={insta} alt="" />
           </a>
           <a
             href="https://www.youtube.com/results?search_query=storygiri"
@@ -41,11 +41,11 @@ function Message() {
             <img src={yt} alt="" />
           </a>
           <a
-            href="https://www.instagram.com/storygiri/"
+            href="https://www.facebook.com/Storygiri/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={insta} alt="" />
+            <img src={fb} alt="" />
           </a>
           <a href="https://gmail.com" target="_blank" rel="noreferrer">
             <img src={mail} alt="" />

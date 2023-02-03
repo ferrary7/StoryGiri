@@ -58,7 +58,7 @@ export default function Subscribe(props) {
                 />
               )}
               {status === "sending" && (
-                <div style={{ color: "blue" }}>sending...</div>
+                <div style={{ color: "blue" }}>Sending 😀...</div>
               )}
               {status === "error" && (
                 <div
@@ -67,7 +67,7 @@ export default function Subscribe(props) {
                 />
               )}
               {status === "success" && (
-                <div style={{ color: "green" }}>Subscribed !</div>
+                <div style={{ color: "green" }}>Subscribed 🤩!</div>
               )}
             </div>
           )}

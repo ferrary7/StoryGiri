@@ -3,16 +3,24 @@
   align-items: center;
   height: 60rem;
   background-color: #f0e9dd;
+  padding: 10rem;
 }
 
-h3 {
+.subscribe-card-left>p {
   font-family: poppins;
-  font-size: 18px;
+  font-size: 16px;
+  text-align: left;
+  padding-top: 2rem;
+  font-weight: 600;
 }
 
 .subscribe-card-left {
   width: 50%;
-  text-align: center;
+  text-align: left;
+}
+
+.subscribe-card-left h1 {
+  text-align: left;
 }
 
 .subscribe-card-right {
@@ -30,7 +38,7 @@ h3 {
 .subscribe-card-form {
   height: 50px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .subscribe-card-form > form > input {
@@ -43,9 +51,8 @@ h3 {
 .subscribe-card-form > form {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
-
+  /* justify-content: center; */
+  /* gap: 1rem; */
   align-items: center;
 }
 
@@ -95,6 +102,7 @@ h3 {
     height: 50rem;
     flex-direction: column;
     gap: 100px;
+    padding: 2rem;
   }
   h1 {
     font-size: 2.4rem;
@@ -161,7 +169,7 @@ h3 {
 .subscribe-card-form > form {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 1rem;
   /* justify-content: space-evenly; */
   align-items: center;
@@ -190,7 +198,8 @@ h3 {
     padding-top: 5rem;
     flex-direction: column;
     gap: 130px;
-    height: 100vh;
+    height: 110vh;
+    padding: 2rem;
   }
   h1 {
     font-size: 30px;
@@ -201,9 +210,15 @@ h3 {
     width: 100%;
     padding-bottom: 20px;
   }
+  .subscribe-card-left{
+    width:auto;
+  }
   .subscribe-card-right > img {
-    height: 200px;
+    height: 250px;
     border-radius: 0.5rem;
+  }
+  .subscribe-card{
+    padding:6rem;
   }
 }
 
