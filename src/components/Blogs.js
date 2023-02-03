@@ -15,7 +15,6 @@ import GetBlogs from "../data/GetBlogs";
 function Blogs() {
   // setBlogList();
   let blogList = GetBlogs();
-  console.log(blogList);
   // console.log(blogList);
   return (
     <div className="blogpage">
@@ -28,50 +27,46 @@ function Blogs() {
         />
       </div>
 
-      <div className="category-container">
+      {/* <div className="category-container">
         <h2>Explore Various Categories</h2>
         <div className="carousel-container">
           <div className="left-arrow">
             <img className="arrow" src={leftarrow} alt="left"></img>
           </div>
           <div className="carousel">
-            <BlogCategoryCard
-              title="Category 1"
-              desc="consectetur adipiscing elit"
-            />
-            <BlogCategoryCard
-              title="Category 2"
-              desc="consectetur adipiscing elit"
-            />
-            <BlogCategoryCard
-              title="Category 3"
-              desc="consectetur adipiscing elit"
-            />
+            {blogList.map((e) => {
+              return (
+                <BlogCategoryCard
+                  title={e.categories}
+                  desc="consectetur adipiscing elit"
+                />
+              );
+            })}
           </div>
           <div className="right-arrow">
             <img className="arrow" src={rightarrow} alt="right"></img>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="feature-section">
         <h2>Featured Article</h2>
-        <div className="feature-container">
-          <div
-            className="feature-image"
-            style={{ backgroundImage: "url(" + featureimage + ")" }}
-          ></div>
-          <div className="feature-content">
-            <div className="category-mark">Category 1</div>
-            <h4>5 Tips on How to “Wake Up” in Winter’s Morning</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
-            </p>
-            <div className="secondary-btn readmore-btn">Read More</div>
+        {blogList.length > 0 ? (
+          <div className="feature-container">
+            <div
+              className="feature-image"
+              style={{ backgroundImage: "url(" + blogList[0].thumbURL + ")" }}
+            ></div>
+            <div className="feature-content">
+              <div className="category-mark">{blogList[0].categories[0]}</div>
+              <h4>{blogList[0].title}</h4>
+              <p>{blogList[0].description}</p>
+              <div className="secondary-btn readmore-btn">Read More</div>
+            </div>
           </div>
-        </div>
+        ) : (
+          <></>
+        )}
       </div>
 
       <div className="recent-articles-section">
@@ -80,10 +75,10 @@ function Blogs() {
           {blogList.map((e) => {
             return (
               <BlogCard
-                image={articleimage}
-                category={e.category}
+                image={e.thumbURL}
+                categories={e.categories}
                 title={e.title}
-                desc={e.content}
+                desc={e.description}
               />
             );
           })}

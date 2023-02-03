@@ -116,14 +116,15 @@ const Blog = () => {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
       </p>
       <div className="blogCards">
-        {blogList.map((e) => {
-          return (
-            <BlogCard
-              image="https://via.placeholder.com/150"
-              blogName={e.title}
-              description="Master the art of course 1"
-            />
-          );
+        {blogList.map((e, i) => {
+          if (i < 3)
+            return (
+              <BlogCard
+                image={e.thumbURL}
+                blogName={e.title}
+                description="Master the art of course 1"
+              />
+            );
         })}
         {/* <BlogCard
           image="https://via.placeholder.com/150"
