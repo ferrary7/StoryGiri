@@ -1,42 +1,64 @@
 import React, { useState } from "react";
-import './Message.css';
-import insta from '../../../assets/instagram.svg'
-import yt from '../../../assets/youtube.svg'
-import fb from '../../../assets/facebook.svg'
-import mail from '../../../assets/email.svg'
+import "./Message.css";
+import insta from "../../../assets/instagram.svg";
+import yt from "../../../assets/youtube.svg";
+import fb from "../../../assets/facebook.svg";
+import mail from "../../../assets/email.svg";
 
 function Message() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    message: ""
+    message: "",
   });
 
-  const handleChange = e => {
+  const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
-  };
-
-  const handleSubmit = e => {
-    e.preventDefault();
-    console.log(formData);
   };
 
   return (
     <div className="responsive-container">
       <div className="left-column">
-        <h2 className="content-header">Would love to hear from you, <br /> Get in touch👋 </h2>
+        <h2 className="content-header">
+          Would love to hear from you, <br /> Get in touch👋{" "}
+        </h2>
         <div className="social-links">
-          <a href="https://www.facebook.com/Storygiri/" target="_blank" rel="noreferrer"><img src={fb} alt='' /></a>
-          <a href="https://www.youtube.com/results?search_query=storygiri" target="_blank" rel="noreferrer"><img src={yt} alt='' /></a>
-          <a href="https://www.instagram.com/storygiri/" target="_blank" rel="noreferrer"><img src={insta} alt='' /></a>
-          <a href="https://gmail.com" target="_blank" rel="noreferrer"><img src={mail} alt='' /></a>
+          <a
+            href="https://www.facebook.com/Storygiri/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={fb} alt="" />
+          </a>
+          <a
+            href="https://www.youtube.com/results?search_query=storygiri"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={yt} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/storygiri/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={insta} alt="" />
+          </a>
+          <a href="https://gmail.com" target="_blank" rel="noreferrer">
+            <img src={mail} alt="" />
+          </a>
         </div>
       </div>
       <div className="right-column">
-        <form className="form" onSubmit={handleSubmit}>
+        <form
+          className="form"
+          action="mailto:shubham@storygiri.com"
+          method="post"
+          enctype="text/plain"
+        >
           <label>
             <input
               placeholder="Name"
@@ -69,7 +91,9 @@ function Message() {
             />
           </label>
           <br />
-          <button className="form-button" type="submit">Send Message</button>
+          <button className="form-button" type="submit">
+            Send Message
+          </button>
         </form>
       </div>
     </div>
