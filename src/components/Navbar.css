@@ -164,3 +164,9 @@ button{
   }
 }
 
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .navlinks {
+    font-size: 10px;
+  }
+}
