@@ -1,7 +1,7 @@
 /* CTA Section */
 
 .cta-section {
-  padding: 10rem 8rem;
+  /* padding: 10rem 8rem; */
   display: flex;
   flex-direction: column;
   align-items: center;

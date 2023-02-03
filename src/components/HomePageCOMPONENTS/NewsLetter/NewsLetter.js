@@ -93,7 +93,10 @@ function SubscribeCard() {
     <div className="subscribe-card">
       <div className="subscribe-card-left">
         <h1>Join our Storygiri community</h1>
-        <h3>Get the latest updates and exclusive offers</h3>
+        <p>Join the most productive community.<br /> 
+            We set goals and discuss the most practical ways to achieve them.<br />
+            Let's create <b>Your Story Your Way</b>
+        </p>
         <div className="subscribe-card-form">
           <form>
             <Subscribe discord="true" />

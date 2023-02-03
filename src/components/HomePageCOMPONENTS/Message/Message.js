@@ -29,9 +29,9 @@ function Message() {
       <div className="left-column">
         <h2 className="content-header">Would love to hear from you, <br /> Get in touch👋 </h2>
         <div className="social-links">
-          <a href="https://www.facebook.com/Storygiri/" target="_blank" rel="noreferrer"><img src={fb} alt='' /></a>
-          <a href="https://www.youtube.com/results?search_query=storygiri" target="_blank" rel="noreferrer"><img src={yt} alt='' /></a>
           <a href="https://www.instagram.com/storygiri/" target="_blank" rel="noreferrer"><img src={insta} alt='' /></a>
+          <a href="https://www.youtube.com/results?search_query=storygiri" target="_blank" rel="noreferrer"><img src={yt} alt='' /></a>
+          <a href="https://www.facebook.com/Storygiri/" target="_blank" rel="noreferrer"><img src={fb} alt='' /></a>
           <a href="https://gmail.com" target="_blank" rel="noreferrer"><img src={mail} alt='' /></a>
         </div>
       </div>
