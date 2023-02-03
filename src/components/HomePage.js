@@ -5,7 +5,7 @@ import NewsLetter from "./HomePageCOMPONENTS/NewsLetter/NewsLetter";
 import Blog from "./HomePageCOMPONENTS/BlogCards/Blog";
 // import AboutUsCard from './HomePageCOMPONENTS/AboutUsCard/AboutUsCard'
 // import OurCourses from './HomePageCOMPONENTS/OurCourses/OurCourses'
-import UpcomingEvents from './HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents'
+// import UpcomingEvents from './HomePageCOMPONENTS/UpcomingEvents/UpcomingEvents'
 import OneOnOne from './HomePageCOMPONENTS/OneOnOneCard/OneOnOne'
 // import Features from './HomePageCOMPONENTS/Features/Features'
 import Message from './HomePageCOMPONENTS/Message/Message'
@@ -20,14 +20,14 @@ const HomePage = () => {
         <Navigation />
         <NewsLetter />
         <StoryGist />
+        <OneOnOne />
         <Blog />
         {/* <Features /> */}
-        <OneOnOne />
         {/* <OurCourses /> */}
-        <UpcomingEvents />
+        {/* <UpcomingEvents /> */}
         <Table />
-        <Message />
         <Testimonials />
+        <Message />
         {/* <AboutUsCard /> */}
         <Footer />
     </div>

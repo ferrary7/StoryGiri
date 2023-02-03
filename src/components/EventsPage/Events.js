@@ -3,13 +3,13 @@ import Footer from "../Footer";
 import Navbar from "../Navbar";
 import Subscribe from "../Subscribe";
 import "./Events.css";
-import EventCard from "./EventCard";
+// import EventCard from "./EventCard";
 
 function Events() {
   return (
     <div className="eventspage">
       <Navbar />
-      <div className="container event-container intro-container">
+      <div className="event-container intro-container">
         <h1>Events</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -19,7 +19,7 @@ function Events() {
         </p>
       </div>
 
-      <div className="upcoming-container">
+      {/* <div className="upcoming-container">
         <h2>Upcoming Events</h2>
         <div className="event-cards">
           <EventCard
@@ -81,7 +81,7 @@ function Events() {
             date="December 28, 2022"
           />
         </div>
-      </div>
+      </div> */}
 
       <div className="eventspage">
         <Subscribe

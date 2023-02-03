@@ -10,7 +10,7 @@ const Table = () => {
     <tr>
         <th></th>
         <th><h2>Storygiri</h2></th>
-        <th><h2>In-person</h2></th>
+        <th><h2>Others</h2></th>
     </tr>
     <tr>
         <td>At your convenience</td>

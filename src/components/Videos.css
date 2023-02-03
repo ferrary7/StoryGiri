@@ -101,6 +101,12 @@
       align-items: center;
       flex-direction: column;
     }
+    .featureContent>h4{
+      text-align: center;
+    }
+    .featureContent>p{
+      text-align: center;
+    }
     .feature-image{
       width: 250px;
       height: 250px;
