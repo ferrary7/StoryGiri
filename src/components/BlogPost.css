@@ -1,80 +1,81 @@
 .blogpost {
-    padding: 5rem 10rem;
+  padding: 5rem 10rem;
 }
 
 .blogpost .thumbnail {
-    width: 70%;
-    height: 500px;
-    border-radius: 15px;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    margin: 5rem 0;
+  width: 70%;
+  height: 50rem;
+  border-radius: 1.5rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  margin: 5rem 0;
 }
 
 .blogpost h1 {
-    text-align: left;
-    font-family: 'Poppins', 'sans-serif';
-    font-weight: 700;
-    font-size: 3rem;
-    margin: 30px 0;
+  text-align: left;
+  font-family: "Poppins", "sans-serif";
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 3rem 0;
 }
 
 .blogpost p {
-    background-color: transparent !important;
-    font-family: 'Poppins', 'sans-serif' !important;
-    font-weight: 500 !important;
-    font-size: 15px !important;
-    line-height: normal !important;
-    margin: 10px 0 !important;
+  background-color: transparent !important;
+  font-family: "Poppins", "sans-serif" !important;
+  font-weight: 500 !important;
+  font-size: 1.5rem !important;
+  line-height: normal !important;
+  margin: 1rem 0 !important;
 }
 
 .content-container img {
-    box-sizing: border-box;
-    height: auto;
-    max-width: 100%;
-    border: 0px;
-    vertical-align: bottom;
-    margin-bottom: 0px;
-    display: block;
-    transition: none !important;
+  box-sizing: border-box;
+  height: auto;
+  max-width: 100%;
+  border: 0rem;
+  vertical-align: bottom;
+  margin-bottom: 0rem;
+  display: block;
+  transition: none !important;
 }
 
 .content-container strong {
-    display: block;
+  display: block;
 }
 
-.content-container h2, .content-container strong {
-    font-weight: 700 !important;
-    font-size: 18px;
-    box-sizing: initial !important;
-    margin: 50px 0 !important;
+.content-container h2,
+.content-container strong {
+  font-weight: 700 !important;
+  font-size: 1.8rem;
+  box-sizing: initial !important;
+  margin: 5rem 0 !important;
 }
 
 .blogpost .line {
-    height: 3px;
-    width: 100%;
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    margin: 20px 0;
+  height: 0.3rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 2rem 0;
 }
 
 .blogpost .like-button {
-    display: flex;
-    align-items: center;
-    background-color: #F0E9DD;
-    padding: 10px 15px;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 15px;
-    width: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: #f0e9dd;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  width: fit-content;
 }
 
 .blogpost .like-button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .blogpost .like-button img {
-    height: 18px;
-    margin-right: 10px;
+  height: 1.8rem;
+  margin-right: 1rem;
 }

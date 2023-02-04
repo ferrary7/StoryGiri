@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 // import Card from "react-bootstrap/Card";
 // import Button from "react-bootstrap/Button";
 import "./Blogblog.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Subscribe from "../../Subscribe";
 import GetBlogs from "../../../data/GetBlogs";
 import blogArrow from "../../../assets/blog-card-arrow.svg";
@@ -22,31 +20,29 @@ const BlogCard = ({ image, blogName, description, logo }) => {
         </h3>
         <p className="blogCard__description">{description.slice(0, 70)}...</p>
       </div>
+
       <Link className="arrow-icon" to={`/blogs/${blogName}`}>
-        {/* <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} /> */}
-        <img src={blogArrow} alt="" />
+        <img className="arrow-icon" src={blogArrow} alt="" />
       </Link>
     </div>
   );
-  {
-    /*
-    return(
-   <div className="blog-card">
-  <div
-    className="blog-img"
-    style={{ backgroundImage: `url(${image})` }}
-  ></div>
-  <div className="blog-content">
-    <h3 className="blog-title">{blogName}</h3>
-    <p className="blog-desc">{description}</p>
-    <Link to={`/blogs/${blogName}`}>
-      <img src={blogArrow} alt="" className="blog-arrow" />
-    </Link>
-  </div>
-</div>
-)
- */
-  }
+  // {
+  // return (
+  //   <div className="blog-card">
+  //     <div
+  //       className="blog-img"
+  //       style={{ backgroundImage: `url(${image})` }}
+  //     ></div>
+  //     <div className="blog-content">
+  //       <h3 className="blog-title">{blogName}</h3>
+  //       <p className="blog-desc">{description}</p>
+  //       <Link to={`/blogs/${blogName}`}>
+  //         <img src={blogArrow} alt="" className="blog-arrow" />
+  //       </Link>
+  //     </div>
+  //   </div>
+  // );
+  // }
 };
 
 const Blog = () => {
@@ -69,6 +65,9 @@ const Blog = () => {
                 description={e.description}
               />
             );
+          else {
+            return "";
+          }
         })}
       </div>
       <div className="blogContainer__button">
