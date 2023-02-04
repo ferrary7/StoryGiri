@@ -2,8 +2,8 @@ import React from 'react';
 import {  useNavigate } from 'react-router-dom';
 import './Footer.css'
 import footerlogo from '../assets/logo-dark.svg';
-import instagram from '../assets/instagram.svg';
-import youtube from '../assets/youtube.svg';
+import instagram from '../assets/instagramW.svg';
+import youtube from '../assets/youtubeW.svg';
 import linkedin from '../assets/linkedin.svg';
 import mail from '../assets/mail.svg';
 

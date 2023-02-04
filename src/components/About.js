@@ -63,10 +63,12 @@ export default function About() {
             </p>
           </div>
         </div>
+        <div className="errorFix">
         <Subscribe
           heading="Lorem ipsum dolor sit amet"
           description="consectetur adipiscing elit"
         />
+      </div>
       </div>
       <Footer />
     </>

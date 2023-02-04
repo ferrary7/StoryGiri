@@ -27,19 +27,19 @@ const team_members = [
   {
     id: 3,
     img: member_4,
-    name: "Lorem Ipsum",
+    name: "Aditya",
     post: "Lorem Ipsum",
   },
   {
     id: 4,
     img: member_5,
-    name: "Lorem Ipsum",
+    name: "Aryan",
     post: "Lorem Ipsum",
   },
   {
     id: 5,
     img: member_6,
-    name: "Lorem Ipsum",
+    name: "Raju Tukadiya",
     post: "Lorem Ipsum",
   },
 ];

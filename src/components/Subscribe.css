@@ -17,7 +17,9 @@
   font-size: 1.6rem;
 }
 
-@media (max-width: 370px) {
+
+
+@media (max-width: 600px) {
   .cta-section {
     padding: 20rem 5rem;
   }

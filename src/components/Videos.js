@@ -2,8 +2,11 @@
   import Navbar from "./Navbar";
   import "./Blogs.css";
   import './Videos.css'
-  import featureimage from "../assets/featuredarticle-image.png";
-  import videoImage from "../assets/article-image.png";
+  import featureimage1 from "../assets/videos/ytThumb1.png";
+  import videoImage1 from "../assets/videos/ytThumb2.png";
+  import videoImage2 from "../assets/videos/ytThumb3.png";
+  import videoImage3 from "../assets/videos/ytThumb4.png";
+  import videoImage4 from "../assets/videos/ytThumb5.png";
   import Footer from "./Footer";
   import BlogCard from "./BlogCard";
 
@@ -31,7 +34,7 @@
           <div className="feature-container">
             <div
               className="feature-image"
-              style={{ backgroundImage: "url(" + featureimage + ")" }}
+              style={{ backgroundImage: "url(" + featureimage1 + ")" }}
             ></div>
             <div className="featureContent">
               <div className="category-mark">Category 1</div>
@@ -53,28 +56,28 @@
           <h2>Browse our Other Videos</h2>
           <div className="articles-container">
             <BlogCard
-              image={videoImage}
+              image={videoImage1}
               category="Category 1"
-              title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-              desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
+              title="We all are broken but beautiful."
+              desc="By Elizabeth Lakra | Storygiri"
             />
             <BlogCard
-              image={videoImage}
+              image={videoImage2}
               category="Category 1"
-              title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-              desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
+              title="Love isn't about beauty of your skin but the colour of your heart"
+              desc="Storygiri"
             />
             <BlogCard
-              image={videoImage}
+              image={videoImage3}
               category="Category 1"
-              title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-              desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
+              title="Ye waqt kya hai? Dost hai ya dushman"
+              desc="By Shubham Bhatt | Storygiri"
             />
             <BlogCard
-              image={videoImage}
+              image={videoImage4}
               category="Category 1"
-              title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-              desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
+              title="Dedicated to my Father by Sahil Gandhi"
+              desc="Storygiri"
             />
           </div>
           <div style={{display: "flex", alignItems: "center", flexDirection: "column" , padding:"10rem"}}>

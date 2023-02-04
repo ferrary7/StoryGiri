@@ -92,10 +92,12 @@ function SubscribeCard() {
   return (
     <div className="subscribe-card">
       <div className="subscribe-card-left">
-        <h1>Join our Storygiri community</h1>
-        <p>Join the most productive community.<br /> 
-            We set goals and discuss the most practical ways to achieve them.<br />
-            Let's create <b>Your Story Your Way</b>
+        <h1>Join the most productive community,</h1>
+        <p>where we focus on setting achievable goals and discuss the most practical methods to reach them.<br />
+        Our goal is to empower individuals to create their own story, their own way.<br /> 
+        By coming together and sharing our experiences, we can learn from each other and achieve success in our personal and professional lives.<br />
+        Our community is here to help <span style={{fontSize: '2.5rem'}}>😀.</span><br />
+        So, let's work together to craft <strong style={{fontSize: '1.8rem'}}>Your Story Your Way</strong>
         </p>
         <div className="subscribe-card-form">
           <form>

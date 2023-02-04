@@ -36,7 +36,9 @@ export default class Testimonials extends Component {
             <h3>Bhumika</h3>
             <h4>Client</h4>
             <p>
-            Shubham is a great coach. Very patient and empathetic. He helped me resolve most of my problems with his super powerful questioning. His patience and listening skills are commendable.
+            Shubham is a great coach. Very patient and empathetic.
+            He helped me resolve most of my problems with his super powerful questioning.
+            His patience and listening skills are commendable.
             </p>
           </div>
         </div>
