@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import "./OneOnOne.css";
 import ooo_profiles from "../data/ooo_profiles.js";
 import Footer from "./Footer";
+import BookACall from "./BookACall";
 
 export default function OneOnOne() {
   return (
@@ -53,7 +54,7 @@ export default function OneOnOne() {
             <h1 className="heading">Lorem ipsum dolor sit amet</h1>
             <p className="subheading">consectetur adipiscing elit</p>
           </div>
-          <button className="book-call-btn">Book a Call Now!</button>
+          <BookACall />
         </div>
         <Footer />
       </div>
