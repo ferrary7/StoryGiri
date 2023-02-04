@@ -7,102 +7,46 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Subscribe from "../../Subscribe";
 import GetBlogs from "../../../data/GetBlogs";
-
-// class Blog extends Component {
-//   render() {
-//     return (
-//       <div className="blogs">
-//         <div className="blogContainer">
-//           <h1>Blogs</h1>
-//           <div className="row">
-//             {[1, 2, 3].map(i => (
-//               <Card className="blogCard" style={{ width: "22rem", borderRadius: "0.5rem"}}>
-//                 <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg" className="image"/>
-//                 <Card.Body >
-//                   <Card.Title style={{ padding: "10px", textAlign: "left"}}>Blog {i} Title</Card.Title>
-//                   <Card.Text style={{ padding: "10px", textAlign: "left"}}>
-//                     Some quick example text to build on the card title and make up
-//                     the bulk of the card's content.
-//                   </Card.Text>
-//                   <Link to={`/blog${i}`}>
-//                     <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} />
-//                   </Link>
-//                 </Card.Body>
-//               </Card>
-//             ))}
-//           </div>
-//           <div className="browse">
-//             <Link to="/more-blogs">
-//               <Button className="button">Browse More</Button>
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
-
-// export default Blog;
-
-// const BlogCard = ({ image, title, description, link }) => {
-//   return (
-//     <Card className="blogCard" style={{ width: "22rem", borderRadius: "0.5rem"}}>
-//       <Card.Img variant="top" src={image} className="image"/>
-//       <Card.Body >
-//         <Card.Title style={{ padding: "10px", textAlign: "left"}}>{title}</Card.Title>
-//         <Card.Text style={{ padding: "10px", textAlign: "left"}}>
-//           {description}
-//         </Card.Text>
-//         <Link to={link}>
-//           <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} />
-//         </Link>
-//       </Card.Body>
-//     </Card>
-//   );
-// };
-
-// class Blog extends Component {
-//   render() {
-//     return (
-//       <div className="blogs">
-//         <div className="blogContainer">
-//           <h1>Blogs</h1>
-//           <div className="row">
-//             {[1, 2, 3].map(i => (
-//               <BlogCard
-//                 image="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg"
-//                 title={`Blog ${i} Title`}
-//                 description="Some quick example text to build on the card title and make up the bulk of the card's content."
-//                 link={`/blog${i}`}
-//               />
-//             ))}
-//           </div>
-//           <div className="browse">
-//             <Link to="/more-blogs">
-//               <Button className="button">Browse More</Button>
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
-
+import blogArrow from "../../../assets/blog-card-arrow.svg";
 const BlogCard = ({ image, blogName, description, logo }) => {
   return (
     <div className="blogCard">
-      <img className="blogCard__image" src={image} alt={blogName} />
+      {/* <img className="blogCard__image" src={image} alt={blogName} /> */}
+      <div
+        className="blogCard__image"
+        style={{ backgroundImage: `url(${image})` }}
+      ></div>
       <div className="blogCard__content">
         <h3 className="blogCard__blogName">
-          <b>{blogName}</b>
+          <b>{blogName.split(" ").slice(0, 8).join(" ")}...</b>
         </h3>
-        <p className="blogCard__description">{description}</p>
-        <Link to={`/blogs/${blogName}`}>
-          <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} />
-        </Link>
+        <p className="blogCard__description">{description.slice(0, 70)}...</p>
       </div>
+      <Link className="arrow-icon" to={`/blogs/${blogName}`}>
+        {/* <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} /> */}
+        <img src={blogArrow} alt="" />
+      </Link>
     </div>
   );
+  {
+    /*
+    return(
+   <div className="blog-card">
+  <div
+    className="blog-img"
+    style={{ backgroundImage: `url(${image})` }}
+  ></div>
+  <div className="blog-content">
+    <h3 className="blog-title">{blogName}</h3>
+    <p className="blog-desc">{description}</p>
+    <Link to={`/blogs/${blogName}`}>
+      <img src={blogArrow} alt="" className="blog-arrow" />
+    </Link>
+  </div>
+</div>
+)
+ */
+  }
 };
 
 const Blog = () => {
@@ -122,7 +66,7 @@ const Blog = () => {
               <BlogCard
                 image={e.thumbURL}
                 blogName={e.title}
-                description="Master the art of course 1"
+                description={e.description}
               />
             );
         })}

@@ -5,8 +5,8 @@
 
   background-color: #f0e9dd;
 }
-.errorFix{
-  height: 60vh; 
+.errorFix {
+  height: 60vh;
   padding-top: 10rem;
 }
 
@@ -78,6 +78,7 @@
 .team-card img {
   /* width: 17.36vw; */
   /* height: 30.3vh; */
+  border-radius: 10px;
   width: 25rem;
   height: 25rem;
 }
@@ -131,8 +132,8 @@
   .cards-container {
     grid-template-columns: 1fr;
   }
-  .errorFix{
-    height: 60vh; 
+  .errorFix {
+    height: 60vh;
     padding-top: 0rem;
   }
 }
