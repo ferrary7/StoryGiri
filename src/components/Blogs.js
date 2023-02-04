@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
 import "./Blogs.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import leftarrow from "../assets/leftarrow.svg";
 import rightarrow from "../assets/rightarrow.svg";
 import featureimage from "../assets/featuredarticle-image.png";
@@ -61,7 +61,9 @@ function Blogs() {
               <div className="category-mark">{blogList[0].categories[0]}</div>
               <h4>{blogList[0].title}</h4>
               <p>{blogList[0].description}</p>
-              <div className="secondary-btn readmore-btn">Read More</div>
+              <Link to={`/blogs/${blogList[0].title}`}>
+                <div className="secondary-btn readmore-btn">Browse Content</div>
+              </Link>
             </div>
           </div>
         ) : (
@@ -82,30 +84,6 @@ function Blogs() {
               />
             );
           })}
-          {/* <BlogCard
-            image={articleimage}
-            category="Category 1"
-            title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-            desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-          />
-          <BlogCard
-            image={articleimage}
-            category="Category 1"
-            title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-            desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-          />
-          <BlogCard
-            image={articleimage}
-            category="Category 1"
-            title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-            desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-          />
-          <BlogCard
-            image={articleimage}
-            category="Category 1"
-            title="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-            desc="Lorem ipsum dolor sed do eiusmod tempor incididunt ut labore et dolore"
-          /> */}
         </div>
 
         <Subscribe

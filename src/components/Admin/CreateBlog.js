@@ -25,6 +25,7 @@ function CreateBlog() {
       description,
       thumbURL,
       content,
+      likes: 0,
     });
     // navigate("/blogs");
     setTitle("");
@@ -33,6 +34,9 @@ function CreateBlog() {
     setDescription("");
     setThumbURL("");
     setContent("");
+    setSuccessMSG(
+      `Blog: "${title.toUpperCase()}" has successfully been added!`
+    );
     console.log(`"${title}" is successfully added!`);
   };
 

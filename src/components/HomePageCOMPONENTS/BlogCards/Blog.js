@@ -97,7 +97,7 @@ const BlogCard = ({ image, blogName, description, logo }) => {
           <b>{blogName}</b>
         </h3>
         <p className="blogCard__description">{description}</p>
-        <Link to={logo}>
+        <Link to={`/blogs/${blogName}`}>
           <FontAwesomeIcon className="arrow-icon" icon={faArrowRight} />
         </Link>
       </div>
@@ -126,21 +126,6 @@ const Blog = () => {
               />
             );
         })}
-        {/* <BlogCard
-          image="https://via.placeholder.com/150"
-          blogName="LOREM 1"
-          description="Master the art of course 1"
-        />
-        <BlogCard
-          image="https://via.placeholder.com/150"
-          blogName="LOREM 2"
-          description="Master the art of course 2"
-        />
-        <BlogCard
-          image="https://via.placeholder.com/150"
-          blogName="LOREM 3"
-          description="Master the art of course 3"
-        /> */}
       </div>
       <div className="blogContainer__button">
         <button

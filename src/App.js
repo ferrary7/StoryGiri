@@ -10,6 +10,7 @@ import PrivacyPolicy from "./components/PirvacyPolicy";
 import Events from "./components/EventsPage/Events";
 import OneOnOne from "./components/OneOnOne";
 import Videos from "./components/Videos";
+import BlogPostTest from "./components/BlogPostTest";
 import CreateBlog from "./components/Admin/CreateBlog";
 import LoginWithGoogle from "./components/LoginWithGoogle";
 
@@ -32,6 +33,7 @@ function App() {
       <Route path="/ooo" element={<OneOnOne />} />
       <Route path="/videos" element={<Videos />} />
       <Route path="/admin-blog" element={<CreateBlog />} />
+      <Route path="/blogs/:id" element={<BlogPostTest />} />
     </Routes>
   );
 }
