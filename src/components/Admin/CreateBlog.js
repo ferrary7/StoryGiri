@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import "./CreateBlog.css";
+import "../signinForms.css";
 import JoditEditor from "jodit-react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../Firebase/firebase-config";
@@ -42,37 +43,37 @@ function CreateBlog() {
 
   return (
     <div className="create-blog">
-      <h2>Create Blog</h2>
+      <h1 className="create-blog-heading">Create A Blog</h1>
       <form onSubmit={(e) => e.preventDefault()}>
-        <p>Blog Title</p>
+        <label>Blog Title</label>
         <input
           type="text"
           placeholder="Blog"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         />
-        <p>Add Categories</p>
+        <label>Add Categories</label>
         <input
           type="text"
           placeholder="Category1, Category2, ..."
           value={categories}
           onChange={(e) => setCategories(e.target.value.split(", "))}
         />
-        <p>Add Tags</p>
+        <label>Add Tags</label>
         <input
           type="text"
           placeholder="Tag1, Tag2, ..."
           value={tags}
           onChange={(e) => setTags(e.target.value.split(", "))}
         />
-        <p>Short Description</p>
+        <label>Short Description</label>
         <input
           type="text"
           placeholder="This blog is about..."
           value={description}
           onChange={(e) => setDescription(e.target.value)}
         />
-        <p>Add Thumbnail Image</p>
+        <label>Add Thumbnail Image</label>
         <input
           type="text"
           name="Blog Thumbnail"
@@ -80,7 +81,7 @@ function CreateBlog() {
           placeholder="Paste thumbnail image URL"
           onChange={(e) => setThumbURL(e.target.value)}
         />
-        <p>Blog Content</p>
+        <label>Blog Content</label>
         <div>
           <JoditEditor
             ref={editor}
@@ -97,7 +98,7 @@ function CreateBlog() {
         </div>
         {/* <img src="https://drive.google.com/uc?export=view&id=" />
         //https://drive.google.com/file/d/1kK3PrjimTg-zfd_BiMtpl_tEGHY8iQfL/view?usp=sharing */}
-        <button className="secondary-btn" onClick={createPost}>
+        <button className="secondary-btn submit-btn" onClick={createPost}>
           Submit
         </button>
       </form>

@@ -4,6 +4,7 @@ import Subscribe from "./Subscribe";
 import team_members from "../data/team-members";
 import "./About.css";
 import Footer from "./Footer";
+import BookACall from "./BookACall";
 
 export default function About() {
   return (
@@ -27,6 +28,7 @@ export default function About() {
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum.
               </p>
+              <BookACall />
             </div>
           </div>
         </div>
@@ -64,11 +66,11 @@ export default function About() {
           </div>
         </div>
         <div className="errorFix">
-        <Subscribe
-          heading="Lorem ipsum dolor sit amet"
-          description="consectetur adipiscing elit"
-        />
-      </div>
+          <Subscribe
+            heading="Lorem ipsum dolor sit amet"
+            description="consectetur adipiscing elit"
+          />
+        </div>
       </div>
       <Footer />
     </>
