@@ -1,7 +1,6 @@
 .hero-container {
-  height: 120vh;
   width: 100vw;
-  padding: 5rem 25rem 20rem 25rem;
+  padding: 5rem 25rem 10rem 25rem;
 
   background-color: #f0e9dd;
 }

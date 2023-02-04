@@ -1,24 +1,39 @@
 .blog-container h1 {
-  margin-top: 100px;
-  width: 400px;
+  margin-top: 10rem;
+  width: 40rem;
 }
 
 .blog-container p {
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
+.feature-section h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 6rem;
+  text-align: center;
+  color: #324055;
+}
 /* Second Section */
 
 .blogpage h2 {
   font-family: "Yeseva One";
-  margin-bottom: 60px;
+  margin-bottom: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 6rem;
+  text-align: center;
+  color: #324055;
 }
 
 .blogpage .category-container,
 .recent-articles-section {
   text-align: center;
-  padding: 100px 80px;
+  padding: 10rem 8rem;
 }
 
 .blogpage .carousel-container {
@@ -32,7 +47,7 @@
 }
 
 .blogpage .arrow {
-  height: 30px;
+  height: 3rem;
   opacity: 0.3;
 }
 
@@ -45,7 +60,7 @@
 
 .feature-section {
   background-color: #dee7e7;
-  padding: 100px 80px;
+  padding: 10rem 8rem;
   text-align: center;
 }
 
@@ -54,40 +69,40 @@
 }
 
 .feature-image {
-  height: 350px;
+  height: 35rem;
   width: 50vw;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   background-size: cover;
 }
 
 .feature-content {
   width: 50vw;
-  margin-left: 50px;
+  margin-left: 5rem;
   text-align: left;
 }
 
 .feature-content h4 {
-  font-size: 20px;
-  margin: 20px 0;
+  font-size: 2rem;
+  margin: 2rem 0;
 }
 
 .feature-content p {
   text-align: left;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .category-mark {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 4rem;
   width: fit-content;
   padding: 0 3rem;
-  border-radius: 40px;
+  border-radius: 4rem;
   background-color: #f0c4c4;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 /* Recent Articles Section */
@@ -97,7 +112,6 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-
 
 .videoMain {
   padding: 15rem;
@@ -109,22 +123,22 @@
 .videoMain > p {
   text-align: center;
   font-weight: 700;
-  margin-top: 50px;
+  margin-top: 5rem;
   padding: 0 12rem 8rem 12rem;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 /* Featured Section */
 
 .feature-section {
   background-color: #dee7e7;
-  padding: 100px 80px;
+  padding: 10rem 8rem;
   text-align: center;
 }
 .feature-section > h2,
 .recent-articles-section > p {
-  padding-bottom: 20px;
-  font-size: 25px;
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
 }
 
 .feature-container {
@@ -132,41 +146,41 @@
 }
 
 .feature-image {
-  height: 350px;
+  height: 35rem;
   width: 50vw;
-  border-radius: 15px;
+  border-radius: 1.5rem;
   background-size: cover;
 }
 
 .featureContent {
   width: 50vw;
-  margin-left: 50px;
+  margin-left: 5rem;
   text-align: left;
 }
 
 .featureContent h4 {
-  font-size: 20px;
-  margin: 20px 0;
+  font-size: 2rem;
+  margin: 2rem 0;
 }
 
 .featureContent p {
-  font-size: 15px;
+  font-size: 1.5rem;
   text-align: left;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .category-mark {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40px;
+  height: 4rem;
   width: fit-content;
   padding: 0 3rem;
-  border-radius: 40px;
+  border-radius: 4rem;
   background-color: #f0c4c4;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 /* Recent Articles Section */
@@ -177,7 +191,7 @@
   flex-wrap: wrap;
 }
 
-/* @media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600rem) {
   .articles-section{
       padding: 0;
       width: 100%

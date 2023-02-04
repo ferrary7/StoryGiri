@@ -19,11 +19,15 @@ import React from "react";
 import "./Subscribe.css";
 import EmailInput from "./EmailInput";
 import JoinDiscord from "./JoinDiscord";
+import OooInput from "./OooInput.js";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 export default function Subscribe(props) {
   let url = "";
   if (props.discord) {
+    //change this URL with new List's URL later
+    // url ="https://gmail.us21.list-manage.com/subscribe/post?u=70e9d1f3c005ec80e670d1031&amp;id=94a9096abf&amp;f_id=00b5e4e1f0";
+  } else if (props.ooo) {
     //change this URL with new List's URL later
     // url ="https://gmail.us21.list-manage.com/subscribe/post?u=70e9d1f3c005ec80e670d1031&amp;id=94a9096abf&amp;f_id=00b5e4e1f0";
   } else
@@ -41,19 +45,20 @@ export default function Subscribe(props) {
           render={({ subscribe, status, message }) => (
             <div>
               {props.discord ? (
-                // <EmailInput
-                //   placeholder="Your Email"
-                //   btn="Join"
-                //   onSubmitted={(formData) => subscribe(formData)}
-                // />
                 <JoinDiscord
                   placeholder="Your Email"
                   onSubmitted={(formData) => subscribe(formData)}
                 />
+              ) : props.ooo ? (
+                <OooInput
+                  placeholder={props.placeholder}
+                  btn={props.btn}
+                  onSubmitted={(formData) => subscribe(formData)}
+                />
               ) : (
                 <EmailInput
-                  placeholder="Your Email"
-                  btn="Sign Up"
+                  placeholder={props.placeholder}
+                  btn={props.btn}
                   onSubmitted={(formData) => subscribe(formData)}
                 />
               )}
@@ -76,3 +81,8 @@ export default function Subscribe(props) {
     </div>
   );
 }
+
+Subscribe.defaultProps = {
+  placeholder: "Your Email",
+  btn: "Sign Up",
+};

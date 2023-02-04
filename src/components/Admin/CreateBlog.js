@@ -4,7 +4,7 @@ import "../signinForms.css";
 import JoditEditor from "jodit-react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../Firebase/firebase-config";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 function CreateBlog() {
   const editor = useRef(null);
@@ -17,7 +17,7 @@ function CreateBlog() {
   const [successMSG, setSuccessMSG] = useState("");
 
   const postsCollectionRef = collection(db, "blogposts");
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const createPost = async () => {
     await addDoc(postsCollectionRef, {
       title,

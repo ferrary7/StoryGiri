@@ -1,25 +1,25 @@
 .blog-category-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 3rem;
 }
 
 .blog-category-card .category-image {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background-color: grey;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: grey;
 }
 
 .blog-category-card h4 {
-    font-family: "Yeseva One";
-    font-size: 20px;
-    margin-top: 25px;
+  font-family: "Yeseva One";
+  font-size: 2rem;
+  margin-top: 2.5rem;
 }
 
 .blog-category-card p {
-    font-weight: 500;
-    font-size: 13px;
-    margin-top: 5px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
 }
