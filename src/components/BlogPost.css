@@ -63,8 +63,8 @@
     display: flex;
     align-items: center;
     background-color: #F0E9DD;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 8px;
     font-weight: 600;
     font-size: 15px;
     width: fit-content;
