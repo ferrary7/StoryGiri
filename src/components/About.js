@@ -16,16 +16,16 @@ export default function About() {
             <div className="content">
               <h2 className="heading">Our Story</h2>
               <p className="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                We believe that every person has their own story which they have been living and also a story which they want to live. 
                 <br />
                 <br />
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Everyone wants to stay focused, achieve their goals, be happy, have fulfilling relationships and enjoy their lives but we face different issues and hardships all along. Through Storygiri, we help you resolve those issues with our experienced life coaches and trainers through our unique content, practical training programs, life changing retreats and 1-1 coaching sessions.
+                <br />
+                <br />
+                Our 1-1 coaching sessions are especially designed to make customized journey for you and help you achieve your goals by yourself. The sessions are taken by certified and experienced coaches who are regularly working on innovative and effective ways to make the journey impactful and successful. 
+                <br />
+                <br />
+                It's time to live <strong style={{fontSize: '1.8rem'}}>Your Story Your Way</strong>
               </p>
             </div>
           </div>

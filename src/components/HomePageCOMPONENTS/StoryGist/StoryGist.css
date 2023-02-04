@@ -10,10 +10,10 @@
 }
 
 .gistContainer>p{
-    text-align: center;
+    text-align: left;
     font-size: 1.5rem;
     font-family: poppins;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .gradient-text {
