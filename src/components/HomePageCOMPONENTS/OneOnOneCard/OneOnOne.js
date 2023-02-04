@@ -17,9 +17,9 @@ const OneOnOne = () => {
 
   return (
     <div className="box">
-      <div className="illustrationBox">
-        <h2>Want to talk about your story 1-1?</h2>
-        <h3>Book 1-1 Meeting With Us</h3>
+      <div className='illustrationBox'>
+        <h2>Ready to make your story a reality?</h2>
+        <h3>Book a 1-on-1 coaching session at Storygiri today!</h3>
         <div className="email-input">
           <div className="emailContainer" onSubmit={handleSubmit}>
             <input

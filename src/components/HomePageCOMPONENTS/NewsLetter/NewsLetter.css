@@ -11,7 +11,7 @@
   font-size: 1.6rem;
   text-align: left;
   padding-top: 2rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .subscribe-card-left {
@@ -21,6 +21,7 @@
 
 .subscribe-card-left h1 {
   text-align: left;
+  font-size: 30px;
 }
 
 .subscribe-card-right {
