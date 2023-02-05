@@ -8,7 +8,7 @@
   import videoImage3 from "../assets/videos/ytThumb4.png";
   import videoImage4 from "../assets/videos/ytThumb5.png";
   import Footer from "./Footer";
-  import BlogCard from "./BlogCard";
+  import VideoCard from "./VideoCard";
 
   
   function Videos() {
@@ -52,30 +52,26 @@
           </div>
         </div>
 
-        <div className="recent-articles-section">
+        <div className="other-videos-section">
           <h2>Browse our Other Videos</h2>
-          <div className="articles-container">
-            <BlogCard
+          <div className="videos-container">
+            <VideoCard
               image={videoImage1}
-              category="Category 1"
               title="We all are broken but beautiful."
               desc="By Elizabeth Lakra | Storygiri"
             />
-            <BlogCard
+            <VideoCard
               image={videoImage2}
-              category="Category 1"
               title="Love isn't about beauty of your skin but the colour of your heart"
               desc="Storygiri"
             />
-            <BlogCard
+            <VideoCard
               image={videoImage3}
-              category="Category 1"
               title="Ye waqt kya hai? Dost hai ya dushman"
               desc="By Shubham Bhatt | Storygiri"
             />
-            <BlogCard
+            <VideoCard
               image={videoImage4}
-              category="Category 1"
               title="Dedicated to my Father by Sahil Gandhi"
               desc="Storygiri"
             />
