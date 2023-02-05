@@ -22,7 +22,7 @@
   background-color: #f9f7f3;
   border-radius: 15px;
   width: 100%;
-  height: fit-content;
+  height: 40rem;
   background-image: url("../../../assets/ooo-bg.svg");
   background-repeat: no-repeat;
   background-size: 85%;
@@ -79,5 +79,4 @@
     background-position-y: bottom; */
     justify-content: space-between;
   }
-
 }

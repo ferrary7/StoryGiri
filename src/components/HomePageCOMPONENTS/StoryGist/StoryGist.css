@@ -74,8 +74,7 @@
 
 @media only screen and (max-width: 600px) {
   .gistContainer {
-    height: 120vh;
-    padding: 4rem;
+    padding: 10rem 5rem;
     font-size: 20px;
   }
   .gistContainer > p {
@@ -90,7 +89,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
   .gistContainer {
-    padding: 10rem;
+    padding: 35rem 10rem;
     height: 50vh;
   }
 }
