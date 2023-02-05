@@ -155,13 +155,8 @@ h3 {
     gap: 13rem;
     height: 120vh;
   }
-<<<<<<< HEAD
-  .subscribe-card-left>h1 {
-    font-size: 20px;
-=======
   h1 {
     font-size: 3rem;
->>>>>>> main
     width: 100%;
     padding-bottom: 1rem;
   }
