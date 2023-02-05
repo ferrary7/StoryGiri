@@ -14,10 +14,10 @@ export default function LoginWithGoogle({ setUser, user }) {
     signInWithPopup(auth, provider)
       .then((result) => {
         console.log(result, result.user.uid);
-        navigate("/");
 
         if (isAdmin(result.user.uid)) {
           localStorage.setItem("isLoggedIn", true);
+          navigate("/");
           console.log("You have successfully Logged In!");
         } else {
           logOut();
