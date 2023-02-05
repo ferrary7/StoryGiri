@@ -4,7 +4,7 @@ import './StoryGist.css';
 function StoryGist() {
   return (
     <div className="gistContainer">
-      <h2>What is <h1 className="gradient-text">Storygiri ?</h1></h2>
+      <h2 style={{textAlign: "center"}}>What is <h1 className="gradient-text">Storygiri?</h1></h2>
         <p>
         Storygiri is a platform dedicated to empowering individuals to live their lives to the fullest. We understand that everyone has their own unique story and obstacles they face along the way. 
         <br /><br />
