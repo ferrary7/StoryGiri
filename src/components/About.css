@@ -1,7 +1,6 @@
 .hero-container {
-  width: 100vw;
+  /* width: 100vw; */
   padding: 5rem 25rem 10rem 25rem;
-
   background-color: #f0e9dd;
 }
 .errorFix {

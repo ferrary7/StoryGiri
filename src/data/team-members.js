@@ -9,38 +9,38 @@ const team_members = [
   {
     id: 0,
     img: member_1,
-    name: "Lorem Ipsum",
-    post: "Lorem Ipsum",
+    name: "Shubham",
+    post: "Co-founder and Head of Growth",
   },
   {
     id: 1,
     img: member_2,
-    name: "Lorem Ipsum",
-    post: "Lorem Ipsum",
+    name: "Sahil",
+    post: "Co-founder and Head of Finance",
   },
   {
     id: 2,
     img: member_3,
-    name: "Lorem Ipsum",
-    post: "Lorem Ipsum",
+    name: "Harshita",
+    post: "Community Manager",
   },
   {
     id: 3,
     img: member_4,
     name: "Aditya",
-    post: "Lorem Ipsum",
+    post: "FullStack Developer",
   },
   {
     id: 4,
     img: member_5,
     name: "Aryan",
-    post: "Lorem Ipsum",
+    post: "FullStack Developer",
   },
   {
     id: 5,
     img: member_6,
-    name: "Raju Tukadiya",
-    post: "Lorem Ipsum",
+    name: "Raju",
+    post: "FullStack Developer",
   },
 ];
 

@@ -7,30 +7,30 @@ const ooo_profiles = [
   {
     id: 0,
     img: profile_1,
-    name: "Lorem Ipsum",
+    name: "Personalized Attention",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our one-on-one sessions are tailored to your specific needs, goals, and interests, providing you with a customized learning experience.",
   },
   {
     id: 1,
     img: profile_2,
-    name: "Lorem Ipsum",
+    name: "Experienced Coaches",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our coaches bring a wealth of knowledge and experience to the table, providing guidance and support as you embark on your personal growth journey.",
   },
   {
     id: 2,
     img: profile_3,
-    name: "Lorem Ipsum",
+    name: "Community Support",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "With a community of like-minded individuals on similar journeys, you'll have a supportive network to turn to for motivation and inspiration.",
   },
   {
     id: 3,
     img: profile_4,
-    name: "Lorem Ipsum",
+    name: "Measurable Results",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Our one-on-one sessions are designed to help you achieve concrete goals and measure your progress along the way, keeping you motivated and on track.",
   },
 ];
 

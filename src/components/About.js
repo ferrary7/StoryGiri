@@ -67,8 +67,8 @@ export default function About() {
         </div>
         <div className="errorFix">
           <Subscribe
-            heading="Lorem ipsum dolor sit amet"
-            description="consectetur adipiscing elit"
+            heading="Get connected, join the ever-evolving Storygiri community"
+            description="Stay ahead of the curve and be the first to know about our latest videos, events, blogs, and offerings."
           />
         </div>
       </div>

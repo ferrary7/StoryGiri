@@ -12,10 +12,11 @@ function Events() {
       <div className="event-container intro-container">
         <h1>Courses</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+        Exciting things are on the horizon at Storygiri! 
+        <br />
+        Our highly anticipated courses are coming soon, designed to help you unlock your full potential and lead a life filled with purpose and fulfillment. Stay tuned for more information and be the first to know when our courses are available.
+        <br /><br />
+        In the meantime, be sure to join our community and subscribe to our newsletter for all the latest updates.
         </p>
       </div>
 
