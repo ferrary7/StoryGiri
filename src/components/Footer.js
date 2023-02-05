@@ -48,6 +48,9 @@ const Footer = () => {
             <li onClick={()=> {window.scrollTo(0, 0); goTo("/events")}}>
               {/* <Link to="/events">Events</Link> */}Events
             </li>
+            <li onClick={()=> {window.scrollTo(0, 0); goTo("/ooo")}}>
+              {/* <Link to="/events">Events</Link> */}One on One
+            </li>
           </ul>
         </div>
         <div className="footer-group social">
