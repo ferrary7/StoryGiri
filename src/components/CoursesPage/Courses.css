@@ -1,5 +1,5 @@
 .event-container {
-  height: 50vh;
+  height: auto;
   width: 100vw;
   padding: 5rem 28rem 20rem 28rem;
   background-color: #f0e9dd;
@@ -92,9 +92,12 @@
   margin-top: 5rem;
 }
 
+.eventspage {
+  height: auto;
+}
+
 @media only screen and (max-width: 934px) {
   .event-container {
     padding: 1rem 3rem 1rem 3rem;
-    height: 30vh;
   }
 }
