@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./signinForms.css";
 import google from "../assets/google.svg";
 import { auth, provider } from "./Firebase/firebase-config";
@@ -9,6 +9,7 @@ import { admin_uids } from "../data/admin-uids";
 
 export default function LoginWithGoogle({ setUser, user }) {
   let navigate = useNavigate();
+
   function signInWithGoogle(e) {
     e.preventDefault();
     signInWithPopup(auth, provider)
@@ -16,7 +17,7 @@ export default function LoginWithGoogle({ setUser, user }) {
         console.log("Your user ID", result.user.uid);
 
         if (isAdmin(result.user.uid)) {
-          localStorage.setItem("isLoggedIn", true);
+          localStorage.setItem("isAuth", true);
           console.log("You have successfully Logged In!");
           navigate("/admin-login");
         } else {
@@ -44,7 +45,7 @@ export default function LoginWithGoogle({ setUser, user }) {
     signOut(auth)
       .then(() => {
         navigate("/admin-login");
-        localStorage.removeItem("isLoggedIn", false);
+        localStorage.removeItem("isAuth", false);
       })
       .catch((err) => {
         console.log(err);
@@ -54,7 +55,7 @@ export default function LoginWithGoogle({ setUser, user }) {
     <div className="container signup-container">
       <h1 className="heading">Log in</h1>
       <form action="/" className="login-form">
-        {!localStorage.getItem("isLoggedIn") ? (
+        {!localStorage.getItem("isAuth") ? (
           <>
             <button
               className="primary-btn full form-btn google-btn"
