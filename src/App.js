@@ -8,6 +8,7 @@ import About from "./components/About";
 import TandC from "./components/TandC";
 import PrivacyPolicy from "./components/PirvacyPolicy";
 import Events from "./components/EventsPage/Events";
+import Courses from "./components/CoursesPage/Courses";
 import OneOnOne from "./components/OneOnOne";
 import Videos from "./components/Videos";
 import BlogPost from "./components/BlogPost";
@@ -32,6 +33,7 @@ function App() {
       <Route path="/events" element={<Events />} />
       <Route path="/ooo" element={<OneOnOne />} />
       <Route path="/videos" element={<Videos />} />
+      <Route path="/courses" element={<Courses />} />
       <Route path="/admin-blog" element={<CreateBlog />} />
       <Route path="/blogs/:id" element={<BlogPost />} />
     </Routes>

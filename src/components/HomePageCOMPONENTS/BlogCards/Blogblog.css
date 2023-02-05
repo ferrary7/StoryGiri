@@ -45,7 +45,13 @@ h1{
   color: #fff;
   font-size: 3rem;
   margin-right: 2rem;
+  margin-bottom: 1rem;
   float: right;
+  width: 24px;
+}
+
+.arrow-icon img {
+  width: 24px;
 }
 
 .blogContainer {

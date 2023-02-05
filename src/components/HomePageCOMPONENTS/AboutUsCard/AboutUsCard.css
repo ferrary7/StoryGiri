@@ -1,56 +1,56 @@
-.aboutContent{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 10px;
+.aboutContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 .team-member-image {
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-  
-.about-us-card{
-    background-color: #EEE6D8;
-    padding-top: 5rem;
+  border-radius: 50%;
+  height: 20rem;
+  width: 20rem;
 }
 
-.team-members{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 65px;
+.about-us-card {
+  background-color: #eee6d8;
+  padding-top: 5rem;
 }
 
-.team-member>h3{
-    text-align: center;
-    font-size: 2rem;
+.team-members {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 6.5rem;
 }
 
-.team-member>p{
-    text-align: center;
-    font-size: 1.2rem;
+.team-member > h3 {
+  text-align: center;
+  font-size: 2rem;
 }
 
-.team-members>button{
-    color: #D8D2C7;
-    background-color: #EEE6D8;
+.team-member > p {
+  text-align: center;
+  font-size: 1.2rem;
 }
 
-.arrow{
-    height: 4.5rem;
+.team-members > button {
+  color: #d8d2c7;
+  background-color: #eee6d8;
 }
 
-.aboutContent>button{
-    background-color: #324055;
-    border: none;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 15px;
-    margin: 30px;
+.arrow {
+  height: 4.5rem;
+}
+
+.aboutContent > button {
+  background-color: #324055;
+  border: none;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  margin: 3rem;
 }
 
 /* button>.view-more-button{

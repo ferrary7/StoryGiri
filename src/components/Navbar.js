@@ -28,7 +28,7 @@
 
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../assets/logo_v2.svg";
+import logo from "../assets/logo-light.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useNavigate } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";

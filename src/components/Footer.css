@@ -1,90 +1,89 @@
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #324055;
-    color: #fff;
-    padding: 80px 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #324055;
+  color: #fff;
+  padding: 8rem 10rem;
+  overflow: hidden;
 }
 
-footer>div {
-    display: flex;
-    flex-wrap: wrap;
+footer > div {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .footerlogo img {
-    height: 40px;
-    margin: 0 200px 80px 0;
+  height: 4rem;
+  margin: 0 20rem 8rem 0;
 }
 
 .footer-group {
-    margin: 0 100px 80px 0;
+  margin: 0 10rem 8rem 0;
 }
 
 .footer-group h4 {
-    margin-bottom: 2rem;
-    font-size: 15px;
-    font-weight: 600;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .footer-group ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-size: 13px;
-    font-weight: 400;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 400;
 }
 
 .footer-group li {
-    margin-bottom: 1rem;
-    display: flex;
-    align-items: center;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .footer-group a {
-    color: #fff;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .copyright {
-    flex-basis: 100%;
-    text-align: center;
+  flex-basis: 100%;
+  text-align: center;
 }
 
 .footer-icon {
-    height: 1.5rem;
-    margin-right: 1rem;
+  height: 1.5rem;
+  margin-right: 1rem;
 }
-
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    .footerSection {
-        flex-basis: 100%;
-    }
-    .footerLogo {
-        flex-basis: 100%;
-        margin-right: 0;
-    }
+  .footerSection {
+    flex-basis: 100%;
+  }
+  .footerLogo {
+    flex-basis: 100%;
+    margin-right: 0;
+  }
 }
 @media (max-width: 375px) {
-    
-    .footerSection {
-        flex-basis: 100%;
-        text-align: center;
-        width: 100%;
-    }
-    /* .footerSection h4 {
+  .footerSection {
+    flex-basis: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  /* .footerSection h4 {
         display: none;
     } */
-    .footerSection li {
-        margin-bottom: 0.25rem;
-    }
-    .footerLogo {
-        margin: 1rem 0;
-    }
-    .copyright {
-        margin-top: 1rem;
-    }
+  .footerSection li {
+    margin-bottom: 0.25rem;
+  }
+  .footerLogo {
+    margin: 1rem 0;
+  }
+  .copyright {
+    margin-top: 1rem;
+  }
 }

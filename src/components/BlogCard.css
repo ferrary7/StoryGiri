@@ -1,28 +1,29 @@
 .blog-card {
-    padding: 20px;
-    margin: 20px 20px 50px;
+  padding: 2rem;
+  margin: 2rem 2rem 5rem;
 }
 
 .blog-card .blog-image {
-    height: 230px;
-    width: 400px;
-    background-color: grey;
-    border-radius: 15px;
-    margin-bottom: 20px;
-    background-size: cover;
+  height: 23rem;
+  width: 40rem;
+  background-color: grey;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+  background-size: cover;
 }
 
-.blog-card h4, .blog-card p {
-    width: 400px;
-    text-align: left;
+.blog-card h4,
+.blog-card p {
+  width: 40rem;
+  text-align: left;
 }
 
 .blog-card h4 {
-    font-size: 20px;
-    margin: 20px 0;
+  font-size: 2rem;
+  margin: 2rem 0;
 }
 
 .blog-card p {
-    font-weight: 500;
-    margin-bottom: 30px;
+  font-weight: 500;
+  margin-bottom: 3rem;
 }
