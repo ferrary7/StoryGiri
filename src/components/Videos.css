@@ -13,6 +13,12 @@
   font-size: 1.5rem;
 }
 
+.videoMain h1 {
+  font-size: 4rem;
+}
+
+
+
 /* Featured Section */
 
 .feature-section {
@@ -68,45 +74,77 @@
   font-size: 1.3rem;
 }
 
-/* Recent Articles Section */
+/* Other Videos Section */
 
-.recent-articles-section .articles-container {
+.other-videos-section {
+  padding: 10rem 5rem;
+}
+
+.other-videos-section .videos-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 768px) {
   .videoMain {
-    padding: 15rem 2rem 15rem 2rem;
+    padding: 15rem 5rem 15rem 5rem;
   }
-  .videoMain > p {
+
+  .videoMain p {
     padding: 1rem;
+    width: 100%;
+    margin-bottom: 50px;
+    font-size: 2.2rem;
   }
+
   .feature-section {
-    padding: 10rem 0 10rem 0;
+    padding: 10rem 5rem 10rem 5rem;
   }
+
+  .feature-section h2 {
+    margin-bottom: 30px;
+    font-size: 3.5rem;
+  }
+
   .feature-container {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
+
   .featureContent {
     width: 100%;
     margin-left: 0;
-    padding: 4rem;
+    /* padding: 4rem; */
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+
   .featureContent > h4 {
     text-align: center;
+    font-size: 2.6rem;
+    margin: 30px 0;
   }
   .featureContent > p {
     text-align: center;
+    font-size: 2.2rem;
   }
+
   .feature-image {
     width: 25rem;
     height: 25rem;
+    margin-bottom: 20px;
+  }
+
+  .feature-container .videoBrowse-btn {
+    margin: 20px 0 30px;
+  }
+
+  .other-videos-section .videos-container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
   }
 }
