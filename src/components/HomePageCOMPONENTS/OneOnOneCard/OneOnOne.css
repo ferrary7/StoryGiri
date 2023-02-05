@@ -70,7 +70,7 @@
   }
 
   .illustrationBox {
-    height: 90rem;
+    height: 80rem;
     background-size: 90%;
     background-position: center 30rem;
     background-image: url("../../../assets/ooo-bg-2.svg");
@@ -79,5 +79,4 @@
     background-position-y: bottom; */
     justify-content: space-between;
   }
-
 }
