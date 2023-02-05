@@ -16,19 +16,19 @@ import Testimonials from "./HomePageCOMPONENTS/Testimonials/Testimonials";
 const HomePage = () => {
   return (
     <div>
-        <Navigation />
-        <NewsLetter />
-        <StoryGist />
-        <OneOnOne />
-        <Table />
-        <Testimonials />
-        <Blog />
-        {/* <Features /> */}
-        {/* <OurCourses /> */}
-        {/* <UpcomingEvents /> */}
-        <Message />
-        {/* <AboutUsCard /> */}
-        <Footer />
+      <Navigation />
+      <NewsLetter />
+      <StoryGist />
+      <OneOnOne />
+      <Table />
+      <Testimonials />
+      <Blog />
+      {/* <Features /> */}
+      {/* <OurCourses /> */}
+      {/* <UpcomingEvents /> */}
+      <Message />
+      {/* <AboutUsCard /> */}
+      <Footer />
     </div>
   );
 };
