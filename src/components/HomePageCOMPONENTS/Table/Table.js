@@ -18,27 +18,32 @@ const Table = () => {
         <td className='centerCheck'>❌</td>
     </tr>
     <tr>
-        <td>Everything Online</td>
+        <td>Both Online & Offline</td>
         <td className='centerCheck'>✔️</td>
         <td className='centerCheck'>❌</td>
     </tr>
     <tr>
         <td>No Judgement Zone</td>
         <td className='centerCheck'>✔️</td>
-        <td className='centerCheck'>❌</td>
+        <td className='centerCheck' style={{color: 'crimson'}}>Maybe</td>
     </tr>
     <tr>
-        <td>Chat with your Doctor 24/7</td>
+        <td>Customized 1-1 Coaching Program</td>
         <td className='centerCheck'>✔️</td>
         <td className='centerCheck'>❌</td>
     </tr>
     <tr>
-        <td>Discrete Doorstep Delivery</td>
+        <td>Retreat Programs</td>
+        <td className='centerCheck'>✔️</td>
+        <td className='centerCheck' style={{color: 'crimson'}}>Maybe</td>
+    </tr>
+    <tr>
+        <td>Thriving Community</td>
         <td className='centerCheck'>✔️</td>
         <td className='centerCheck'>❌</td>
     </tr>
     <tr>
-        <td>No fad supplements and pills</td>
+        <td>Post Program Support</td>
         <td className='centerCheck'>✔️</td>
         <td className='centerCheck'>❌</td>
     </tr>

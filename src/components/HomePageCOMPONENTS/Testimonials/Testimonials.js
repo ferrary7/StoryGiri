@@ -46,10 +46,10 @@ export default class Testimonials extends Component {
         <div>
           <img src="https://img.freepik.com/free-photo/portrait-happy-young-woman-looking-camera_23-2147892777.jpg?w=2000" alt="" />
           <div className="myCarousel">
-            <h3>Aditya</h3>
-            <h4>Designer & Developer</h4>
+            <h3>Syeda</h3>
+            <h4>Client</h4>
             <p>
-              I enjoyed making this website with aryan and raju, smexy bhai.
+              The coaching session has changed so much for me. That one perspective has shifted many things in life. You are an awesome coach.
             </p>
           </div>
         </div>

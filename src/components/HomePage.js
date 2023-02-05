@@ -21,12 +21,12 @@ const HomePage = () => {
         <NewsLetter />
         <StoryGist />
         <OneOnOne />
+        <Table />
+        <Testimonials />
         <Blog />
         {/* <Features /> */}
         {/* <OurCourses /> */}
         {/* <UpcomingEvents /> */}
-        <Table />
-        <Testimonials />
         <Message />
         {/* <AboutUsCard /> */}
         <Footer />

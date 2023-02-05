@@ -71,7 +71,7 @@
 
 @media only screen and (max-width: 600px) {
     .gistContainer{
-        height: 70vh;
+        height: 90vh;
         padding: 4rem;
         font-size: 20px;
     }
