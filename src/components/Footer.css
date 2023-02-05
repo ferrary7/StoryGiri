@@ -63,9 +63,26 @@ footer > div {
   .footerSection {
     flex-basis: 100%;
   }
+
   .footerLogo {
     flex-basis: 100%;
     margin-right: 0;
+  }
+
+  .footerlogo img {
+    height: 5rem;
+  }
+
+  .footer-group h4 {
+    font-size: 2.5rem;
+  }
+
+  .footer-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
   }
 }
 @media (max-width: 375px) {
@@ -77,12 +94,15 @@ footer > div {
   /* .footerSection h4 {
         display: none;
     } */
+
   .footerSection li {
     margin-bottom: 0.25rem;
   }
+
   .footerLogo {
     margin: 1rem 0;
   }
+
   .copyright {
     margin-top: 1rem;
   }
