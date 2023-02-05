@@ -4,6 +4,7 @@ import "./OneOnOne.css";
 import ooo_profiles from "../data/ooo_profiles.js";
 import Footer from "./Footer";
 import BookACall from "./BookACall";
+// import Expertise from "./HomePageCOMPONENTS/ExpertiseSection/Expertise";
 
 export default function OneOnOne() {
   return (
@@ -49,6 +50,7 @@ export default function OneOnOne() {
             })}
           </div>
         </div>
+        {/* <Expertise /> */}
         <div className="book-call">
           <div className="content">
             <h1 className="heading">Lorem ipsum dolor sit amet</h1>
