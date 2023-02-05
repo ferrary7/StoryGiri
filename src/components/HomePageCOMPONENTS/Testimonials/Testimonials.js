@@ -4,6 +4,9 @@ import { Carousel } from "react-responsive-carousel";
 import './Testimonials.css'
 import man from'../../../assets/man.png'
 import woman from'../../../assets/woman.png'
+import woman2 from'../../../assets/woman2.png'
+import man2 from'../../../assets/man2.png'
+import man3 from'../../../assets/man3.png'
 
 export default class Testimonials extends Component {
   render() {
@@ -44,7 +47,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="https://img.freepik.com/free-photo/portrait-happy-young-woman-looking-camera_23-2147892777.jpg?w=2000" alt="" />
+          <img src={woman2} alt="" />
           <div className="myCarousel">
             <h3>Syeda</h3>
             <h4>Client</h4>
@@ -55,7 +58,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="https://img.freepik.com/free-photo/portrait-happy-young-woman-looking-camera_23-2147892777.jpg?w=2000" alt="" />
+          <img src={man2} alt="" />
           <div className="myCarousel">
             <h3>Neel</h3>
             <h4>Soul Mentor</h4>
@@ -66,7 +69,7 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src="https://img.freepik.com/free-photo/portrait-happy-young-woman-looking-camera_23-2147892777.jpg?w=2000" alt="" />
+          <img src={man3} alt="" />
           <div className="myCarousel">
             <h3>Shubham</h3>
             <h4>Owner</h4>

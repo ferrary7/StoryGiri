@@ -71,9 +71,13 @@
 
 @media only screen and (max-width: 600px) {
     .gistContainer{
-        height: 90vh;
+        height: 120vh;
         padding: 4rem;
         font-size: 20px;
+    }
+    .gistContainer>p{
+      font-weight: 400;
+      font-size: 2rem;
     }
     .gradient-text{
         font-size: 40px;

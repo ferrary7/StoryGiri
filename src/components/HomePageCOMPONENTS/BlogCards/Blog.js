@@ -53,7 +53,7 @@ const Blog = () => {
     <div className="blogContainer">
       <h1 className="blogContainer__heading">Blogs</h1>
       <p className="blogContainer__paragraph">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ei
+      Discover captivating stories and meaningful insights with Storygiri blogs - where every read is a journey of personal growth.
       </p>
       <div className="blogCards">
         {blogList.map((e, i) => {
@@ -80,7 +80,7 @@ const Blog = () => {
           Browse More
         </button>
       </div>
-      <h3 style={{ paddingTop: "10rem", textAlign: "center" }}>
+      <h3 style={{ paddingTop: "10rem", paddingBottom: "5rem", textAlign: "center" }}>
         Subscribe for latest blog updates.
       </h3>
       <div className="subscribe-card-form">

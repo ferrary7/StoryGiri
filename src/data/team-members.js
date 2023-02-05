@@ -10,19 +10,19 @@ const team_members = [
     id: 0,
     img: member_1,
     name: "Shubham",
-    // post: "Lorem Ipsum",
+    post: "Co-founder",
   },
   {
     id: 1,
     img: member_2,
     name: "Sahil",
-    // post: "Lorem Ipsum",
+    post: "Co-founder and Head of Finance",
   },
   {
     id: 2,
     img: member_3,
     name: "Harshita",
-    // post: "Lorem Ipsum",
+    post: "Community Manager",
   },
   {
     id: 3,
