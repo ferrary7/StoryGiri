@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Message.css";
 import insta from "../../../assets/instagram.svg";
 import yt from "../../../assets/youtube.svg";
-import fb from "../../../assets/facebook.svg";
 import mail from "../../../assets/email.svg";
+import lnkd from "../../../assets/linkedinD.svg";
 
 function Message() {
   const [formData, setFormData] = useState({
@@ -31,24 +31,24 @@ function Message() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={insta} alt="" />
+            <img src={insta} style={{height: '40px'}} alt="" />
           </a>
           <a
             href="https://www.youtube.com/results?search_query=storygiri"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={yt} alt="" />
+            <img src={yt} style={{height: '40px'}} alt="" />
           </a>
           <a
             href="https://www.facebook.com/Storygiri/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={fb} alt="" />
+            <img src={lnkd} style={{height: '40px'}} alt="" />
           </a>
           <a href="https://gmail.com" target="_blank" rel="noreferrer">
-            <img src={mail} alt="" />
+            <img src={mail} style={{height: '40px'}} alt="" />
           </a>
         </div>
       </div>
