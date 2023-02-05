@@ -28,7 +28,7 @@ export default function OneOnOne() {
                 mollit anim id est laborum.
               </p>
               <div className="handleButton">
-                <button className="book-call-btn">Book a Call Now!</button>
+                <BookACall />
               </div>
             </div>
           </div>
