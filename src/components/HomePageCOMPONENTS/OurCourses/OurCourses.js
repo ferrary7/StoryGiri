@@ -1,14 +1,18 @@
-import React from 'react';
-import './OurCourses.css';
+import React from "react";
+import "./OurCourses.css";
 
 const CourseCard = ({ image, name, description, price }) => {
   return (
     <div className="course-card">
       <img className="course-card__image" src={image} alt={name} />
       <div className="course-card__content">
-        <h1 className="course-card__name"><b>{name}</b></h1>
+        <h1 className="course-card__name">
+          <b>{name}</b>
+        </h1>
         <p className="course-card__description">{description}</p>
-        <h2 className="course-card__price"><b>{price}</b></h2>
+        <h2 className="course-card__price">
+          <b>{price}</b>
+        </h2>
         <button className="course-card__button">Enroll Now</button>
       </div>
     </div>

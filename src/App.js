@@ -15,7 +15,6 @@ import BlogPost from "./components/BlogPost";
 import CreateBlog from "./components/Admin/CreateBlog";
 import LoginWithGoogle from "./components/LoginWithGoogle";
 import NotFound from "./components/NotFound";
-import { useState } from "react";
 
 function App() {
   const [user, setUser] = [];
