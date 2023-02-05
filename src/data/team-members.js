@@ -10,7 +10,7 @@ const team_members = [
     id: 0,
     img: member_1,
     name: "Shubham",
-    post: "Co-founder",
+    post: "Co-founder and Head of Growth",
   },
   {
     id: 1,
