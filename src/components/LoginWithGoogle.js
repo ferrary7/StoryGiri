@@ -13,12 +13,12 @@ export default function LoginWithGoogle({ setUser, user }) {
     e.preventDefault();
     signInWithPopup(auth, provider)
       .then((result) => {
-        console.log(result, result.user.uid);
-        navigate("/");
+        console.log("Your user ID", result.user.uid);
 
         if (isAdmin(result.user.uid)) {
           localStorage.setItem("isLoggedIn", true);
           console.log("You have successfully Logged In!");
+          navigate("/admin-login");
         } else {
           logOut();
           alert(
@@ -35,6 +35,7 @@ export default function LoginWithGoogle({ setUser, user }) {
     for (let i = 0; i < admin_uids.length; i++) {
       if (uid === admin_uids[i].uid) return true;
     }
+    console.log("You have logged out");
     return false;
   }
 
@@ -42,7 +43,7 @@ export default function LoginWithGoogle({ setUser, user }) {
     if (e) e.preventDefault();
     signOut(auth)
       .then(() => {
-        navigate("/");
+        navigate("/admin-login");
         localStorage.removeItem("isLoggedIn", false);
       })
       .catch((err) => {

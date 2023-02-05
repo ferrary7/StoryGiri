@@ -22,7 +22,7 @@
   background-color: #f9f7f3;
   border-radius: 15px;
   width: 100%;
-  height: fit-content;
+  height: 40rem;
   background-image: url("../../../assets/ooo-bg.svg");
   background-repeat: no-repeat;
   background-size: 85%;
@@ -70,7 +70,7 @@
   }
 
   .illustrationBox {
-    height: 100rem;
+    height: 90rem;
     background-size: 90%;
     background-position: center 30rem;
     background-image: url("../../../assets/ooo-bg-2.svg");
