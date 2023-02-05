@@ -85,7 +85,7 @@ function Navigation() {
                 <Link to="/videos">Videos</Link>
                 <Link to="/courses">Our Courses</Link>
                 <Link to="/events">Events</Link>
-                {localStorage.getItem("isLoggedIn") ? (
+                {localStorage.getItem("isAuth") ? (
                   <>
                     <Link to="/admin-login">Log Out</Link>
                     <Link to="/admin-blog">Create Blog</Link>
@@ -157,7 +157,7 @@ function Navigation() {
                 </div>
               )}
             </p>
-            {localStorage.getItem("isLoggedIn") ? (
+            {localStorage.getItem("isAuth") ? (
               <>
                 <p className="navlink">
                   <div

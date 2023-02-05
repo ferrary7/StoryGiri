@@ -1,9 +1,10 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./CreateBlog.css";
 import "../signinForms.css";
 import JoditEditor from "jodit-react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../Firebase/firebase-config";
+import { useNavigate } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 
 function CreateBlog() {
@@ -15,6 +16,15 @@ function CreateBlog() {
   const [thumbURL, setThumbURL] = useState("");
   const [content, setContent] = useState("");
   const [successMSG, setSuccessMSG] = useState("");
+  const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if(!isAuth) {
+      navigate("/admin-login")
+    }
+  }, [])
+  
 
   const postsCollectionRef = collection(db, "blogposts");
   // const navigate = useNavigate();
@@ -43,7 +53,7 @@ function CreateBlog() {
 
   return (
     <div className="create-blog">
-      <h1 className="create-blog-heading">Create A Blog</h1>
+      <h1 className="create-blog-heading">Create A Blog </h1>
       <form onSubmit={(e) => e.preventDefault()}>
         <label>Blog Title</label>
         <input
