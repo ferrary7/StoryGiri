@@ -14,6 +14,7 @@ import Videos from "./components/Videos";
 import BlogPost from "./components/BlogPost";
 import CreateBlog from "./components/Admin/CreateBlog";
 import LoginWithGoogle from "./components/LoginWithGoogle";
+import NotFound from "./components/NotFound";
 
 function App() {
   const [user, setUser] = [];
@@ -36,6 +37,7 @@ function App() {
       <Route path="/courses" element={<Courses />} />
       <Route path="/admin-blog" element={<CreateBlog />} />
       <Route path="/blogs/:id" element={<BlogPost />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 }
