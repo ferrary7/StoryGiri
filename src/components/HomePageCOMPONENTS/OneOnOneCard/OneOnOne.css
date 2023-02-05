@@ -73,10 +73,11 @@
     height: 100rem;
     background-size: 90%;
     background-position: center 30rem;
-    background-image: url("../../../assets/ooo-bg2-mobile.svg");
+    background-image: url("../../../assets/ooo-bg-2.svg");
     background-size: contain;
     /* background-position: center;
     background-position-y: bottom; */
     justify-content: space-between;
   }
+
 }
