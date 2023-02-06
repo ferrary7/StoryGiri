@@ -36,7 +36,7 @@ export default function Subscribe(props) {
 
   return (
     <div className="subscribe-container">
-      <div className="cta-section">
+      <div className="cta-section" style={{paddingTop: '1rem'}}>
         <h1>{props.heading}</h1>
         <p>{props.description}</p>
 
@@ -63,16 +63,16 @@ export default function Subscribe(props) {
                 />
               )}
               {status === "sending" && (
-                <div style={{ color: "blue" }}>Sending 😀...</div>
+                <div style={{ color: "blue", fontSize: '1.5rem' }}>Sending 😀...</div>
               )}
               {status === "error" && (
                 <div
-                  style={{ color: "red" }}
+                  style={{ color: "red", fontSize: '1.5rem' }}
                   dangerouslySetInnerHTML={{ __html: message }}
                 />
               )}
               {status === "success" && (
-                <div style={{ color: "green" }}>Subscribed 🤩!</div>
+                <div style={{ color: "green", fontSize: '1.5rem' }}>Subscribed 🤩!</div>
               )}
             </div>
           )}
