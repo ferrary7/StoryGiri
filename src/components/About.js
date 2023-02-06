@@ -52,16 +52,10 @@ export default function About() {
           <div className="content">
             <h2 className="heading">Our Mission</h2>
             <p className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+            At Storygiri, we believe that personal growth and mental wellbeing are crucial components of a fulfilling life. Our mission is to empower individuals to achieve their goals and reach their full potential by providing tools, resources and support for their personal and emotional development
               <br />
               <br />
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Exceptgiteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
+              Through our programs and services, we strive to create a community that fosters positivity, growth, and self-awareness, enabling people to lead happier, healthier and more productive lives.
             </p>
           </div>
         </div>
