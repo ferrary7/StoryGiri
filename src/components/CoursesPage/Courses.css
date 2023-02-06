@@ -9,7 +9,7 @@
   margin-top: 8rem;
   font-weight: 500;
   font-size: 1.6rem;
-  text-align: center;
+  text-align: justify;
 }
 
 /* Event Cards Section */
@@ -91,7 +91,6 @@
 .event-btn {
   margin-top: 5rem;
 }
-
 
 @media only screen and (max-width: 934px) {
   .event-container {
