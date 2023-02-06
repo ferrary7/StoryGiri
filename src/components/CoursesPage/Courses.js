@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
+import Message from "../HomePageCOMPONENTS/Message/Message";
 import Navbar from "../Navbar";
 import Subscribe from "../Subscribe";
 import "./Courses.css";
@@ -90,9 +91,11 @@ function Events() {
       </div> */}
 
       <div className="eventspage">
-        <Subscribe />
+      <Subscribe
+          description="Stay Up to Date on Your Journey to Success with Our Newsletter Subscription ✅"
+        />
       </div>
-
+      <Message />
       <Footer />
     </div>
   );
