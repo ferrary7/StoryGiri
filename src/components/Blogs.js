@@ -24,7 +24,7 @@ function Blogs() {
         {/* <BlogDataCollector /> */}
         <Subscribe
           heading="Welcome to Storygiri's Blog"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          description="Explore a World of Inspiration, Growth, and Wellbeing with Our Thought-Provoking Blogs"
         />
       </div>
 
@@ -88,8 +88,8 @@ function Blogs() {
         </div>
 
         <Subscribe
-          heading="Lorem ipsum dolor sit amet"
-          description="consectetur adipiscing elit"
+          heading="Liked our Blogs?"
+          description="Stay Up to Date on Your Journey to Success with Our Newsletter Subscription"
         />
       </div>
       <Footer />

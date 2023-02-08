@@ -2,13 +2,15 @@
   import Navbar from "./Navbar";
   import "./Blogs.css";
   import './Videos.css'
-  import featureimage1 from "../assets/videos/ytThumb1.png";
-  import videoImage1 from "../assets/videos/ytThumb2.png";
-  import videoImage2 from "../assets/videos/ytThumb3.png";
-  import videoImage3 from "../assets/videos/ytThumb4.png";
-  import videoImage4 from "../assets/videos/ytThumb5.png";
+  // import featureimage1 from "../assets/videos/ytThumb1.png";
+  // import videoImage1 from "../assets/videos/ytThumb2.png";
+  // import videoImage2 from "../assets/videos/ytThumb3.png";
+  // import videoImage3 from "../assets/videos/ytThumb4.png";
+  // import videoImage4 from "../assets/videos/ytThumb5.png";
   import Footer from "./Footer";
-  import VideoCard from "./VideoCard";
+  // import VideoCard from "./VideoCard";
+import Subscribe from "./Subscribe";
+
 
   
   function Videos() {
@@ -17,19 +19,19 @@
         <Navbar />
         <div className="videoMain">
           <h1>Storygiri's Youtube</h1>
-          <p>Lorem ipsum dolor sit amet.
-              Et maiores reprehenderit et accusantium temporibus ex ducimus
-              voluptatem non atque voluptatibus? Cum porro ipsa id magni
-              omnis et ullam quidem ea repellendus velit ea ipsa ducimus! 
-          </p>
-          <div className="secondary-btn videoBrowse-btn" 
+          <p style={{fontWeight: '450', fontSize: '1.65rem', textAlign: 'left'}}>Get ready to transform your life with Storygiri's upcoming YouTube videos! Designed to help you unlock your full potential and lead a life filled with purpose and fulfillment, these videos are not to be missed. Stay tuned for more information and be the first to know when our videos are live. In the meantime, join our community and subscribe to our newsletter for all the latest updates. Get ready to take your life to the next level with Storygiri's YouTube videos!</p>
+          <Subscribe
+          description="Stay Up to Date on Your Journey to Success with Our Newsletter Subscription ✅"
+        />
+          {/* <div className="secondary-btn videoBrowse-btn" 
               onClick={() => window.open('https://www.youtube.com/@storygiri504', '_blank')}>
               Go to Youtube
-          </div>
+          </div> */}
+          
         </div>
 
       
-        <div className="feature-section">
+        {/* <div className="feature-section">
           <h2>Featured Video</h2>
           <div className="feature-container">
             <div
@@ -83,7 +85,7 @@
                 We have MORE
             </div>
           </div>
-        </div>
+        </div> */}
           <Footer />
       </div>
     );

@@ -41,7 +41,11 @@ function JoinDiscord({ onSubmitted, placeholder, btn, message }) {
     let mailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
 
     const isFormValidated = onSubmitted({ EMAIL: email });
-    if (mailRegex.test(email)) window.open("https://calenly.com", "_blank");
+    if (mailRegex.test(email))
+      window.open(
+        "https://calendly.com/innerstorysession/one-on-one",
+        "_blank"
+      );
     // On success return true
     return email && email.indexOf("@") > -1 && isFormValidated;
   };

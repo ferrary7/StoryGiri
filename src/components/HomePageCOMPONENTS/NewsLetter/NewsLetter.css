@@ -33,7 +33,7 @@
 }
 
 .subscribe-card-right > img {
-  height: 50rem;
+  height: 38rem;
   border-radius: 0.5rem;
 }
 
@@ -199,7 +199,7 @@ h3 {
     padding-top: 5rem;
     flex-direction: column;
     gap: 13rem;
-    height: 120vh;
+    height: 90vh;
     padding: 2rem;
   }
   h1 {
@@ -223,7 +223,7 @@ h3 {
   .subscribe-card {
     padding: 6rem;
   }
-  .subscribe-card-left>p{
+  .subscribe-card-left > p {
     font-size: 2rem;
     padding: 2.5rem;
   }
@@ -270,7 +270,6 @@ h3 {
     opacity: 1;
   }
 }
-
 
 @keyframes reveal-word {
   0% {

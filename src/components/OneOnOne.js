@@ -17,16 +17,16 @@ export default function OneOnOne() {
             <div className="content">
               {/* <h2 className="heading">Our Story</h2> */}
               <p className="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                <h2 style={{color: '#324055'}}>Take Control of Your Life with Personalized Coaching</h2>
                 <br />
                 <br />
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                Are you feeling stuck or unsure about where to go next in life? Do you need someone to guide you through the challenges you face and help you set and achieve your goals? Look no further!
+                <br />
+                <br />
+                Our experienced coaches will work with you to identify your goals, clarify your values, and develop a step-by-step plan to help you reach your desired outcome. Whether you want to improve your relationships, increase your confidence, or find your purpose, our life coaches will help you get there.
+                <br />
+                <br />
+                Your private coaching sessions are designed to be a safe and supportive space where you can openly discuss your challenges and aspirations. Our coaches will listen attentively provide you with the tools, resources, and support you need to overcome challenges, stay motivated, and achieve your goals.
               </p>
               <div className="handleButton">
                 <BookACall />
@@ -53,8 +53,7 @@ export default function OneOnOne() {
         {/* <Expertise /> */}
         <div className="book-call">
           <div className="content">
-            <h1 className="heading">Lorem ipsum dolor sit amet</h1>
-            <p className="subheading">consectetur adipiscing elit</p>
+            <p className="subheading">Don't let life pass you by. Book your 1-on-1 life coaching call today and take control of your future. Our coaches are here to help you unlock your full potential and live the life you truly desire.</p>
           </div>
           <BookACall />
         </div>

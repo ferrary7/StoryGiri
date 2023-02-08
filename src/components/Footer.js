@@ -57,19 +57,19 @@ const Footer = () => {
           <h4>Social</h4>
           <ul>
             <li>
-              <a href="https://www.instagram.com/storygiri/">
+              <a href="https://www.instagram.com/storygiri/" target="_blank" rel="noreferrer">
                 <img className='footer-icon' src={instagram} alt="Instagram Logo" />
                 Instagram
               </a>
             </li>
             <li>
-              <a href="/">
+              <a href="https://www.linkedin.com/company/storygiri/" target="_blank" rel="noreferrer">
                 <img className='footer-icon' src={linkedin} alt="linkedin" />
                 Linkedin
               </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/storygiri/">
+              <a href="https://www.youtube.com/storygiri/" target="_blank" rel="noreferrer">
                 <img className='footer-icon' src={youtube} alt="Youtube Logo" />
                 YouTube
               </a>
@@ -80,7 +80,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <ul>
             <li>
-              <img className='footer-icon' src={mail} alt="Email" />
+              <img className='footer-icon' src={mail} alt="Email" target="_blank" rel="noreferrer"/>
               example@sdfd.com
             </li>
           </ul>

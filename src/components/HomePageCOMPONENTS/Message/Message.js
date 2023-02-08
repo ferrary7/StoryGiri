@@ -41,7 +41,7 @@ function Message() {
             <img src={yt} style={{height: '40px'}} alt="" />
           </a>
           <a
-            href="https://www.facebook.com/Storygiri/"
+            href="https://www.linkedin.com/company/storygiri/"
             target="_blank"
             rel="noreferrer"
           >

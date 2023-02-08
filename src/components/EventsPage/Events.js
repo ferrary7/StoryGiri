@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "../Footer";
+import Message from "../HomePageCOMPONENTS/Message/Message";
 import Navbar from "../Navbar";
 import Subscribe from "../Subscribe";
 import "./Events.css";
@@ -12,10 +13,7 @@ function Events() {
       <div className="event-container intro-container">
         <h1>Events</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+        Get Ready for a Transformative Experience - Keep an Eye Out for Our Upcoming Event Announcements.
         </p>
       </div>
 
@@ -84,12 +82,12 @@ function Events() {
       </div> */}
 
       <div className="eventspage">
-        <Subscribe
-          heading="Lorem ipsum dolor sit amet"
-          description="consectetur adipiscing elit"
+      <Subscribe
+          heading="Subscribe to our Newsletter"
+          description="Get more updates about the upcoming events and retreats."
         />
       </div>
-
+      <Message />
       <Footer />
     </div>
   );
