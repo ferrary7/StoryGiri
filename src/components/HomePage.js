@@ -12,10 +12,14 @@ import Message from "./HomePageCOMPONENTS/Message/Message";
 import Table from "./HomePageCOMPONENTS/Table/Table";
 import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
 import Testimonials from "./HomePageCOMPONENTS/Testimonials/Testimonials";
+// import Expertise from "./HomePageCOMPONENTS/ExpertiseSection/Expertise";
+
 
 const HomePage = () => {
   return (
     <div>
+
+
       <Navigation />
       <NewsLetter />
       <StoryGist />

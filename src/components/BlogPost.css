@@ -1,5 +1,6 @@
 .blogpost {
   padding: 5rem 10rem;
+  overflow-x: hidden;
 }
 
 .blogpost .thumbnail {
@@ -27,6 +28,10 @@
   font-size: 1.5rem !important;
   line-height: normal !important;
   margin: 1rem 0 !important;
+}
+
+.content-container img {
+  border-radius: 10px;
 }
 
 .content-container img {
@@ -95,6 +100,11 @@
 
   .blogpost p {
     font-size: 2.2rem !important;
+  }
+
+  .content-container img {
+    /* max-width: 70%; */
+    max-width: 50%;
   }
 
   .content-container h2,

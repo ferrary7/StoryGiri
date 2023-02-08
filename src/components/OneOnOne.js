@@ -4,6 +4,7 @@ import "./OneOnOne.css";
 import ooo_profiles from "../data/ooo_profiles.js";
 import Footer from "./Footer";
 import BookACall from "./BookACall";
+// import Expertise from "./HomePageCOMPONENTS/ExpertiseSection/Expertise";
 
 export default function OneOnOne() {
   return (
@@ -49,6 +50,7 @@ export default function OneOnOne() {
             })}
           </div>
         </div>
+        {/* <Expertise /> */}
         <div className="book-call">
           <div className="content">
             <p className="subheading">Don't let life pass you by. Book your 1-on-1 life coaching call today and take control of your future. Our coaches are here to help you unlock your full potential and live the life you truly desire.</p>
