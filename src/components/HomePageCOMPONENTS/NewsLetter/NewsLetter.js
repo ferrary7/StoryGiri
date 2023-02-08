@@ -86,16 +86,22 @@
 import React from "react";
 import "./NewsLetter.css";
 import Subscribe from "../../Subscribe";
-import heroImage from "../../../assets/featuredarticle-image.png";
+import heroImage from "../../../assets/home-hero-bg2.png";
 
 function SubscribeCard() {
   return (
     <div className="subscribe-card">
       <div className="subscribe-card-left">
-        <h1 id="reveal-text">Do you procrastinate or lack support in achieving your goals?</h1>
-        <p>Become a part of the most productive community and achieve your goals. Set targets and learn practical ways to reach them with support from like-minded individuals and experienced coaches.<br /> 
-        Join us and stay accountable on your path to success<span style={{fontSize: '2.5rem'}}>😀.</span><br />
-        So, let's work together to craft <strong style={{fontSize: '1.8rem'}}>Your Story Your Way</strong>
+        <h1 id="reveal-text">
+          Do you procrastinate or lack support in achieving your goals?
+        </h1>
+        <p>
+          Become a part of the most productive community and achieve your goals.
+          Set targets and learn practical ways to reach them with support from
+          like-minded individuals and experienced coaches.
+          <br /> <br />
+          So, let's work together to craft{" "}
+          <strong style={{ fontSize: "1.9rem" }}>Your Story Your Way</strong>
         </p>
         <div className="subscribe-card-form">
           <form>

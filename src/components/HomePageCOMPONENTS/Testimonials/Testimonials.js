@@ -7,6 +7,7 @@ import woman from'../../../assets/woman.png'
 import woman2 from'../../../assets/woman2.png'
 import man2 from'../../../assets/man2.png'
 import man3 from'../../../assets/man3.png'
+import woman3 from'../../../assets/woman3.png'
 
 export default class Testimonials extends Component {
   render() {
@@ -58,17 +59,17 @@ export default class Testimonials extends Component {
         </div>
 
         <div>
-          <img src={man2} alt="" />
+          <img src={woman3} alt="" />
           <div className="myCarousel">
-            <h3>Neel</h3>
-            <h4>Soul Mentor</h4>
+            <h3>Shreya</h3>
+            <h4>Client</h4>
             <p>
-              i love this because my students made this website, hahahahah.
+            Heyyy, I just wanted to thank you for helping me get better...I feel soo much better now..my marks have also improved but not how much I expected but better than last time.. I started working out also...I feel good about myself...me and Manoj communicate well now so we don't misunderstand things...so everything is got better and I'm really happy about it...all thanks to you..you seriously helped alottt..thank you so much..you are the best!!
             </p>
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <img src={man3} alt="" />
           <div className="myCarousel">
             <h3>Shubham</h3>
@@ -77,7 +78,7 @@ export default class Testimonials extends Component {
               this website is mine, and it awesome. promote storygiri, thank you.
             </p>
           </div>
-        </div>
+        </div> */}
       </Carousel>
       </>
     );
