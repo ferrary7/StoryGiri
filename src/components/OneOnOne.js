@@ -4,6 +4,13 @@ import "./OneOnOne.css";
 import ooo_profiles from "../data/ooo_profiles.js";
 import Footer from "./Footer";
 import BookACall from "./BookACall";
+import Results from "./Results";
+import image1 from '../assets/ba1.svg'
+import image2 from '../assets/ba2.svg'
+import image3 from '../assets/ba3.svg'
+import image4 from '../assets/ba4.svg'
+import image5 from '../assets/ba5.svg'
+import image6 from '../assets/ba6.svg'
 
 export default function OneOnOne() {
   return (
@@ -49,6 +56,7 @@ export default function OneOnOne() {
             })}
           </div>
         </div>
+        <Results images={[image1, image2, image3, image4, image5, image6]} />
         <div className="book-call">
           <div className="content">
             <p className="subheading">Don't let life pass you by. Book your 1-on-1 life coaching call today and take control of your future. Our coaches are here to help you unlock your full potential and live the life you truly desire.</p>

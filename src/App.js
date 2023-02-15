@@ -15,6 +15,7 @@ import BlogPost from "./components/BlogPost";
 import CreateBlog from "./components/Admin/CreateBlog";
 import LoginWithGoogle from "./components/LoginWithGoogle";
 import NotFound from "./components/NotFound";
+import Results from "./components/Results";
 
 function App() {
   const [user, setUser] = [];
@@ -29,6 +30,7 @@ function App() {
         element={<LoginWithGoogle user={user} setUser={setUser} />}
       />
       <Route path="/blogs" element={<Blogs />} />
+      <Route path="/results" element={<Results />} />
       <Route path="/about" element={<About />} />
       <Route path="/t&c" element={<TandC />} />
       <Route path="/policy" element={<PrivacyPolicy />} />
