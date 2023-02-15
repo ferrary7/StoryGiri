@@ -12,6 +12,9 @@ import Message from "./HomePageCOMPONENTS/Message/Message";
 import Table from "./HomePageCOMPONENTS/Table/Table";
 import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
 import Testimonials from "./HomePageCOMPONENTS/Testimonials/Testimonials";
+
+// import Results from "./Results";
+
 // import Expertise from "./HomePageCOMPONENTS/ExpertiseSection/Expertise";
 
 
@@ -21,6 +24,7 @@ const HomePage = () => {
 
 
       <Navigation />
+      {/* <Results /> */}
       <NewsLetter />
       <StoryGist />
       <OneOnOne />

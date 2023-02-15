@@ -1,0 +1,79 @@
+.overContainer{
+  height: 50rem;
+  background-color: #DEE7E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.result-container {
+  position: relative;
+  padding: 1rem;
+  max-width: 100%;
+}
+
+.result {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.result img {
+  width: 80%;
+  display: none;
+}
+
+.result img.active {
+  display: block;
+}
+
+.dots-container {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.dot.active {
+  color: #007bff;
+}
+
+.left-arrow,
+.right-arrow {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #324055;
+  font-size: 2rem;
+}
+
+.left-arrow {
+  left: -16rem;
+}
+
+.right-arrow {
+  right: -16rem;
+}
+
+
+
+
+@media only screen and (max-width: 934px) {
+  .left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+}

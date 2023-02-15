@@ -15,6 +15,7 @@ footer > div {
 .footerlogo img {
   height: 4rem;
   margin: 0 20rem 8rem 0;
+  cursor: pointer;
 }
 
 .footer-group {
@@ -39,6 +40,7 @@ footer > div {
   margin-bottom: 1rem;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .footer-group a {

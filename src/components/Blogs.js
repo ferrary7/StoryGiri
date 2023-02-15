@@ -12,6 +12,7 @@ import Subscribe from "./Subscribe";
 import BlogCard from "./BlogCard";
 import Footer from "./Footer";
 import GetBlogs from "../data/GetBlogs";
+import Results from "./Results";
 
 function Blogs() {
   // setBlogList();
@@ -86,7 +87,8 @@ function Blogs() {
             );
           })}
         </div>
-
+        
+          <Results />
         <Subscribe
           heading="Liked our Blogs?"
           description="Stay Up to Date on Your Journey to Success with Our Newsletter Subscription"
