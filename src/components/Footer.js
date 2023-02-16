@@ -81,7 +81,7 @@ const Footer = () => {
           <ul>
             <li>
               <img className='footer-icon' src={mail} alt="Email" target="_blank" rel="noreferrer"/>
-              example@sdfd.com
+              connect@storygiri.com
             </li>
           </ul>
         </div>
