@@ -80,7 +80,7 @@ function Navigation() {
             {showDropdown && (
               <div className="dropdown-content">
                 <Link to="/about">About Us</Link>
-                <Link to="/ooo">Book a 1-1 Call</Link>
+                <Link to="/ooo">Pricing</Link>
                 <Link to="/blogs">Blogs</Link>
                 <Link to="/videos">Videos</Link>
                 <Link to="/courses">Our Courses</Link>
@@ -115,9 +115,9 @@ function Navigation() {
                   window.scrollTo(0, 0);
                   navigate("/ooo");
                 }}
-                style={{ color: "#324055" }}
+                style={{ color: "#324055", fontSize: "1.7rem" }}
               >
-                Book a 1-1 Call
+                Pricing
               </div>
             </p>
             <p className="navlink">

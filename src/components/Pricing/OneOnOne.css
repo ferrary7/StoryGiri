@@ -1,3 +1,4 @@
+
 .info-container {
   display: flex;
   flex-direction: column;
@@ -122,3 +123,37 @@
     padding: 20rem 5rem;
   }
 }
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 2rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.price-post img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.price-post h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.price-post p {
+  margin: 0;
+}
+

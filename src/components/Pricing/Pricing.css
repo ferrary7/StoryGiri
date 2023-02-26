@@ -1,0 +1,71 @@
+/* .mainCont{
+    height: 200vh;
+} */
+.pricingContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f0e9dd;
+    padding: 5rem;
+}
+
+.pricing-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .pricing-card {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #324055;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+
+  }
+  
+.pricing-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .pricing-card img{
+    height: 220px;
+    width: 250px;
+  }
+  .pricing-card h3{
+    font-size: 25px;
+}
+  .pricing-card h2{
+    font-size: 25px;
+}
+.pricing-card s{
+      font-size: 18px;
+    color: #5d7aa5;
+  }
+  .pricing-card ul {
+    list-style: none;
+    text-align: left;
+    font-size: 15px;
+  }
+  .featuresPricing{
+    height: 10rem;
+    padding: 3rem 0 0 0;
+  }
+  .strike{
+    padding-top: 10rem;
+  }
+  
+  @media (max-width: 768px) {
+    .pricingContainer{
+        height: 300vh;
+    }
+    .pricing-card {
+      width: 100%;
+    }
+   h1{
+        font-size: 20px;
+    }
+  }
+  

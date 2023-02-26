@@ -1,31 +1,45 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import "./OneOnOne.css";
-import ooo_profiles from "../data/ooo_profiles.js";
-import Footer from "./Footer";
-import BookACall from "./BookACall";
-
-import Results from "./Results";
-import image1 from '../assets/ba1.svg'
-import image2 from '../assets/ba2.svg'
-import image3 from '../assets/ba3.svg'
-import image4 from '../assets/ba4.svg'
-import image5 from '../assets/ba5.svg'
-import image6 from '../assets/ba6.svg'
-
-// import Expertise from "./HomePageCOMPONENTS/ExpertiseSection/Expertise";
+import ooo_profiles from "../../data/ooo_profiles.js";
+import Footer from "../Footer";
+import BookACall from "../BookACall";
+import Pricing from './Pricing';
 
 
 export default function OneOnOne() {
+
+  const posts = [
+    {
+      id: 1,
+      image: 'https://placekitten.com/200/300',
+      date: 'February 24, 2023',
+      title: 'My first blog post',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    },
+    {
+      id: 2,
+      image: 'https://placekitten.com/200/300',
+      date: 'February 25, 2023',
+      title: 'My second blog post',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+    }
+  ];
+
   return (
     <>
       <Navbar />
-      <div className="hero-sec one-on-one">
+      <div className="price-container">
+      {posts.map((post) => (
+        <Pricing key={post.id} post={post} />
+      ))}
+    </div>
+      {/* <div className="hero-sec one-on-one">
         <div className="hero-container">
           <div className="hero">
             <h1 className="title">One on One</h1>
             <div className="content">
-              {/* <h2 className="heading">Our Story</h2> */}
+                <h2 className="heading">Our Story</h2> 
               <p className="description">
                 <h2 style={{color: '#324055'}}>Take Control of Your Life with Personalized Coaching</h2>
                 <br />
@@ -59,11 +73,7 @@ export default function OneOnOne() {
               );
             })}
           </div>
-        </div>
-
-        <Results images={[image1, image2, image3, image4, image5, image6]} />
-
-        {/* <Expertise /> */}
+        </div> */}
 
         <div className="book-call">
           <div className="content">
@@ -72,7 +82,7 @@ export default function OneOnOne() {
           <BookACall />
         </div>
         <Footer />
-      </div>
+      {/* </div> */}
     </>
   );
 }

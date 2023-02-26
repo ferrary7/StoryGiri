@@ -5,8 +5,6 @@ import './Testimonials.css'
 import man from'../../../assets/man.png'
 import woman from'../../../assets/woman.png'
 import woman2 from'../../../assets/woman2.png'
-import man2 from'../../../assets/man2.png'
-import man3 from'../../../assets/man3.png'
 import woman3 from'../../../assets/woman3.png'
 
 export default class Testimonials extends Component {
