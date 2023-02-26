@@ -41,8 +41,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 16rem;
+  /* height: 16rem; */
   gap: 1rem;
+  padding-bottom: 0px;
 }
 .ooob {
   width: 100%;

@@ -10,26 +10,32 @@ import OneOnOne from "./HomePageCOMPONENTS/OneOnOneCard/OneOnOne";
 // import Features from './HomePageCOMPONENTS/Features/Features'
 import Message from "./HomePageCOMPONENTS/Message/Message";
 import Table from "./HomePageCOMPONENTS/Table/Table";
-import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
+// import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
 import Testimonials from "./HomePageCOMPONENTS/Testimonials/Testimonials";
-
-// import Results from "./Results";
-
-// import Expertise from "./HomePageCOMPONENTS/ExpertiseSection/Expertise";
+import Detail from "./HomePageCOMPONENTS/Details/Detail";
+import Results from "./HomePageCOMPONENTS/Results/Results";
+import image1 from '../assets/ba1.svg'
+import image2 from '../assets/ba2.svg'
+import image3 from '../assets/ba3.svg'
+import image4 from '../assets/ba4.svg'
+import image5 from '../assets/ba5.svg'
+import image6 from '../assets/ba6.svg'
+import Expertise from "./HomePageCOMPONENTS/Expertise/Expertise";
 
 
 const HomePage = () => {
   return (
     <div>
-
-
       <Navigation />
       {/* <Results /> */}
       <NewsLetter />
-      <StoryGist />
+      <Expertise />
+      {/* <StoryGist /> */}
       <OneOnOne />
-      <Table />
+      <Detail />
+      <Results images={[image1, image2, image3, image4, image5, image6]} />
       <Testimonials />
+      <Table />
       <Blog />
       {/* <Features /> */}
       {/* <OurCourses /> */}

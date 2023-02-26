@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { faCircle } from '@fortawesome/free-regular-svg-icons';
 import './Results.css';
 
 const Results = ({ images }) => {
@@ -18,11 +17,7 @@ const Results = ({ images }) => {
     return () => clearInterval(interval);
   }, [currentImage, autoplay, numOfImages]);
 
-  const handleDotClick = (index) => {
-    setCurrentImage(index);
-    setAutoplay(false);
-  };
-
+    
   const handlePrevClick = () => {
     setAutoplay(false);
     setCurrentImage((currentImage - 1 + numOfImages) % numOfImages);

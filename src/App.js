@@ -9,16 +9,17 @@ import TandC from "./components/TandC";
 import PrivacyPolicy from "./components/PirvacyPolicy";
 import Events from "./components/EventsPage/Events";
 import Courses from "./components/CoursesPage/Courses";
-import OneOnOne from "./components/OneOnOne";
+import OneOnOne from "./components/Pricing/OneOnOne";
 import Videos from "./components/Videos";
 import BlogPost from "./components/BlogPost";
 import CreateBlog from "./components/Admin/CreateBlog";
 import LoginWithGoogle from "./components/LoginWithGoogle";
 import NotFound from "./components/NotFound";
-import Results from "./components/Results";
+import Results from "./components/HomePageCOMPONENTS/Results/Results";
+import PricingTable from "./components/Pricing/Pricing";
 
 function App() {
-  const [user, setUser] = [];
+  const [user, setUser] = []; 
 
   return (
     <Routes>
@@ -35,7 +36,7 @@ function App() {
       <Route path="/t&c" element={<TandC />} />
       <Route path="/policy" element={<PrivacyPolicy />} />
       <Route path="/events" element={<Events />} />
-      <Route path="/ooo" element={<OneOnOne />} />
+      <Route path="/ooo" element={<PricingTable />} />
       <Route path="/videos" element={<Videos />} />
       <Route path="/courses" element={<Courses />} />
       <Route path="/admin-blog" element={<CreateBlog />} />

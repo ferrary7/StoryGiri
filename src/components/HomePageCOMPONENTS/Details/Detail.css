@@ -1,0 +1,60 @@
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  padding-bottom: 10rem;
+  height: 100px;
+}
+
+.heroProfile-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  padding-bottom: 10rem;
+}
+
+.heroProfile-img {
+  width: 37rem;
+  height: 25rem;
+}
+
+.heroProfile-info:nth-child(even) .heroProfile-img {
+  order: 2;
+}
+
+.heroProfile-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 4.5rem;
+  color: #324055;
+  margin-bottom: 3rem;
+}
+
+.heroProfile-description {
+  font-family: "Poppins";
+  font-style: normal;
+  text-align: justify;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  color: #324055;
+}
+
+
+@media (max-width: 640px) {
+    .team {
+      padding: 5rem 7rem 2rem 7rem;
+    }
+    .heroProfile-description {
+      text-align: left;
+    }
+    .heroProfile-info {
+      flex-direction: column;
+    }
+    .heroProfile-info:nth-child(even) .heroProfile-img {
+      order: 0;
+    }
+  }
+  

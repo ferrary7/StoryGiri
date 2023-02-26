@@ -12,7 +12,7 @@ import Subscribe from "./Subscribe";
 import BlogCard from "./BlogCard";
 import Footer from "./Footer";
 import GetBlogs from "../data/GetBlogs";
-import Results from "./Results";
+import Results from "./HomePageCOMPONENTS/Results/Results";
 
 function Blogs() {
   // setBlogList();

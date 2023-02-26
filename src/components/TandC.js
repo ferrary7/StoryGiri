@@ -6,7 +6,7 @@ export default function TandC() {
     <div className="pages">
       <div className="pages-heading">
         <h1 className="title">TERMS OF USAGE/ SERVICE</h1>
-      </div>
+      </div> 
 
       <div className="content">
         <section>
@@ -64,7 +64,7 @@ export default function TandC() {
           </p>
           <br />
           <p>
-            Rocket Health Services are intended for use by persons over 18 years
+            Storygiri Pvt. Ltd. are intended for use by persons over 18 years
             old. In addition, it does not knowingly solicit or collect IPI from
             persons under 18 years old. We may delete from the Service IPI, as
             well as Posts and other information, from users we believe are under
@@ -191,7 +191,7 @@ export default function TandC() {
           <br />
           <p>
             If you have any questions regarding our privacy, feel free to mail
-            us at care@rockethealth.app or you may contact us at:
+            us at connect@storygiri.com or you may contact us at:
           </p>
           <br />
           <p>Storygiri Private Limited</p>
