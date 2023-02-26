@@ -49,7 +49,7 @@
   
   @media (max-width: 600px) {
     .expertiseDiv{
-        height: 170vh;
+        height: 150vh;
     }
     .expertise-list {
         display: grid;
