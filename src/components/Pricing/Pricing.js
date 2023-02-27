@@ -12,7 +12,6 @@ const PricingTable = () => {
   return (
     <>
       <Navigation />
-      <Expertise />
       <div className="mainCont">
         <div className="pricingContainer">
           <h1>We are right here with you.</h1>
@@ -70,9 +69,9 @@ const PricingTable = () => {
                   className="pricingButton"
                   onClick={() => {
                     window.open(
-                      "https://calendly.com/innerstorysession/one-on-one",
-                      "_blank"
-                    );
+                        "https://calendly.com/innerstorysession/one-on-one",
+                        "_blank"
+                        );
                   }}
                 >
                   Book Now
@@ -102,7 +101,7 @@ const PricingTable = () => {
                 <button
                   className="pricingButton"
                   onClick={() => {
-                    window.open(
+                      window.open(
                       "https://calendly.com/innerstorysession/one-on-one",
                       "_blank"
                     );
@@ -115,6 +114,7 @@ const PricingTable = () => {
           </div>
         <h3 style={{textAlign: 'center'}}>*Book your first free 40 minutes now and then decide your package</h3>
         </div>
+                        <Expertise />
       </div>
       <OneOnOne />
       <Footer />

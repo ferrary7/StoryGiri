@@ -79,12 +79,60 @@ function Navigation() {
             />
             {showDropdown && (
               <div className="dropdown-content">
-                <Link to="/about">About Us</Link>
-                <Link to="/ooo">Pricing</Link>
-                <Link to="/blogs">Blogs</Link>
-                <Link to="/videos">Videos</Link>
-                <Link to="/courses">Our Courses</Link>
-                <Link to="/events">Events</Link>
+                <Link
+                  to="/about"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                    navigate("/about");
+                  }}
+                >
+                  About Us
+                </Link>
+                <Link
+                  to="/ooo"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                    navigate("/about");
+                  }}
+                >
+                  Pricing
+                </Link>
+                <Link
+                  to="/blogs"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                    navigate("/about");
+                  }}
+                >
+                  Blogs
+                </Link>
+                <Link
+                  to="/videos"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                    navigate("/about");
+                  }}
+                >
+                  Videos
+                </Link>
+                <Link
+                  to="/courses"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                    navigate("/about");
+                  }}
+                >
+                  Become a Practitioner
+                </Link>
+                <Link
+                  to="/events"
+                  onClick={() => {
+                    window.scrollTo(0, 0);
+                    navigate("/about");
+                  }}
+                >
+                  Events
+                </Link>
                 {localStorage.getItem("isAuth") ? (
                   <>
                     <Link to="/admin-login">Log Out</Link>
@@ -152,7 +200,7 @@ function Navigation() {
               </span>
               {showDropdown && (
                 <div className="dropdown-content">
-                  <Link to="/courses">Our Courses</Link>
+                  <Link to="/courses">Become a Practitioner</Link>
                   <Link to="/events">Events</Link>
                 </div>
               )}
