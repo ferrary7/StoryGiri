@@ -10,6 +10,7 @@ import image7 from '../../../assets/Expertise/anxiety.png'
 import image8 from '../../../assets/Expertise/emotions.png'
 import image9 from '../../../assets/Expertise/expression.png'
 import image10 from '../../../assets/Expertise/angry.png'
+import image11 from '../../../assets/Expertise/sleep 1.svg'
 
 
 const expertiseData = [
@@ -23,6 +24,7 @@ const expertiseData = [
   { id: 8, name: "Emotional intelligence and resilience", image: image8 },
   { id: 9, name: "Creative expression and finding purpose", image: image9 },
   { id: 10, name: "Anger management", image: image10 },
+  { id: 11, name: "Sleeping issues", image: image11 },
 ];
 
 const Expertise = () => {
@@ -51,9 +53,9 @@ const Expertise = () => {
           <img src={expertise.image} alt={expertise.name} />
           </div>
           <div className="expertise-name">{expertise.name}</div>
-          <p>And much more...</p>
         </div>
       ))}
+      <h3 style={{textAlign: 'center'}}>And much more...</h3>
     </div>
     </div>
   );

@@ -9,9 +9,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-  
-  .expertise-item {
+    align-items: center; 
+}
+
+.expertise-item {
     display: flex;
     align-items: center;
     background-color: #324055;
@@ -53,7 +54,7 @@
   
   @media (max-width: 600px) {
     .expertiseDiv{
-        height: 150vh;
+        height: 175vh;
     }
     .expertise-list {
         display: grid;
