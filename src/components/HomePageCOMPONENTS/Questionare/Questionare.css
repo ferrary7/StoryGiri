@@ -14,7 +14,7 @@
     justify-content: center;
   }
   
-  label {
+  .questionnaire>label {
     display: flex;
     align-items: center;
     margin: 10px;
