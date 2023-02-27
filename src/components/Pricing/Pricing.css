@@ -56,11 +56,19 @@
   .strike{
     padding-top: 10rem;
   }
+  .pricingButton{
+    height: 4rem;
+    background-color: #324055;
+    color: white;
+    font-family: poppins;
+    width: 10rem;
+    border-radius: 5px;
+  }
   
   @media (max-width: 768px) {
-    .pricingContainer{
+    /* .pricingContainer{
         height: 350vh;
-    }
+    } */
     .pricing-card {
       width: 100%;
     }
@@ -74,5 +82,14 @@
         height: 10rem;
         padding: 3rem 0 10rem 0;
       }
+      .pricingButton{
+        height: 6rem;
+        background-color: #324055;
+        color: white;
+        font-family: poppins;
+        width: 15rem;
+        border-radius: 5px;
+      }
   }
+  
   

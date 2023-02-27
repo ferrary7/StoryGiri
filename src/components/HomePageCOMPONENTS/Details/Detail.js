@@ -6,7 +6,7 @@ const Detail = () => {
   return (
     <div className="team">
       <h2 className="heading" style={{fontSize: "3.5rem", fontFamily: "Yeseva One", fontWeight: "550"}}> 
-      Unleash Your Best Life with Storygiri's Personalized Life Coaching 🤗
+      Unleash Your Best Life with Storygiri's Personalized Programs 🤗
       </h2>
       <div className="heroInfo-container">
         {homeDetails.map((e) => {

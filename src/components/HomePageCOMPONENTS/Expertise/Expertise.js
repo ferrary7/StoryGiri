@@ -14,12 +14,12 @@ import image10 from '../../../assets/Expertise/angry.png'
 
 const expertiseData = [
   { id: 1, name: "Personal growth", image: image1 },
-  { id: 2, name: "Career counseling", image: image2 },
+  { id: 2, name: "Anxiety management", image: image2 },
   { id: 3, name: "Relationship issues", image: image3 },
   { id: 4, name: "Time management", image: image4 },
   { id: 5, name: "Procrastination", image: image5 },
   { id: 6, name: "Self-esteem", image: image6 },
-  { id: 7, name: "Stress and anxiety management", image: image7 },
+  { id: 7, name: "Stress management ", image: image7 },
   { id: 8, name: "Emotional intelligence and resilience", image: image8 },
   { id: 9, name: "Creative expression and finding purpose", image: image9 },
   { id: 10, name: "Anger management", image: image10 },
@@ -51,6 +51,7 @@ const Expertise = () => {
           <img src={expertise.image} alt={expertise.name} />
           </div>
           <div className="expertise-name">{expertise.name}</div>
+          <p>And much more...</p>
         </div>
       ))}
     </div>

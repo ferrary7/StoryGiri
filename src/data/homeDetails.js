@@ -21,9 +21,9 @@ const homeDetails = [
   {
     id: 2,
     img: profile_3,
-    name: "Create a Safe Space for Personal Growth with Storygiri's Life Coaching",
+    name: "Have a Safe Space for Personal Growth with Storygiri's Life Coaching",
     description:
-      "Through our private coaching sessions, you'll have the opportunity to explore your thoughts, feelings, and experiences in a safe and non-judgmental environment. Our coaches will provide you with expert guidance, support, and accountability to help you stay on track and achieve your desired outcome.",
+      "Through our private coaching sessions, you'll have the opportunity to explore your thoughts, feelings, and experiences in a safe and non-judgmental environment. Our professionals will provide you with expert guidance, support, and accountability to help you stay on track and achieve your desired outcome.",
   },
   {
     id: 3,
