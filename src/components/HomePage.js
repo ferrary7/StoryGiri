@@ -12,6 +12,7 @@ import Message from "./HomePageCOMPONENTS/Message/Message";
 import Table from "./HomePageCOMPONENTS/Table/Table";
 // import StoryGist from "./HomePageCOMPONENTS/StoryGist/StoryGist";
 import Testimonials from "./HomePageCOMPONENTS/Testimonials/Testimonials";
+import Questionaire from "./HomePageCOMPONENTS/Questionare/Questionare"
 import Detail from "./HomePageCOMPONENTS/Details/Detail";
 import Results from "./HomePageCOMPONENTS/Results/Results";
 import image1 from '../assets/ba1.svg'
@@ -30,6 +31,7 @@ const HomePage = () => {
       {/* <Results /> */}
       <NewsLetter />
       <Expertise />
+      <Questionaire />
       {/* <StoryGist /> */}
       <OneOnOne />
       <Detail />

@@ -4,13 +4,14 @@ import member_3 from "../assets/team/team-member-3.png";
 import member_4 from "../assets/team/team-member-4.png";
 import member_5 from "../assets/team/team-member-5.png";
 import member_6 from "../assets/team/team-member-6.png";
+import member_7 from "../assets/team/team-member-7.png";
 
 const team_members = [
   {
     id: 0,
     img: member_1,
     name: "Shubham",
-    post: "Co-founder and Head of Growth",
+    post: "Co-founder and Head of Coaching",
   },
   {
     id: 1,
@@ -26,20 +27,26 @@ const team_members = [
   },
   {
     id: 3,
-    img: member_4,
-    name: "Aditya",
-    post: "FullStack Developer",
+    img: member_7,
+    name: "Jasmine Randhawa",
+    post: "Psychotherapist and NLP Master Practitioner",
   },
   {
     id: 4,
-    img: member_5,
-    name: "Aryan",
+    img: member_4,
+    name: "Aditya",
     post: "FullStack Developer",
   },
   {
     id: 5,
     img: member_6,
     name: "Raju",
+    post: "FullStack Developer",
+  },
+  {
+    id: 6,
+    img: member_5,
+    name: "Aryan",
     post: "FullStack Developer",
   },
 ];
