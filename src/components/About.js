@@ -32,6 +32,17 @@ export default function About() {
             </div>
           </div>
         </div>
+        <div className="our-mission">
+          <div className="content">
+            <h2 className="heading">Our Mission</h2>
+            <p className="description">
+            At Storygiri, we believe that personal growth and mental wellbeing are crucial components of a fulfilling life. Our mission is to empower individuals to achieve their goals and reach their full potential by providing tools, resources and support for their personal and emotional development
+              <br />
+              <br />
+              Through our programs and services, we strive to create a community that fosters positivity, growth, and self-awareness, enabling people to lead happier, healthier and more productive lives.
+            </p>
+          </div>
+        </div>
         <div className="team">
           <h2 className="heading">Our Team</h2>
           <div className="cards-container">
@@ -46,17 +57,6 @@ export default function About() {
                 </div>
               );
             })}
-          </div>
-        </div>
-        <div className="our-mission">
-          <div className="content">
-            <h2 className="heading">Our Mission</h2>
-            <p className="description">
-            At Storygiri, we believe that personal growth and mental wellbeing are crucial components of a fulfilling life. Our mission is to empower individuals to achieve their goals and reach their full potential by providing tools, resources and support for their personal and emotional development
-              <br />
-              <br />
-              Through our programs and services, we strive to create a community that fosters positivity, growth, and self-awareness, enabling people to lead happier, healthier and more productive lives.
-            </p>
           </div>
         </div>
         <div className="errorFix">
