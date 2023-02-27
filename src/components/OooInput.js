@@ -42,10 +42,10 @@ function JoinDiscord({ onSubmitted, placeholder, btn, message }) {
 
     const isFormValidated = onSubmitted({ EMAIL: email });
     if (mailRegex.test(email))
-      window.open(
-        "https://calendly.com/innerstorysession/one-on-one",
-        "_blank"
-      );
+    window.open(
+      "https://calendly.com/innerstorysession/one-on-one",
+      "_blank"
+    );
     // On success return true
     return email && email.indexOf("@") > -1 && isFormValidated;
   };

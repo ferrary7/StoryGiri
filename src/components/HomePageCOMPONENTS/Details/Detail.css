@@ -47,6 +47,10 @@
     .team {
       padding: 5rem 7rem 2rem 7rem;
     }
+    .heroProfile-img {
+        width: 38rem;
+        height: 36rem;
+      }
     .heroProfile-description {
       text-align: left;
     }
@@ -55,6 +59,9 @@
     }
     .heroProfile-info:nth-child(even) .heroProfile-img {
       order: 0;
+    }
+    .heroProfile-info:nth-child(1) .heroProfile-img {
+        width: 46rem;
     }
   }
   

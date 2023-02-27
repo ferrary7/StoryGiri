@@ -30,7 +30,7 @@ const Results = ({ images }) => {
 
   return (<>
     <div className='overContainer'>
-      <h1 style={{paddingBottom: '4rem', fontFamily: 'Poppins', fontWeight: '500'}}>Changes after our 1-1's👇</h1>
+      <h1 style={{paddingBottom: '4rem', fontFamily: 'Poppins', fontWeight: '500'}}>Changes after our Programs👇</h1>
     <div className="result-container">
       <div className="left-arrow" onClick={handlePrevClick}>
         <FontAwesomeIcon icon={faChevronLeft} />

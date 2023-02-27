@@ -10,7 +10,7 @@ const OneOnOne = () => {
       <div className="illustrationBox">
         <div>
           <h2>We hear you, we'll make it better.</h2>
-          <h3>Book a 1-on-1 coaching session at Storygiri today!</h3>
+          <h3>Book a 1-on-1 transformational session with us now!</h3>
         </div>
         {/* <h2>Ready to make your story a reality?</h2>
           <h3>Book a 1-on-1 coaching session at Storygiri today!</h3> */}
