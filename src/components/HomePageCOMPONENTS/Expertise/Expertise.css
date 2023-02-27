@@ -1,9 +1,10 @@
 .expertiseDiv{
-    height: 60vh;
+    height: 80vh;
     /* background-color: white */
-     /* display: 'flex'; 
-     align-items: 'center'; 
-     flex-direction: 'column' */
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+     flex-direction: column
 }
 
 .expertise-list {
@@ -16,7 +17,8 @@
 .expertise-item {
     display: flex;
     align-items: center;
-    background-color: #324055;
+    background-color: #f5b9bb;
+    border: 1px solid #324055;
     /* background-color: #f5b9bb;
     border: 1px solid #324055;
     color: #f0e9dd; */
@@ -50,7 +52,7 @@
     font-size: 18px;
     font-weight: bold;
     /* color: #324055; */
-    color: white;
+    color: #324055;
   }
   
   @media (max-width: 600px) {
