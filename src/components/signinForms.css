@@ -4,7 +4,7 @@
   /* justify-content: center;   [Aditya] Removed this line because I am using 'container' don't want content to be centered. */
   flex-direction: column;
   height: 100vh;
-  width: 100vw;
+  /* width: 100vw; */
   background: #f0e9dd;
 }
 
