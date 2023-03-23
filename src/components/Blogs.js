@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Blogs.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import { useState } from "react";
 // import leftarrow from "../assets/leftarrow.svg";
 // import rightarrow from "../assets/rightarrow.svg";
@@ -9,14 +9,14 @@ import { Link } from "react-router-dom";
 // import articleimage from "../assets/article-image.png";
 // import BlogCategoryCard from "./BlogCategoryCard";
 import Subscribe from "./Subscribe";
-import BlogCard from "./BlogCard";
+// import BlogCard from "./BlogCard";
 import Footer from "./Footer";
-import GetBlogs from "../data/GetBlogs";
-import Results from "./HomePageCOMPONENTS/Results/Results";
+// import GetBlogs from "../data/GetBlogs";
+// import Results from "./HomePageCOMPONENTS/Results/Results";
 
 function Blogs() {
   // setBlogList();
-  let blogList = GetBlogs();
+  // let blogList = GetBlogs();
   // console.log(blogList);
   return (
     <div className="blogpage">
@@ -51,7 +51,7 @@ function Blogs() {
         </div>
       </div> */}
 
-      <div className="feature-section">
+      {/* <div className="feature-section">
         <h2>Featured Article</h2>
         {blogList.length > 0 ? (
           <div className="feature-container">
@@ -71,10 +71,10 @@ function Blogs() {
         ) : (
           <></>
         )}
-      </div>
+      </div> */}
 
       <div className="recent-articles-section">
-        <h2>Recent Articles</h2>
+        {/* <h2>Recent Articles</h2>
         <div className="articles-container">
           {blogList.map((e) => {
             return (
@@ -86,10 +86,14 @@ function Blogs() {
               />
             );
           })}
-        </div>
+        </div> */}
 
-        <Subscribe
+        {/* <Subscribe
           heading="Liked our Blogs?"
+          description="Stay Up to Date on Your Journey to Success with Our Newsletter Subscription"
+        /> */}
+        <Subscribe
+          heading="Blogs are on the way!"
           description="Stay Up to Date on Your Journey to Success with Our Newsletter Subscription"
         />
       </div>
